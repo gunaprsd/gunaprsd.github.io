@@ -27,7 +27,7 @@ title: Guna Prasaad | Publications
 <ul>
   <br>
   <li>
-  <a href="/assets/buffer-tree-report.pdf">I/O Optimal Index Structures (Old)</a><br>
+  <a href="{{site.url}}/assets/buffer-tree-report.pdf">I/O Optimal Index Structures (Old)</a><br>
   <b>Guna Prasaad</b><br>
   <i>R&D Report, IIT Bombay 2015</i>
   </li>
