@@ -13,17 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-name: Guna Prasaad
+name: GUNA PRASAAD
 description: Guna Prasaad
 email: guna@cs.washington.edu
-url: "http://gunaprsd.github.io" 
+url: "http://gunaprsd.github.io/" 
 twitter_username: gunaprsd
 github_username:  gunaprsd
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile

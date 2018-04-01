@@ -4,21 +4,6 @@
 /*
 /*****************************************************************************/
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body { }
-
-body {
-  background-color: #FFF;
-  font-family: 'Lora', serif;
-  font-size: medium;
-  text-align: center;
-}
-
 .youtube-player { display: block; margin: 0 auto; }
 
 blockquote {
@@ -46,7 +31,6 @@ span.date {
 /*h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }*/
 
-h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -87,59 +71,11 @@ ul.posts span {
   font-family: 'Inconsolata', sans-serif;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 100%;
-  text-align: left;
-  width: 65em;
-  padding: 0px 10px 10px 10px;
-  margin: 2em auto 0em;
-  line-height: 1.5em;
-}
-
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.site .header h1.title {
-  font-size: 20px;
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.site .header h1.title a {
-  color: #a00;
-}
-
-.site .header h1.title a:hover {
-  color: #000;
-}
-
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.site .header a.extra:hover {
-  color: #000;
-}
-
 .site .meta {
   color: #aaa;
 }
 
-.site .footer {
-  font-size: 90%;
-  border-top: 1px solid #aaa;
-  margin-top: 0.5em;
-  overflow: hidden;
-}
+
 
 /*****************************************************************************/
 /*
@@ -196,11 +132,7 @@ td {
 }
 
 
-.site .content {
-  width: 75%;
-  font-size: 14px;
-  min-height: 630px;
-}
+
 
 .site .content .banner {
   padding-bottom: 20px;
