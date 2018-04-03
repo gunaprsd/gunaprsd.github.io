@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Guna Prasaad | Research
+permalink: research
 ---
 <h3><i>Research Interests</i></h3>
 <br>
