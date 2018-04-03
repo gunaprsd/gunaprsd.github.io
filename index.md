@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: Guna Prasaad | UW CSE
-permalink: /
+permalink: 
 ---
 <div class="banner">
     <div class="photo">
