@@ -9,7 +9,7 @@ title: Guna Prasaad | Publications
     <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory
 Multicores</a><br>
     <b>Guna Prasaad</b>, G. Ramalingam, Kaushik Rajan<br>
-    <i> CoRR abs/1803.11328 (2018) </i> <br>
+    <i> CoRR abs/1803.11328 (2018) </i> 
   </li>
   </ul>
 <h3><i>Peer-reviewed Conferences</i></h3>
@@ -19,6 +19,7 @@ Multicores</a><br>
     Badrish Chandramouli, <b>Guna Prasaad</b>, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
     <i> Proc. SIGMOD 2018 </i>
   </li>
+  <br>
   <li>
   <a href="http://rd.springer.com/chapter/10.1007%2F978-3-319-18117-2_16">Automated Linguistic Personalization of Targeted Marketing Messages Mining User-generated Text on Social Media</a> <br>
   R S Roy, A Padmakumar, <b>G P Jeganthan</b>, P Kumaraguru <br>
