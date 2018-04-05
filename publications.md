@@ -7,6 +7,11 @@ title: Guna Prasaad | Publications
 <ul>
 <br>
   <li>
+    <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER: A Concurrent Key-Value Store with In-Place Updates</a><br>
+    Badrish Chandramouli, <b>Guna Prasaad</b>, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
+    <i> SIGMOD 2018 </i>
+  </li>
+  <li>
   <a href="http://rd.springer.com/chapter/10.1007%2F978-3-319-18117-2_16">Automated Linguistic Personalization of Targeted Marketing Messages Mining User-generated Text on Social Media</a> <br>
   R S Roy, A Padmakumar, <b>G P Jeganthan</b>, P Kumaraguru <br>
   <i>Proc. CICLing 2015, Springer LNCS</i> <b>(Best Paper)</b>
