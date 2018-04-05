@@ -3,6 +3,16 @@ layout: default
 title: Guna Prasaad | Publications
 ---
 <div class="publications">
+<h3><i>Preprint</i></h3>
+<ul>
+<br>
+  <li>
+    <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory
+Multicores</a><br>
+    <b>Guna Prasaad</b>, G. Ramalingam, Kaushik Rajan<br>
+    <i> CoRR abs/1803.11328 (2018) </i> <br>
+  </li>
+  </ul>
 <h3><i>Peer-reviewed Conferences</i></h3>
 <ul>
 <br>
