@@ -4,6 +4,7 @@ title: Guna Prasaad | Publications
 ---
 <div class="publications">
 <h3><i>Preprint</i></h3>
+  <br>
 <ul>
   <li>
     <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory
@@ -12,7 +13,9 @@ Multicores</a><br>
     <i> CoRR abs/1803.11328 (2018) </i> 
   </li>
   </ul>
+<hr><br>
 <h3><i>Peer-reviewed Conferences</i></h3>
+  <br>
 <ul>
   <li>
     <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER: A Concurrent Key-Value Store with In-Place Updates</a><br>
@@ -28,8 +31,9 @@ Multicores</a><br>
 </ul>
 <hr><br>
 <h3><i>Patents</i></h3>
+    <br>
 <ul>
-  <br>
+
   <li>
   <a href="#">Linguistic Personalization of Messages for Targeted Campaigns</a><br>
   R S Roy, <b>G P Jeganthan</b>, A Padmakumar, P Kumaraguru <br>
@@ -38,8 +42,8 @@ Multicores</a><br>
 </ul>
 <hr><br>
 <h3><i>Theses and Reports</i></h3>
-<ul>
   <br>
+<ul>
   <li>
   <a href="{{site.url}}/assets/buffer-tree-report.pdf">I/O Optimal Index Structures (Old)</a><br>
   <b>Guna Prasaad</b><br>
