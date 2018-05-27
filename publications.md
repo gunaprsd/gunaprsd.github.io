@@ -23,6 +23,7 @@ Managemen</a><br>
     Badrish Chandramouli, <b>Guna Prasaad</b>, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
     <i> Proc. VLDB 2018 (Demo) </i>
   </li>
+  <br>
   <li>
     <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER: A Concurrent Key-Value Store with In-Place Updates</a><br>
     Badrish Chandramouli, <b>Guna Prasaad</b>, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
