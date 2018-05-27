@@ -14,40 +14,21 @@ Multicores</a><br>
   </li>
   </ul>
 <hr><br>
-<h3><i>Peer-reviewed Conferences</i></h3>
+<h3><i>Peer-reviewed Conferences and Patents</i></h3>
   <br>
 <ul>
-    <li>
-    <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER: An Embedded Concurrent Key-Value Store for State Management</a><br>
-    Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
-    <i> Proc. VLDB 2018 (Demo) </i>
-  </li>
-  <br>
   <li>
     <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER: A Concurrent Key-Value Store with In-Place Updates</a><br>
     Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
-    <i> Proc. SIGMOD 2018 </i>
+    <i> Proc. SIGMOD 2018 </i> <br>
+    <i> Proc. VLDB 2018 (Demo) </i> <br>
+    <i> USPTO Appl. No. 15/917,352, filed on 9 Mar 2018</i> (Patent pending)
   </li>
   <br>
   <li>
   <a href="http://rd.springer.com/chapter/10.1007%2F978-3-319-18117-2_16">Automated Linguistic Personalization of Targeted Marketing Messages Mining User-generated Text on Social Media</a> <br>
   R S Roy, A Padmakumar, G P Jeganthan, P Kumaraguru <br>
-  <i>Proc. CICLing 2015, Springer LNCS</i> <b>(Best Paper)</b>
-  </li>
-</ul>
-<hr><br>
-<h3><i>Patents</i></h3>
-    <br>
-<ul>
-  <li>
-  <a href="#">Key Value Store System</a><br>
-   Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett<br>
-  <i>USPTO Appl. No. 15/917,352, filed on 9 Mar 2018</i> (Patent pending)
-  </li>
-  <br>
-  <li>
-  <a href="#">Linguistic Personalization of Messages for Targeted Campaigns</a><br>
-  R S Roy, G P Jeganthan, A Padmakumar, P Kumaraguru <br>
+  <i>Proc. CICLing 2015, Springer LNCS</i> <b>(Best Paper)</b> <br>
   <i>USPTO Appl. No. 14/566,181, filed on 10 Dec 2014</i> (Patent pending)
   </li>
 </ul>
