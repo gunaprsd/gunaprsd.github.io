@@ -18,7 +18,7 @@ Multicores</a><br>
   <br>
 <ul>
     <li>
-    <a href="https://www.microsoft.com/en-us/research/project/faster/">FAST: An Embedded Concurrent Key-Value Store for State Management</a><br>
+    <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER: An Embedded Concurrent Key-Value Store for State Management</a><br>
     Badrish Chandramouli, <b>Guna Prasaad</b>, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
     <i> Proc. VLDB 2018 (Demo) </i>
   </li>
