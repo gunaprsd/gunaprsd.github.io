@@ -9,7 +9,7 @@ title: Guna Prasaad | Publications
   <li>
     <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory
 Multicores</a><br>
-    <b>Guna Prasaad</b>, G. Ramalingam, Kaushik Rajan<br>
+    Guna Prasaad, G. Ramalingam, Kaushik Rajan<br>
     <i> CoRR abs/1803.11328 (2018) </i> 
   </li>
   </ul>
@@ -19,19 +19,19 @@ Multicores</a><br>
 <ul>
     <li>
     <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER: An Embedded Concurrent Key-Value Store for State Management</a><br>
-    Badrish Chandramouli, <b>Guna Prasaad</b>, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
+    Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
     <i> Proc. VLDB 2018 (Demo) </i>
   </li>
   <br>
   <li>
     <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER: A Concurrent Key-Value Store with In-Place Updates</a><br>
-    Badrish Chandramouli, <b>Guna Prasaad</b>, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
+    Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
     <i> Proc. SIGMOD 2018 </i>
   </li>
   <br>
   <li>
   <a href="http://rd.springer.com/chapter/10.1007%2F978-3-319-18117-2_16">Automated Linguistic Personalization of Targeted Marketing Messages Mining User-generated Text on Social Media</a> <br>
-  R S Roy, A Padmakumar, <b>G P Jeganthan</b>, P Kumaraguru <br>
+  R S Roy, A Padmakumar, G P Jeganthan, P Kumaraguru <br>
   <i>Proc. CICLing 2015, Springer LNCS</i> <b>(Best Paper)</b>
   </li>
 </ul>
@@ -39,10 +39,15 @@ Multicores</a><br>
 <h3><i>Patents</i></h3>
     <br>
 <ul>
-
+  <li>
+  <a href="#">Key Value Store System</a><br>
+   Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett<br>
+  <i>USPTO Appl. No. 15/917,352, filed on 9 Mar 2018</i> (Patent pending)
+  </li>
+  <br>
   <li>
   <a href="#">Linguistic Personalization of Messages for Targeted Campaigns</a><br>
-  R S Roy, <b>G P Jeganthan</b>, A Padmakumar, P Kumaraguru <br>
+  R S Roy, G P Jeganthan, A Padmakumar, P Kumaraguru <br>
   <i>USPTO Appl. No. 14/566,181, filed on 10 Dec 2014</i> (Patent pending)
   </li>
 </ul>
