@@ -3,6 +3,7 @@ layout: default
 title: Guna Prasaad | Research
 permalink: research
 ---
+<p>
 <h3><i>Research Interests</i></h3>
 My research interests span Database Management Systems, Programming Languages and Distributed Systems. <br>
 <hr><br>
@@ -42,3 +43,4 @@ FASTER is one of the first key-value stores that brings together severaldesired 
     We worked on the open problem of synthesizing distributed implementation from global specifications in the framework of transition systems, using bismulation as the equivalence criterion. We focussed on the loosely cooperating model of distributed transition systems. We identified several interesting properties about synthesizable specification out of which the major one was diamond closure property in the bisimulation quotient of a synthesizable system. We also showed that the bisimulation quotient need not necessarily be a product.
   </li>
 </ul>
+</p>
