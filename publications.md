@@ -69,8 +69,9 @@ Multicores</a><br>
   <i>USPTO Appl. No. 14/566,181, filed on 10 Dec 2014</i>
   </li>
 </ul>
+<hr><br>
 <h3>Theses and Reports</h3>
-  <br>
+<br>
 <ul>
   <li>
   <a href="{{site.url}}/assets/buffertree-report.pdf">I/O Optimal Index Structures (Old)</a><br>
