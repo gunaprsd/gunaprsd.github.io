@@ -51,7 +51,6 @@ Multicores</a><br>
   <a href="http://rd.springer.com/chapter/10.1007%2F978-3-319-18117-2_16">Automated Linguistic Personalization of Targeted Marketing Messages Mining User-generated Text on Social Media</a> <br>
   Rishiraj Saha Roy, Aishwarya Padmakumar, Guna Prasaad Jeganthan, Ponnurangam Kumaraguru <br>
   <i>Proc. CICLing 2015, Springer LNCS</i> <b>(Best Paper)</b> <br>
-  <i>USPTO Appl. No. 14/566,181, filed on 10 Dec 2014</i>
   </li>
 </ul>
 <hr><br>
