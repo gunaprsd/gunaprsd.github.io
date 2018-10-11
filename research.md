@@ -24,8 +24,8 @@ permalink: research
 <p>In this project, we propose a new recovery model based on group commit, called concurrent prefix recovery (CPR). CPR differs from traditional group commit implementations in two ways: (1) we provide users a semantic description of committed operations, of the form "all operations until time $T_i$ on thread $i$"; and (2) we use asynchronous incremental checkpointing instead of a WAL to implement the group commit in a scalable bottleneck-free manner. CPR provides the same consistency as a point-in-time commit, but allows a concurrent and scalable implementation. We design and implement protocols and solutions to make two systems durable using CPR: (1) a custom in-memory transactional database; and (2) a state-of-the-art scalable larger-than-memory hash-based key-value store. A detailed evaluation of these modified systems shows that CPR is capable of supporting highly concurrent and scalable performance, reaching hundreds of millions of operations per second on a multi-core machine.</p>
 <span><a href="mailto:guna@cs.washington.edu">[On Request]</a></span>
 </li>
-</ul>
 <br><hr><hr><br>
+</ul>
 <p><h2>Past Projects</h2></p>
 <ul>
 <br>
