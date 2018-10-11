@@ -49,7 +49,7 @@ Multicores</a><br>
   <br>
   <li>
   <a href="http://rd.springer.com/chapter/10.1007%2F978-3-319-18117-2_16">Automated Linguistic Personalization of Targeted Marketing Messages Mining User-generated Text on Social Media</a> <br>
-  R S Roy, A Padmakumar, G P Jeganthan, P Kumaraguru <br>
+  Rishiraj Saha Roy, Aishwarya Padmakumar, Guna Prasaad Jeganthan, Ponnurangam Kumaraguru <br>
   <i>Proc. CICLing 2015, Springer LNCS</i> <b>(Best Paper)</b> <br>
   <i>USPTO Appl. No. 14/566,181, filed on 10 Dec 2014</i>
   </li>
@@ -66,7 +66,7 @@ Multicores</a><br>
   <br>
   <li>
   <a href="http://www.freepatentsonline.com/y2016/0171560.html">Linguistic Personalization of Messages for Targeted Campaigns</a> <br>
-  R S Roy, G P Jeganthan, A Padmakumar, P Kumaraguru <br>
+  Rishiraj Saha Roy, Guna Prasaad Jeganthan, Aishwarya Padmakumar, Ponnurangam Kumaraguru <br>
   <i>USPTO Appl. No. 14/566,181, filed on 10 Dec 2014</i>
   </li>
 </ul>
