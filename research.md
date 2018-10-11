@@ -9,7 +9,6 @@ My research interests span Database Management Systems, Programming Languages an
 <hr><br>
 <h3><i>Current Projects</i></h3>
 <ul>
-  <br>
   <li><b>STRIFE: A Novel Transactional Engine</b><br>
   STRIFE aims to avoid concurrency control by intelligently scheduling transactions. STRIFE adopts a micro-batch architecture: transactions are grouped into small batches and each executed on multiple cores as a single unit. We cluster the batch into many conflict-free clusters such that no two transactions from different clusters have a conflicting access to any data item.
 Additionally, STRIFE identifies and collects some transactions that access data items from more than one conflict-free cluster into a separate residual cluster to help increase parallelism.Execution happens in two phases: conflict-free clusters are executed concurrently, each on a single core without any concurrency control, followed by residual transactions executed concurrently with some serializable concurrency control. STRIFE outperforms most traditional protocols for high contention workloads on an average by 2x (up to 5x) in throughput, while maintaining an end-to-end latency of 10s of milliseconds.
@@ -22,7 +21,6 @@ FASTER is one of the first key-value stores that brings together severaldesired 
 <hr><br>
 <h3><i>Past Projects</i></h3>
 <ul>
-  <br>
   <li>
     <b>RILLE: Scalable Ordered Stream Processing</b><br>
     The CScale project at MSR India explores new designs of distributed stream processing engines. As part of this project, we are working on efficient scheduling frameworks for shared-memory multicore systems. We have conducted detailed empirical study on some important design decisions pertaining to multicore scheduling of stream queries. We are currently working on a multicore scheduler that exploits a combination of static and dynamic design techniques and ensures greater utilization of the multiple cores.
