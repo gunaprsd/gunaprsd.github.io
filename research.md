@@ -4,10 +4,9 @@ title: Guna Prasaad | Research
 permalink: research
 ---
 
-<p><h2>Research Interests</h2></p>
+<div><h2>Research Interests</h2><br></div>
 <p>My research interests span Database Management Systems, Programming Languages and Distributed Systems. </p>
-<hr><hr>
-<p><h2>Current Projects</h2></p>
+<div><hr><hr><br><h2>Past Projects</h2></div>
 <ul>
 <br>
 <li>
