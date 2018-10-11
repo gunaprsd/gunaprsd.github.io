@@ -20,14 +20,16 @@ permalink:
     </div>
 </div>
 <div class="homecontent">
-    <b>Research Interests</b> <br>
-    I do data-intensive systems research. More specifically, my research focuses on building efficient statemanagement support for cloud applications. I have designed and built systems that cater to different kinds of state management needs. 
+    <p>
+    <h3>Research Interests</h3> <br>
+    I do data-intensive systems research. More specifically, my research focuses on building efficient statemanagement support for cloud applications. I have designed and built systems that cater to different kinds of state management needs.
     <ul>
         <li> <b>Rille</b> is a scalable deterministic stream processing engine built for multicores </li>
         <li> <b>Faster</b> is a concurrent key-value store with support for larger-than-memory data and efficient cachingof hot working set in memory </li> 
         <li><b>Strife</b> is a novel transaction processing system that is designed to mostly avoid expensive concur-rency control by scheduling transactions.</li>
-    </ul>
-
-    <b>Brief Bio</b> <br>
+    </ul></p>
+    <p>
+    <h3>Brief Bio</h3> <br>
     I am a graduate student of <a href="http://www.cs.washington.edu/">Computer Science</a> at the <a href="http://www.washington.edu">University of Washington</a>. I am a part of the <a href="http://db.cs.washington.edu/">UW Database Lab</a>. Currently, I work with <a href="https://homes.cs.washington.edu/~akcheung/">Prof. Alvin Cheung</a> and <a href="https://homes.cs.washington.edu/~suciu/">Prof. Dan Suciu</a>. Previously, I was a Research Fellow in the <a href="http://research.microsoft.com/en-us/groups/plato/">Programming Languages and Tools</a> group at <a href="http://research.microsoft.com/en-us/labs/india/">Microsoft Research India</a>. At MSR India, I built a scalable low-latency ordered stream processing system with <a href="http://research.microsoft.com/en-us/people/grama/">Dr. Ganesan Ramalingam</a>. I obtained my undergraduate degree from IIT Bombay, where I worked with <a href="http://www.cse.iitb.ac.in/~sudarsha/">Prof. S. Sudarshan</a> on I/O optimal index structures for key value stores. I spent the first eighteen years of my life in the beautiful city of Madras (Chennai) in the southern part of India.
+    </p>
 </div>
