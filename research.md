@@ -3,8 +3,9 @@ layout: default
 title: Guna Prasaad | Research
 permalink: research
 ---
-<p>
+<p style="margin:0px">
 <h3><i>Research Interests</i></h3>
+<br>
 My research interests span Database Management Systems, Programming Languages and Distributed Systems. <br>
 <br>
 <hr><br>
