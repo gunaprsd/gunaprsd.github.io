@@ -21,12 +21,11 @@ permalink:
 </div>
 <div class="homecontent">
     <b>Research Interests</b> <br>
-    I am interested in systems research. More specifically, I work on databases and distributed systems. I also recently started exploring programming languages tools and techniques that can help build efficient and principled systems. Here are some of the recent problems I have been working on:
+    I do data-intensive systems research. More specifically, my research focuses on building efficient statemanagement support for cloud applications. I have designed and built systems that cater to different kinds of state management needs. 
     <ul>
-        <li>Synthesizing concurrent transaction implementations from axiomatic specification of consistency levels</li>
-        <li>Approximate relation decomposition using entropy and mutual information based techniques</li>
-        <li>Optimizing database internals using program analysis on application code</li>
-        <li>Ordered stream processing on shared-memory multicore machines</li>
+        <li> <b>Rille</b> is a scalable deterministic stream processing engine built for multicores </li>
+        <li> <b>Faster</b> is a concurrent key-value store with support for larger-than-memory data and efficient cachingof hot working set in memory </li> 
+        <li><b>Strife</b> is a novel transaction processing system that is designed to mostly avoid expensive concur-rency control by scheduling transactions.</li>
     </ul>
 
     <b>Brief Bio</b> <br>
