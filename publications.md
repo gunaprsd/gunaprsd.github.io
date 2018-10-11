@@ -7,19 +7,19 @@ title: Guna Prasaad | Publications
   <br>
 <ul>
   <li>
-    <a href="https://arxiv.org/abs/1810.01997">Improving High Contention OLTP Performance via Transaction Scheduling</a><br>
+    Improving High Contention OLTP Performance via Transaction Scheduling<br>
     Guna Prasaad, Alvin Cheung, Dan Suciu<br>
     <i>On Request</i> 
   </li>
   <br>
   <li>
-    <a href="">All you need is ASK: Leveraging Application-Specific Knowledge to Build Databases</a><br>
+    All you need is ASK: Leveraging Application-Specific Knowledge to Build Databases<br>
     Cong Yan, Guna Prasaad, Alvin Cheung, Dan Suciu<br>
     <i>On Request</i>
   </li>
   <br>
   <li>
-    <a href="">Concurrent Prefix Recovery: Performing CPR on a Database</a><br>
+    Concurrent Prefix Recovery: Performing CPR on a Database<br>
     Guna Prasaad, Badrish Chandramouli, Donald Kossman<br>
      <i>On Request</i>
   </li>
