@@ -54,7 +54,7 @@ Multicores</a><br>
   </li>
 </ul>
 <hr><br>
-  <h3><i>Peer-reviewed Conferences/Patents</i></h3>
+  <h3><i>Patents</i></h3>
   <br>
 <ul>
   <li>
