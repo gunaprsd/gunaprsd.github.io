@@ -27,11 +27,7 @@ With increasing multi-core parallelism, modern databases and key-value stores ha
 <span><a href="mailto:guna@cs.washington.edu">[On Request]</a></span>
 </li>
 </ul>
-<p>
-<hr>
-<hr>
-<br>
-<h2>Past Projects</h2></p>
+<div><hr><hr><br><h2>Past Projects</h2></div>
 <ul>
 <br>
 <li>
