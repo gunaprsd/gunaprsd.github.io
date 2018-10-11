@@ -13,7 +13,7 @@ permalink: research
 <li>
   <h3>STRIFE: A Novel Transactional Engine</h3> <br>
   <p>Research in transaction processing has made significant progress in improving the performance of multi-core in-memory transactional systems. However, the focus has mainly been on low-contention workloads. Modern transactional systems perform poorly on workloads with transactions accessing a few highly contended data items.  We observe that most transactional workloads, including those with high contention, can be divided into clusters of data conflict-free transactions and a small set of residuals. </p>
-  <p>In this project, we introduce a new concurrency control protocol called STRIFE that leverages the above observation. STRIFE executes transactions in batches, where each batch is partitioned into clusters of conflict-free transactions and a small set of residual transactions. The conflict-free clusters are executed in parallel without any concurrency control, followed by executing the residual cluster either serially or with concurrency control. We present a low-overhead algorithm that partitions a batch of transactions into clusters that do not have cross-cluster conflicts and a small residual cluster. We evaluate STRIFE against the opportunistic concurrency control protocl and several variants of two-phase locking, where the latter is known to perform better than other concurrency protocols under high contention, and show that STRIFE can improve transactional throughput by up to 2$\times$. </p>
+  <p>In this project, we introduce a new concurrency control protocol called STRIFE that leverages the above observation. STRIFE executes transactions in batches, where each batch is partitioned into clusters of conflict-free transactions and a small set of residual transactions. The conflict-free clusters are executed in parallel without any concurrency control, followed by executing the residual cluster either serially or with concurrency control. We present a low-overhead algorithm that partitions a batch of transactions into clusters that do not have cross-cluster conflicts and a small residual cluster. We evaluate STRIFE against the optimistic concurrency control protocol and several variants of two-phase locking, where the latter is known to perform better than other concurrency protocols under high contention, and show that STRIFE can improve transactional throughput by up to 2$\times$. </p>
   <span><a href="https://arxiv.org/abs/1810.01997">[arXiv]</a></span>
   <span><a href="{{site.url}}assets/STRIFE-quals.pptx">[Slides]</a></span>
 </li>
@@ -25,7 +25,8 @@ permalink: research
 <span><a href="mailto:guna@cs.washington.edu">[On Request]</a></span>
 </li>
 </ul>
-<<hr><hr>
+  
+  
 <p><h2>Past Projects</h2></p>
 <ul>
 <br>
