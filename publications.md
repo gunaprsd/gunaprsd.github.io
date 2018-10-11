@@ -3,9 +3,27 @@ layout: default
 title: Guna Prasaad | Publications
 ---
 <div class="publications">
-<h3><i>Preprint</i></h3>
+<h3><i>Preprint/Under Submission</i></h3>
   <br>
 <ul>
+  <li>
+    <a href="https://arxiv.org/abs/1810.01997">Improving High Contention OLTP Performance via Transaction Scheduling</a><br>
+    Guna Prasaad, Alvin Cheung, Dan Suciu<br>
+    <i>On Request</i> 
+  </li>
+  <br>
+  <li>
+    <a href="">All you need is ASK: Leveraging Application-Specific Knowledge to Build Databases</a><br>
+    Cong Yan, Guna Prasaad, Alvin Cheung, Dan Suciu<br>
+    <i>On Request</i>
+  </li>
+  <br>
+  <li>
+    <a href="">Concurrent Prefix Recovery: Performing CPR on a Database</a><br>
+    Guna Prasaad, Badrish Chandramouli, Donald Kossman<br>
+     <i>On Request</i>
+  </li>
+  <br>
   <li>
     <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory
 Multicores</a><br>
@@ -14,15 +32,19 @@ Multicores</a><br>
   </li>
   </ul>
 <hr><br>
-<h3><i>Peer-reviewed Conferences/Patents</i></h3>
+<h3><i>Peer-reviewed Conferences</i></h3>
   <br>
 <ul>
   <li>
-    <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER: A Concurrent Key-Value Store with In-Place Updates</a><br>
+    <a href="https://dl.acm.org/citation.cfm?id=3275564">FASTER: An Embedded Concurrent Key-Value Store for State Management</a><br>
+    Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
+    <i> Proc. VLDB 2018 (Demo) </i> <br>
+  </li>
+  <br>
+  <li>
+    <a href="https://dl.acm.org/citation.cfm?id=3196898">FASTER: A Concurrent Key-Value Store with In-Place Updates</a><br>
     Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
     <i> Proc. SIGMOD 2018 </i> <br>
-    <i> Proc. VLDB 2018 (Demo) </i> <br>
-    <i> USPTO Appl. No. 15/917,352, filed on 9 Mar 2018</i>
   </li>
   <br>
   <li>
@@ -33,6 +55,21 @@ Multicores</a><br>
   </li>
 </ul>
 <hr><br>
+  <h3><i>Peer-reviewed Conferences/Patents</i></h3>
+  <br>
+<ul>
+  <li>
+    <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER Key-Value Store System</a><br>
+    Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
+    <i> USPTO Appl. No. 15/917,352, filed on 9 Mar 2018</i>
+  </li>
+  <br>
+  <li>
+  <a href="http://www.freepatentsonline.com/y2016/0171560.html">Linguistic Personalization of Messages for Targeted Campaigns</a> <br>
+  R S Roy, G P Jeganthan, A Padmakumar, P Kumaraguru <br>
+  <i>USPTO Appl. No. 14/566,181, filed on 10 Dec 2014</i>
+  </li>
+</ul>
 <h3><i>Theses and Reports</i></h3>
   <br>
 <ul>
