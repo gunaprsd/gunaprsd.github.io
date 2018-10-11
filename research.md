@@ -25,9 +25,10 @@ permalink: research
 <span><a href="mailto:guna@cs.washington.edu">[On Request]</a></span>
 </li>
 </ul>
-  
-  
-<p><h2>Past Projects</h2></p>
+<p>
+<hr>
+<hr>
+<h2>Past Projects</h2></p>
 <ul>
 <br>
 <li><h3>FASTER: A Concurrent Key-Value Store</h3><br>
