@@ -75,7 +75,7 @@ Multicores</a><br>
 <ul>
   <li>
   <a href="{{site.url}}/assets/buffer-tree-report.pdf">I/O Optimal Index Structures (Old)</a><br>
-  <b>Guna Prasaad</b><br>
+  Guna Prasaad<br>
   <i>R&D Report, IIT Bombay 2015</i>
   </li>
 </ul>
