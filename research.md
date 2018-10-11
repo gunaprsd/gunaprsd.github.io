@@ -3,8 +3,8 @@ layout: default
 title: Guna Prasaad | Research
 permalink: research
 ---
-<p style="margin:0px">
-<h3><i>Research Interests</i></h3>
+
+<h3>Research Interests</h3>
 <br>
 My research interests span Database Management Systems, Programming Languages and Distributed Systems. <br>
 <br>
@@ -12,13 +12,13 @@ My research interests span Database Management Systems, Programming Languages an
 <h3><i>Current Projects</i></h3>
 <ul>
 <br>
-<li><b>STRIFE: A Novel Transactional Engine</b><br>
-Research in transaction processing has made significant progress in improving the performance of multi-core in-memory transactional systems.
-However, the focus has mainly been on low-contention workloads. Modern transactional systems perform poorly on workloads with transactions accessing a few highly contended data items. 
-We observe that most transactional workloads, including those with high contention, can be divided into clusters of data conflict-free transactions and a small set of residuals. <br>
-In this paper, we introduce a new concurrency control protocol called \system that leverages the above observation. \system executes transactions in batches, where each batch is partitioned into clusters of conflict-free transactions and a small set of residual transactions. The conflict-free clusters are executed in parallel without {\em any} concurrency control, followed by executing the residual cluster either serially or with concurrency control. We present a low-overhead algorithm that partitions a batch of transactions into clusters that do not have cross-cluster conflicts and a small residual cluster. We evaluate \system against the opportunistic concurrency control protocl and several variants of two-phase locking, where the latter is known to perform better than other concurrency protocols under high contention, and show that \system can improve transactional throughput by up to 2$\times$.  <br>
-<span><a href="https://arxiv.org/abs/1810.01997">[arXiv]</a></span> 
-<span><a href="{{site.url}}assets/STRIFE-quals.pptx">[Slides]</a></span></li>
+<li>
+  <b>STRIFE: A Novel Transactional Engine</b> <br>
+  <p>Research in transaction processing has made significant progress in improving the performance of multi-core in-memory transactional systems. However, the focus has mainly been on low-contention workloads. Modern transactional systems perform poorly on workloads with transactions accessing a few highly contended data items.  We observe that most transactional workloads, including those with high contention, can be divided into clusters of data conflict-free transactions and a small set of residuals. </p>
+  <p>In this paper, we introduce a new concurrency control protocol called \system that leverages the above observation. \system executes transactions in batches, where each batch is partitioned into clusters of conflict-free transactions and a small set of residual transactions. The conflict-free clusters are executed in parallel without {\em any} concurrency control, followed by executing the residual cluster either serially or with concurrency control. We present a low-overhead algorithm that partitions a batch of transactions into clusters that do not have cross-cluster conflicts and a small residual cluster. We evaluate \system against the opportunistic concurrency control protocl and several variants of two-phase locking, where the latter is known to perform better than other concurrency protocols under high contention, and show that \system can improve transactional throughput by up to 2$\times$. </p>
+  <span><a href="https://arxiv.org/abs/1810.01997">[arXiv]</a></span> 
+  <span><a href="{{site.url}}assets/STRIFE-quals.pptx">[Slides]</a></span>
+</li>
 <br>
 <li><b>Concurrent Prefix Recovery: Performing CPR on a Database</b><br>
 With increasing multi-core parallelism, modern databases and key-value stores have been designed for scalability, and yield very high throughput for the in-memory working set. These systems typically depend on group commit using write-ahead-logging to provide durability and crash recovery. However, write-ahead logging incurs significant overhead, particularly for update-intensive workloads, where it introduces a concurrency bottleneck (the log), and incurs log creation and flush I/O overhead. <br>
@@ -51,4 +51,4 @@ Indexing techniques optimized for a higher write throughput such as LSM Trees ge
 <li><b>Synthesis Modulo Bisimulation</b><br>
 We worked on the open problem of synthesizing distributed implementation from global specifications in the framework of transition systems, using bismulation as the equivalence criterion. We focussed on the loosely cooperating model of distributed transition systems. We identified several interesting properties about synthesizable specification out of which the major one was diamond closure property in the bisimulation quotient of a synthesizable system. We also showed that the bisimulation quotient need not necessarily be a product. </li>
 </ul>
-</p>
+
