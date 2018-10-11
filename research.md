@@ -6,7 +6,7 @@ permalink: research
 
 <div><h2>Research Interests</h2><br></div>
 <p>My research interests span Database Management Systems, Programming Languages and Distributed Systems. </p>
-<div><hr><hr><br><h2>Past Projects</h2></div>
+<div><br><hr><hr><br><h2>Current Projects</h2></div>
 <ul>
 <br>
 <li>

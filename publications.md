@@ -3,7 +3,7 @@ layout: default
 title: Guna Prasaad | Publications
 ---
 <div class="publications">
-<h3><i>Preprint/Under Submission</i></h3>
+<h3>Preprint/Under Submission</h3>
   <br>
 <ul>
   <li>
@@ -32,7 +32,7 @@ Multicores</a><br>
   </li>
   </ul>
 <hr><br>
-<h3><i>Peer-reviewed Conferences</i></h3>
+<h3>Peer-reviewed Conferences</h3>
   <br>
 <ul>
   <li>
@@ -54,7 +54,7 @@ Multicores</a><br>
   </li>
 </ul>
 <hr><br>
-  <h3><i>Patents</i></h3>
+  <h3>Patents</h3>
   <br>
 <ul>
   <li>
@@ -69,7 +69,7 @@ Multicores</a><br>
   <i>USPTO Appl. No. 14/566,181, filed on 10 Dec 2014</i>
   </li>
 </ul>
-<h3><i>Theses and Reports</i></h3>
+<h3>Theses and Reports</h3>
   <br>
 <ul>
   <li>
