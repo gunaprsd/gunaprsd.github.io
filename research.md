@@ -5,7 +5,7 @@ permalink: research
 ---
 <h3><i>Research Interests</i></h3>
 My research interests span Database Management Systems, Programming Languages and Distributed Systems. <br>
-<hr>
+<hr><br>
 <h3><i>Current Projects</i></h3>
 <ul>
   <br>
@@ -18,7 +18,7 @@ Additionally, STRIFE identifies and collects some transactions that access data 
 FASTER is one of the first key-value stores that brings together severaldesired features of state management: (a) ability to handle larger-than-memory data (b) effective cachingof hot working set (c) fast in-place updates in memory (d) scalability and (e) high-level language support.fasterachievesorders-of-magnitude better throughput – up to 160M operations per second on a singlemachine – and near linear scalability when the working set fits in memory. I developed FASTER during and after my internship at Microsoft Research Redmond through continued collaboration. Research onfasterwas published in SIGMOD 2018 and the system was demonstrated at VLDB 2018. FASTER is open-source and several teams both inside and outside Microsoft have shown interest in the project.
     </li>
 </ul>
-<hr>
+<hr><br>
 <h3><i>Past Projects</i></h3>
 <ul>
   <br>
