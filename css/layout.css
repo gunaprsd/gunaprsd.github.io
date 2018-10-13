@@ -135,7 +135,7 @@ display:none;
 
   .navbar.responsive a {
     float: none;
-    display: block;
+    display: inline;
     text-align: left;
   }
     
