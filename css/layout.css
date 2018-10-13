@@ -92,7 +92,7 @@ body {
     display: block;
   }
   .navbar .divider {
-    display: hidden;  
+    display: none;  
   }
 }
 
