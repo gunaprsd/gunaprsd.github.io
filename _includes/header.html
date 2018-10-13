@@ -1,22 +1,13 @@
 <div class="header">
   <div class="title">{{site.name}}</div>
 </div>
-<div class="navbar" id="myNavbar">
-  <span class="divider"></span>
-  <a {% if page.url == '' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}">home</a>
-  <span class="divider"></span>
-  <a {% if page.url == 'research' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}research">research</a>
-  <span class="divider"></span>
-  <a {% if page.url == 'publications' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}publications">publications</a>
-  <span class="divider"></span>
-  <a {% if page.url == 'news' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}news">news</a>
-  <span class="divider"></span>
-  <a {% if page.url == 'blog' or page.url contains '/posts/' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}blog">blog</a>
-  <span class="divider"></span>
-  <a class="extra" href="http://github.com/gunaprsd">code</a>
-  <span class="divider"></span>
-  <a class="extra" href="{{site.url}}assets/resume.pdf">resume</a>
-  <a href="javascript:void(0);" class="extra icon" onclick="myFunction()">
-    menu
-  </a>
-</div>
+<ul class="navbar" id="myNavbar">
+  <li> <a {% if page.url == '' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}">home</a> </li>
+  <li> <a {% if page.url == 'research' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}research">research</a> </li>
+  <li> <a {% if page.url == 'publications' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}publications">publications</a> </li>
+  <li> <a {% if page.url == 'news' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}news">news</a> </li>
+  <li> <a {% if page.url == 'blog' or page.url contains '/posts/' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}blog">blog</a> </li>
+  <li> <a class="extra" href="http://github.com/gunaprsd">code</a> </li>
+  <li> <a class="extra" href="{{site.url}}assets/resume.pdf">resume</a> </li>
+  <li> <a href="javascript:void(0);" class="extra icon" onclick="myFunction()">menu</a> </li>
+</ul>
