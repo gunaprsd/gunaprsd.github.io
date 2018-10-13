@@ -11,7 +11,7 @@ title: Guna Prasaad | News
   {% assign news = (site.data.news | sort: 'date') | reverse %} {% for n in news %}
   <tr>
     <td class="date">{{ n.date | date_to_string }} &raquo; </td> 
-    <td> {{ n.description }} </td>
+    <td> {{ n.description | markdownify }} </td>
   </tr>
   {% endfor %}
 </table>
