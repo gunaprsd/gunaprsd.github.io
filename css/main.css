@@ -58,14 +58,19 @@ table {
 .date {
   border: 0px;
   color: #aaa;
-  width:20%;
+  width:15em;
   font-family: 'Inconsolata', sans-serif;
 }
 
-table.news tr td {
+.description {
   border: 0px;
   padding: 10px;
   vertical-align: top;
+}
+
+.description p {
+  padding:0;
+  margin:0;
 }
 
 ul.posts {
