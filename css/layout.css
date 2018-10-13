@@ -81,10 +81,12 @@ body {
     color: var(--secondary-font-color);
     overflow-x:auto;
     overflow:hidden;
+    margin:0;
     padding: 0.5em 0 0.5em 0;
 }
 .navbar li {
     padding: 1em;
+    display:inline;
 }
 
 .navbar .icon {
