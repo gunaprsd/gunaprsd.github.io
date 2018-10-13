@@ -5,8 +5,8 @@ title: Guna Prasaad | News
 <h3>News</h3>
 <table class="news">
   <tr>
-    <th width="30%"></th>
-    <th width="70%"></th>
+    <th style="width:30%"></th>
+    <th style="width:70%"></th>
   </tr>
   {% assign news = (site.data.news | sort: 'date') | reverse %} {% for n in news %}
   <tr>
