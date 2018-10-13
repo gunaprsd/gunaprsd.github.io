@@ -75,7 +75,7 @@ body {
 }
 
 /* Navbar */
-.site .navbar {
+.navbar {
     width: 100%;
     background-color: var(--secondary-bg-color);
     color: var(--secondary-font-color);
@@ -83,22 +83,21 @@ body {
     overflow:hidden;
     padding: 0.5em 0 0.5em 0;
 }
-
-.site .navbar .divider {
-    padding-left: 1em;
+.navbar li {
+    padding: 1em;
 }
 
 .navbar .icon {
-display:none;
+    display:none;
 }
 
-.site .navbar a.extra {
+.navbar li a.extra {
     padding: 0.5em 1em 0.5em 1em;
     color: var(--secondary-font-color);
     font-size: var(--navbar-font-size);
 }
   
-.site .navbar a.active { 
+.navbar li a.active { 
     border-top-color: var(--secondary-bg-color);
     border-bottom-color: var(--secondary-bg-color);
     background-color: var(--primary-font-color);
@@ -106,20 +105,17 @@ display:none;
 }
  
 
-.site .navbar a.extra:hover {
+.navbar li a.extra:hover {
     background-color: var(--primary-font-color);
     color: var(--primary-bg-color); 
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 750px) {
-  .navbar a:not(:nth-child(2)) { display: none; }
-  .navbar a.icon {
+  .navbar li:not(:first-child) { display: none; }
+  .navbar li a.icon {
     float: right;
     display: inline;
-  }
-  .navbar .divider {
-    display: none;  
   }
 }
 
@@ -127,20 +123,16 @@ display:none;
 @media screen and (max-width: 750px) {
   .navbar.responsive { position: relative; }
     
-  .navbar.responsive a.icon {
+  .navbar.responsive li a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
 
-  .navbar.responsive a {
+  .navbar.responsive li a {
     float: none;
     display: inline;
     text-align: left;
-  }
-    
-  .navbar .divider {
-    display: block;
   }
 }
 
