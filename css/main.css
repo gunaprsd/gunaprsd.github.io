@@ -60,6 +60,13 @@ table.news tr td span {
   font-family: 'Inconsolata', sans-serif;
 }
 
+table.news tr td {
+  border: 0px;
+  width: 50%;
+  padding: 10px;
+  vertical-align: top;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -139,9 +146,6 @@ td {
   margin-top: 30px;
   padding-top: 5px;
 }
-
-
-
 
 .site .content .banner {
   padding-bottom: 20px;
