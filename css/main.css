@@ -51,6 +51,14 @@ table {
 /* Home
 /*
 /*****************************************************************************/
+.news {
+  border:0px;
+}
+table.news tr td span {
+  color: #aaa;
+  font-family: 'Inconsolata', sans-serif;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
