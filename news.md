@@ -10,6 +10,6 @@ title: Guna Prasaad | News
     <td> {{ n.description | markdownify }} </td>
   </tr>
   {% endfor %}
-</ul>
+</table>
 
 
