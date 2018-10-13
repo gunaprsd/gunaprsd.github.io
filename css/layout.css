@@ -134,7 +134,7 @@ display:none;
 .site .navbar a.active { 
     border-style: solid;
     border-top-color: var(--secondary-bg-color);
-    border-bottom-color: var(--default-bg-color);
+    border-bottom-color: var(--secondary-bg-color);
     background-color: var(--primary-font-color);
     color: var(--primary-bg-color); 
 }
