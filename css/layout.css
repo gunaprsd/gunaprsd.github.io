@@ -84,6 +84,33 @@ body {
     padding: 0.5em 0 0.5em 0;
 }
 
+.site .navbar .divider {
+    padding-left: 1em;
+}
+
+.navbar .icon {
+display:none;
+}
+
+.site .navbar a.extra {
+    padding: 0.5em 1em 0.5em 1em;
+    color: var(--secondary-font-color);
+    font-size: var(--navbar-font-size);
+}
+  
+.site .navbar a.active { 
+    border-top-color: var(--secondary-bg-color);
+    border-bottom-color: var(--secondary-bg-color);
+    background-color: var(--primary-font-color);
+    color: var(--primary-bg-color); 
+}
+ 
+
+.site .navbar a.extra:hover {
+    background-color: var(--primary-font-color);
+    color: var(--primary-bg-color); 
+}
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 750px) {
   .navbar a:not(:first-child) { display: none; }
@@ -117,32 +144,6 @@ body {
   }
 }
 
-.site .navbar .divider {
-    padding-left: 1em;
-}
-
-.navbar .icon {
-display:none;
-}
-
-.site .navbar a.extra {
-    padding: 0.5em 1em 0.5em 1em;
-    color: var(--secondary-font-color);
-    font-size: var(--navbar-font-size);
-}
-  
-.site .navbar a.active { 
-    border-top-color: var(--secondary-bg-color);
-    border-bottom-color: var(--secondary-bg-color);
-    background-color: var(--primary-font-color);
-    color: var(--primary-bg-color); 
-}
- 
-
-.site .navbar a.extra:hover {
-    background-color: var(--primary-font-color);
-    color: var(--primary-bg-color); 
-}
 
 /* Content */
 .site .content {
