@@ -89,7 +89,7 @@ body {
     display:inline;
 }
 
-.navbar .icon {
+.navbar li a.icon {
     display:none;
 }
 
@@ -127,9 +127,7 @@ body {
   .navbar.responsive { position: relative; }
     
   .navbar.responsive li a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+      display: none;
   }
 
   .navbar.responsive li a {
