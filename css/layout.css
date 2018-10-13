@@ -127,9 +127,7 @@ display:none;
 
 .site .navbar a.extra {
     padding: 0.1em 1em 0.7em 1em;
-    margin-top:0.5em; 
     border-width: 1px 0px 1px 0px;
-    border-radius: 7px 7px 0px 0px;
     color: var(--secondary-font-color);
     font-size: var(--navbar-font-size);
 }
