@@ -52,6 +52,7 @@ table {
   min-width:7em;
   width:auto;
   font-family: 'Inconsolata', sans-serif;
+  padding-left: 0px;
   padding-right: 0px;
 }
 
