@@ -29,7 +29,7 @@ permalink:
         <li><b>Strife</b> is a novel transaction processing system that is designed to mostly avoid expensive concurrency control by scheduling transactions intelligently.</li>
     </ul></p>
     <p>
-    <h3>Recent News</h3>
+    <h3>Recent News</h3> <br>
 <table class="news">
   {% assign news = (site.data.news | sort: 'date') | reverse %} {% for n in news limit:5 %}
   <tr>
