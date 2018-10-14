@@ -36,11 +36,11 @@ permalink:
     <td class="date">{{ n.date | date_to_string }} &raquo; </td> 
     <td class="description"> {{ n.description | markdownify }} </td>
   </tr>
-  <tr>
+  {% endfor %}
+   <tr>
       <td class="date"></td>
       <td class="description"><a href="{{site.url}}/news.html">View All</a></td>
   </tr>
-  {% endfor %}
 </table>
     </p>
     <p>
