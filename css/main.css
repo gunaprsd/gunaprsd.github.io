@@ -62,6 +62,7 @@ table {
   min-width:7em;
   width:auto;
   font-family: 'Inconsolata', sans-serif;
+  padding-right: 0px;
 }
 
 .description {
@@ -69,6 +70,7 @@ table {
   padding: 10px;
   vertical-align: top;
   width:100%;
+  padding-left:0px;
 }
 
 .description p {
