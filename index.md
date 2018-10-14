@@ -37,11 +37,8 @@ permalink:
     <td class="description"> {{ n.description | markdownify }} </td>
   </tr>
   {% endfor %}
-   <tr>
-      <td class="date"></td>
-      <td class="description"><a href="{{site.url}}/news.html">View All</a></td>
-  </tr>
 </table>
+<a href="{{site.url}}/news.html">View All</a>
     </p>
     <p>
     <h3>Brief Bio</h3> <br>
