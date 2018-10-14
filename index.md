@@ -38,7 +38,7 @@ permalink:
   </tr>
   {% endfor %}
 </table>
-<a href="{{site.url}}/news.html">View All</a>
+<a href="{{site.url}}/news.html">View All</a> <br>
     </p>
     <p>
     <h3>Brief Bio</h3> <br>
