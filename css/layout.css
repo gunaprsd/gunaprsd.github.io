@@ -120,11 +120,27 @@ body {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 750px) {
-  .navbar li:not(:first-child) a { display: none; }
+  .navbar li a { display: none; }
     
   .navbar li a.icon {
     float: right;
     display: inline;
+  }
+    
+  .site .content .banner {
+      clear: both;
+      text-align: center;
+  }
+  .site .content .banner .photo {
+      clear: both;
+      float: none;      
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+  .site .content .banner .contact {
+      display: block;
+      clear: both;
   }
 }
 
@@ -140,6 +156,11 @@ body {
     float: none;
     display: inline;
     text-align: left;
+    padding: 0.5em 1em 0.5em 1em;
+  }
+
+  .navbar.responsive li {
+      padding: 0em;
   }
 }
 
