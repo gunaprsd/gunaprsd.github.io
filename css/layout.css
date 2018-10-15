@@ -165,6 +165,7 @@ body {
     
   .edit-link {
     float:none;
+    padding-top: 0.5em;
     display: block;
   }
 }
