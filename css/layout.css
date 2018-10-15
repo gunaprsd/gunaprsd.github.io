@@ -162,6 +162,11 @@ body {
   .navbar.responsive li {
       padding: 0em;
   }
+    
+  .edit-link {
+    float:none;
+    display: block;
+  }
 }
 
 
