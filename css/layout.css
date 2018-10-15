@@ -124,7 +124,7 @@ body {
     
   .navbar li a.icon {
     float: right;
-    display: inline;
+    display: block;
   }
     
   .site .content .banner {
@@ -154,7 +154,7 @@ body {
 
   .navbar.responsive li a {
     float: none;
-    display: inline;
+    display: block;
     text-align: left;
     padding: 0.5em 1em 0.5em 1em;
   }
