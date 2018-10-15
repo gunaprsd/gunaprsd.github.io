@@ -210,3 +210,7 @@ hr {
   background-color: rgb(240, 240, 240);
   padding:6px;
 }
+
+.edit-link {
+  float:right;
+}
