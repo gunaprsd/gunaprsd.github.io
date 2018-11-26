@@ -19,14 +19,7 @@ title: Guna Prasaad | Publications
   </li>
   <br>
   <li>
-    Concurrent Prefix Recovery: Performing CPR on a Database<br>
-    Guna Prasaad, Badrish Chandramouli, Donald Kossman<br>
-     <i>On Request</i>
-  </li>
-  <br>
-  <li>
-    <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory
-Multicores</a><br>
+    <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory Multicores</a><br>
     Guna Prasaad, G. Ramalingam, Kaushik Rajan<br>
     <i> CoRR abs/1803.11328 (2018) </i> 
   </li>
@@ -35,6 +28,12 @@ Multicores</a><br>
 <h3>Peer-reviewed Conferences</h3>
   <br>
 <ul>
+  <li>
+    Concurrent Prefix Recovery: Performing CPR on a Database<br>
+    Guna Prasaad, Badrish Chandramouli, Donald Kossman<br>
+     <i>To Appear in SIGMOD 2019</i> <br>
+  </li>
+  <br>
   <li>
     <a href="https://dl.acm.org/citation.cfm?id=3275564">FASTER: An Embedded Concurrent Key-Value Store for State Management</a><br>
     Badrish Chandramouli, Guna Prasaad, Donald Kossmann, Justin Levandoski, James Hunter, Mike Barnett <br>
