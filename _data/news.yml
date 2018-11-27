@@ -1,5 +1,5 @@
 - date: 2018-11-26
-  description: My work on fast checkpointing and recovery of modern databases and key-value stores, "Concurrent Prefix Recovery" with folks at MSR got into SIGMOD 2019!
+  description: My work on fast checkpointing and recovery of modern databases and key-value stores, "Concurrent Prefix Recovery", with folks at MSR got accepted at SIGMOD 2019!
   
 - date: 2018-08-17
   description: Passed my qualifying examination based on research on the Strife protocol. Slides can be found [here](https://gunaprsd.org/assets/STRIFE-quals.pptx). 
