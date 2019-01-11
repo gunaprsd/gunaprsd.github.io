@@ -1,5 +1,5 @@
 - date: 2018-11-26
-  description: My [paper]({{site.url}}/assets/faster-cpr-sigmod19.pdf) on a novel durability solution for modern databases and key-value stores with folks at MSR got accepted at SIGMOD 2019!
+  description: My [paper]({{site.url}}/assets/faster-cpr-sigmod19.pdf) on a novel durability solution for modern databases and key-value stores got accepted at SIGMOD 2019!
   
 - date: 2018-08-17
   description: Passed my qualifying examination based on research on the Strife protocol. Slides can be found [here](https://gunaprsd.org/assets/STRIFE-quals.pptx). 
