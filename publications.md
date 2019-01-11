@@ -7,7 +7,7 @@ title: Guna Prasaad | Publications
   <br>
 <ul>
   <li>
-    Improving High Contention OLTP Performance via Transaction Scheduling<br>
+    Handling Highly Contended OLTP Workloads using Fast Dynamic Partitioning<br>
     Guna Prasaad, Alvin Cheung, Dan Suciu<br>
     <i>On Request</i> 
   </li>
@@ -29,7 +29,7 @@ title: Guna Prasaad | Publications
   <br>
 <ul>
   <li>
-    <a href="">Concurrent Prefix Recovery: Performing CPR on a Database</a><br>
+    <a href="{{site.url}}/assets/faster-cpr-sigmod19.pdf">Concurrent Prefix Recovery: Performing CPR on a Database</a><br>
     Guna Prasaad, Badrish Chandramouli, Donald Kossman<br>
      <i>To Appear in SIGMOD 2019</i> <br>
   </li>
