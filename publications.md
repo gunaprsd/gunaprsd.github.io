@@ -29,7 +29,7 @@ title: Guna Prasaad | Publications
   <br>
 <ul>
   <li>
-    <a href="{{site.url}}/assets/faster-cpr-sigmod19.pdf">Concurrent Prefix Recovery: Performing CPR on a Database</a><br>
+    <a href="{{site.url}}assets/faster-cpr-sigmod19.pdf">Concurrent Prefix Recovery: Performing CPR on a Database</a><br>
     Guna Prasaad, Badrish Chandramouli, Donald Kossman<br>
      <i>To Appear in SIGMOD 2019</i> <br>
   </li>
@@ -73,7 +73,7 @@ title: Guna Prasaad | Publications
 <br>
 <ul>
   <li>
-  <a href="{{ site.url }}/assets/buffertree-report.pdf">I/O Optimal Index Structures (Old)</a><br>
+  <a href="{{ site.url }}assets/buffertree-report.pdf">I/O Optimal Index Structures (Old)</a><br>
   Guna Prasaad<br>
   <i>R&D Report, IIT Bombay 2015</i>
   </li>
