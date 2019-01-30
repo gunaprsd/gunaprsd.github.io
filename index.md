@@ -8,7 +8,7 @@ permalink:
 ---
 <div class="banner">
     <div class="photo">
-        <img src="{{site.url}}assets/me4.jpg" width="150px" height="150px">
+        <img src="{{site.url}}assets/me4.jpg" width="140px" height="140px">
     </div>
     <div class="contact">
         <i>Graduate Student</i> <br>
