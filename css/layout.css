@@ -32,15 +32,15 @@
 
     --link-color: blue;
     --title-font-size: 25px;
-    --navbar-font-size: 16px;
-    --default-font-size: 13px;
+    --navbar-font-size: 18px;
+    --default-font-size: 16px;
 }
 
 
 html { height: 100%; }
 
 body {
-    font-family: 'LucidaGrande', sans-serif;
+    font-family: 'Palatino Linotype','Book Antiqua',Palatino, serif;
     background-color:var(--whitespace-color);
     color:var(--default-font-color);
     font-size: var(--default-font-size);
