@@ -22,10 +22,10 @@ permalink:
 <div class="homecontent">
     <p>
     <h3>Research Interests</h3> <br>
-    I do data-intensive systems research. More specifically, my research focuses on building efficient state-management support for cloud applications. I have designed and built systems that cater to different kinds of state management needs.
+    I do data-intensive systems research. My research focuses on building efficient state-management support for cloud applications. I have designed and built systems that cater to different kinds of state management needs.
     <ul>
         <li> <b>Rille</b> is a scalable deterministic and ordered stream processing engine built for multicores. </li>
-        <li> <b>Faster</b> is a concurrent key-value store with support for larger-than-memory data and efficient caching of hot working set in memory. </li> 
+        <li> <b>Faster</b> is a concurrent key-value store that efficiently caches hot working set in memory and handles larger than memory data. </li> 
         <li><b>Strife</b> is a novel transaction processing system that is designed to mostly avoid expensive concurrency control by scheduling transactions intelligently.</li>
     </ul></p>
     <p>
