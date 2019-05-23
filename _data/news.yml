@@ -29,7 +29,7 @@
   description: Our [paper](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/faster-sigmod18.pdf) _FASTER - a concurrent key-value store with in-place updates_ was accepted at SIGMOD 2018.
 
 - date: 2016-11-21
-  description: Myself and Dylan talked about the wonderful FAQ paper in the database seminar today. Slides can be found [here]({{site.url}}/assets/faq-seminar.pdf). 
+  description: I talked about the wonderful FAQ paper in the database seminar today. Slides can be found [here]({{site.url}}/assets/faq-seminar.pdf). 
   
 - date: 2016-09-15
   description: Got back to school for a Ph.D. in Computer Science at the University of Washington!
