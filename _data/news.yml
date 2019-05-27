@@ -1,3 +1,6 @@
+- date: 2019-03-25
+  description: Started my internship at Google with the [Slicer](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/adya) team! 
+
 - date: 2018-11-26
   description: Our [paper]({{site.url}}/assets/faster-cpr-sigmod19.pdf) _Concurrent Prefix Recovery - Performing CPR on a Database_ was accepted at SIGMOD 2019!
   
