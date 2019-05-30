@@ -192,19 +192,19 @@ body {
 
 
 .post .title {
-  font-size: 18px;
-  font-weight: bold;
-  margin-top:10px;
-  margin-bottom:3px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:5px;
 }
 
 .post .date {
-  font-size: var(--default-font-size);
-  color: gray;
-  margin-top:3px;
-  margin-bottom:10px;
+    font-family: Lora, serif;
+    font-size: var(--default-font-size);
+    margin-top:5px;
+    margin-bottom:10px;
 }
 
 .post .text {
-  padding-top:5px;
+    padding-top:5px;
 }
