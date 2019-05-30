@@ -84,7 +84,7 @@ code {
 }
 
 ul.posts span {
-  color: #aaa;
+  color: var(--default-font-color);
   font-family: 'Inconsolata', sans-serif;
 }
 
