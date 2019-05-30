@@ -8,7 +8,7 @@
             <div class="content">
                 <h3> {{ page.title }} </h3> 
                 <br>
-                <h4> {{ page.date }} </h4> 
+                {{ page.date | date_to_long_string }}
                 {{ content }}
             </div>
           </div>
