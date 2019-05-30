@@ -189,3 +189,22 @@ body {
     text-align: center;
     margin: auto;
 }
+
+
+.post .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top:10px;
+  margin-bottom:3px;
+}
+
+.post .date {
+  font-size: var(--default-font-size);
+  color: gray;
+  margin-top:3px;
+  margin-bottom:10px;
+}
+
+.post .text {
+  padding-top:5px;
+}
