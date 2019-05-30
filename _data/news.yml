@@ -29,7 +29,7 @@
   description: Myself and Brandon talked about the early write-visibility [paper](http://www.vldb.org/pvldb/vol10/p613-faleiro.pdf) from Yale in DB seminar today.
   
 - date: 2018-03-05
-  description: Our [paper](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/faster-sigmod18.pdf) _FASTER - a concurrent key-value store with in-place updates_ was accepted at SIGMOD 2018.
+  description: Our [paper](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/faster-sigmod18.pdf) _FASTER - A Concurrent Key-Value Store with In-Place Updates_ was accepted at SIGMOD 2018.
 
 - date: 2016-11-21
   description: I talked about the wonderful FAQ paper in the database seminar today. Slides can be found [here]({{site.url}}/assets/faq-seminar.pdf). 
