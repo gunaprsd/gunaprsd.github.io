@@ -31,7 +31,7 @@ title: Guna Prasaad | Publications
   <li>
     <a href="{{site.url}}assets/faster-cpr-sigmod19.pdf">Concurrent Prefix Recovery: Performing CPR on a Database</a><br>
     Guna Prasaad, Badrish Chandramouli, Donald Kossman<br>
-     <i>To Appear in SIGMOD 2019</i> <br>
+     <i>Proc. SIGMOD 2019</i> <br>
   </li>
   <br>
   <li>
