@@ -3,16 +3,21 @@
     {% include head.html %}
     <body>
         <div class="container">
-          <div class="site">
-            {% include header.html %}
-            <div class="content">
-                <div class="post"> 
-                    <p class="title"> {{ page.title }} </p>
-                    <p class="date"> {{ page.date | date_to_long_string }} </p>
-                    <div class="text"> {{ content }} </div>
+            <div class="site">
+                {% include header.html %}
+                <div class="content">
+                    <div class="post"> 
+                        <p class="title"> {{ page.title }} </p>
+                        <p class="date"> {{ page.date | date_to_long_string }} </p>
+                        <div class="text"> 
+                            {{ content }} 
+                        </div>
+                    </div>
                 </div>
-          </div>
-          {% include footer.html %}
+            </div>
+            <div> 
+                {% include footer.html %} 
+            </div>
         </div>
     </body>
 </html>
