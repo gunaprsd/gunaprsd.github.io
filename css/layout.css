@@ -81,6 +81,10 @@ body {
 }
 
 /* Navbar */
+#myNavBar {
+    font-family: 'Helvetica Neue', sans-serif; 
+}
+
 .navbar {
     width: 100%;
     background-color: var(--secondary-bg-color);
