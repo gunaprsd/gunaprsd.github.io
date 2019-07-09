@@ -17,17 +17,17 @@ title: Guna Prasaad | Publications
     Cong Yan, Guna Prasaad, Alvin Cheung, Dan Suciu<br>
     <i>On Request</i>
   </li>
-  <br>
-  <li>
-    <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory Multicores</a><br>
-    Guna Prasaad, G. Ramalingam, Kaushik Rajan<br>
-    <i> CoRR abs/1803.11328 (2018) </i> 
-  </li>
   </ul>
 <hr><br>
 <h3>Peer-reviewed Conferences</h3>
   <br>
 <ul>
+  <li>
+    <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory Multicores</a><br>
+    Guna Prasaad, G. Ramalingam, Kaushik Rajan<br>
+    <i> BIRTE 2019 (VLDB Workshop)</i> 
+  </li>
+  <br>
   <li>
     <a href="{{site.url}}assets/faster-cpr-sigmod19.pdf">Concurrent Prefix Recovery: Performing CPR on a Database</a><br>
     Guna Prasaad, Badrish Chandramouli, Donald Kossman<br>
