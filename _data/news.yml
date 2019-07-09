@@ -1,3 +1,10 @@
+- date: 2019-07-09
+  description: Our [paper](https://arxiv.org/pdf/1803.11328.pdf) on deterministic stream processing on multicore machines was accepted at [BIRTE](https://birte-conf.github.io/birte2019/index.html
+) 2019! 
+  
+- date: 2019-07-08
+  description: Started my internship at Facebook with the [LogDevice](https://code.fb.com/core-data/logdevice-a-distributed-data-store-for-logs/) team.
+  
 - date: 2019-06-28
   description: Wrapped up my internship at Google. Loved the experience! Learned a ton!
 
