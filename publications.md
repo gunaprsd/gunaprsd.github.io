@@ -25,7 +25,7 @@ title: Guna Prasaad | Publications
   <li>
     <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory Multicores</a><br>
     Guna Prasaad, G. Ramalingam, Kaushik Rajan<br>
-    <i> BIRTE 2019 (VLDB Workshop)</i> 
+    <i> Proc. BIRTE 2019 (VLDB Workshop)</i> 
   </li>
   <br>
   <li>
