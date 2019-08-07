@@ -13,8 +13,8 @@ title: Guna Prasaad | Publications
   </li>
   <br>
   <li>
-    All you need is ASK: Leveraging Application-Specific Knowledge to Build Databases<br>
-    Cong Yan, Guna Prasaad, Alvin Cheung, Dan Suciu<br>
+    Mining Approximate Acyclic Schemes from Relations Abstract<br>
+    Batya Kenig, Pranay Mundra, Guna Prasaad, Babak Salimi, Dan Suciu<br>
     <i>On Request</i>
   </li>
   </ul>
