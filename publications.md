@@ -68,14 +68,4 @@ title: Guna Prasaad | Publications
   <i>USPTO Appl. No. 14/566,181, filed on 10 Dec 2014</i>
   </li>
 </ul>
-<hr><br>
-<h3>Theses and Reports</h3>
-<br>
-<ul>
-  <li>
-  <a href="{{ site.url }}assets/buffertree-report.pdf">I/O Optimal Index Structures (Old)</a><br>
-  Guna Prasaad<br>
-  <i>R&D Report, IIT Bombay 2015</i>
-  </li>
-</ul>
 </div>
