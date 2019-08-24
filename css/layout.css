@@ -83,23 +83,23 @@ src: local('Apercu Mono Regular'), url('Apercu Mono.woff') format('woff');
 
 /* Color Scheme */
 :root {
-    /*UW Scheme */
+    /*UW Scheme 
     --primary-bg-color: #4b2e84;
     --primary-font-color: white;
     --secondary-bg-color: #b8860b;
     --secondary-font-color: white;
     --default-bg-color: white;
     --default-font-color: black;
-    --whitespace-color: #e5e5e5; 
+    --whitespace-color: #e5e5e5; */
 
-    /* Yellow Blue Grey Scheme 
+    /* Yellow Blue Grey Scheme */
     --primary-bg-color: #14213D;
     --primary-font-color: white;
     --secondary-bg-color: #FCA311;
     --secondary-font-color:black;
     --default-bg-color:white;
     --default-font-color:black; 
-    --whitespace-color: #e5e5e5; */
+    --whitespace-color: #e5e5e5; 
 
     --link-color: blue;
     --title-font-size: 25px;
