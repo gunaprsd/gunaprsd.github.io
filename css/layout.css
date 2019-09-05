@@ -119,6 +119,12 @@ font-weight: normal;
 src: local('Freight Sans Bold'), url('Freight Sans Bold.otf') format('opentype');
 }
 
+@font-face {
+font-family: 'Freight Sans Semibold';
+font-style: normal;
+font-weight: normal;
+src: local('Freight Sans Semibold'), url('Freight Sans Semibold.otf') format('opentype');
+}
 
 @font-face {
 font-family: 'Freight Sans Book';
