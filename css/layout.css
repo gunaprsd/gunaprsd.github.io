@@ -253,8 +253,13 @@ h3 {
     background-color: var(--navbar-default-bg-color);
     color: var(--navbar-default-font-color); 
 }
- 
-.navbar li a.extra:hover {
+
+.navbar li a:visited {
+    background-color: var(--navbar-default-bg-color);
+    color: var(--navbar-default-font-color); 
+}
+
+.navbar li a:hover {
     background-color: var(--navbar-hover-bg-color);
     color: var(--navbar-hover-font-color); 
 }
