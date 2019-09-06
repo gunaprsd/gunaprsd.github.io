@@ -164,8 +164,14 @@ src: local('Freight Sans Book'), url('Freight Sans Book.otf') format('opentype')
 
     --google-blue:  #4285F4;
     --link-color: var(--google-blue);
-    --title-font-family: 'Freight Sans Semibold', sans-serif;
+
+    /* h2 */
+    --title-font-family: 'Freight Sans Semibold', sans-serif; 
     --title-font-size: 24px;
+
+    /* h3 */
+    --sub-title-font-family: 'Freight Sans Semibold', sans-serif;
+    --sub-title-font-size: 20px;
 
     --navbar-font-size: 18px;
     --navbar-font-family: 'Helvetica Neue', sans-serif; 
@@ -216,11 +222,15 @@ body {
     color: var(--primary-font-color);
 }
 
-h3 {
+h2 {
     font-family: var(--title-font-family);
     font-size: var(--title-font-size);
 }
 
+h3 {
+    font-family: var(--sub-title-font-family);
+    font-size: var(--sub-title-font-size);
+}
 /* Navbar */
 .navbar {
     font-family: var(--navbar-font-family);
