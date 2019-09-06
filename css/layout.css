@@ -160,7 +160,7 @@ src: local('Freight Sans Book'), url('Freight Sans Book.otf') format('opentype')
     --secondary-font-color:black;
     --default-bg-color:white;
     --default-font-color:black; 
-    --whitespace-color: black; 
+    --whitespace-color: white; 
 
     --link-color: #4285F4;
     --title-font-family: 'Freight Sans Semibold', sans-serif;
