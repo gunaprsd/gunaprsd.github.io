@@ -267,6 +267,11 @@ h3 {
     color: var(--navbar-default-font-color); 
 }
 
+.navbar li a {
+    background-color: var(--navbar-default-bg-color);
+    color: var(--navbar-default-font-color); 
+}
+
 .navbar li a:visited {
     background-color: var(--navbar-default-bg-color);
     color: var(--navbar-default-font-color); 
