@@ -4,7 +4,6 @@ title: Guna Prasaad | Publications
 ---
 <div class="publications">
 <h3>Preprint/Under Submission</h3>
-  <br>
 <ul>
   <li>
     Handling Highly Contended OLTP Workloads using Fast Dynamic Partitioning<br>
@@ -20,7 +19,6 @@ title: Guna Prasaad | Publications
   </ul>
 <hr><br>
 <h3>Peer-reviewed Conferences</h3>
-  <br>
 <ul>
   <li>
     <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory Multicores</a><br>
@@ -54,7 +52,6 @@ title: Guna Prasaad | Publications
 </ul>
 <hr><br>
   <h3>Patents</h3>
-  <br>
 <ul>
   <li>
     <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER Key-Value Store System</a><br>

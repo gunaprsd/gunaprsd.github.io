@@ -21,7 +21,7 @@ permalink:
 </div>
 <div class="homecontent">
     <p>
-    <h3>Research Interests</h3> <br>
+    <h3>Research Interests</h3>
     I do data-intensive systems research. My research focuses on building efficient state-management support for cloud applications. I have designed and built systems that cater to different kinds of state management needs.
     <ul>
         <li> <b>Rille</b> is a scalable deterministic and ordered stream processing engine built for multicores. </li>
@@ -29,7 +29,7 @@ permalink:
         <li><b>Strife</b> is a novel transaction processing system that is designed to mostly avoid expensive concurrency control by scheduling transactions intelligently.</li>
     </ul></p>
     <p>
-    <h3>Recent News</h3> <br>
+    <h3>Recent News</h3>
 <table class="news">
   {% assign news = (site.data.news | sort: 'date') | reverse %} {% for n in news limit:5 %}
   <tr>
@@ -41,7 +41,7 @@ permalink:
 <a href="{{site.url}}news.html">View All</a> <br>
     </p>
     <p>
-    <h3>Brief Bio</h3> <br>
+    <h3>Brief Bio</h3>
     I am a Graduate Student of <a href="http://www.cs.washington.edu/">Computer Science</a> at the <a href="http://www.washington.edu">University of Washington</a>. I am a part of the <a href="http://db.cs.washington.edu/">UW Database Lab</a> working with <a href="https://homes.cs.washington.edu/~akcheung/">Prof. Alvin Cheung</a> and <a href="https://homes.cs.washington.edu/~suciu/">Prof. Dan Suciu</a>. In the summer of 2017, I interned at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/">Microsoft Research Redmond</a> with <a href="https://www.microsoft.com/en-us/research/people/badrishc/">Badrish Chandramouli</a> on building a state-of-the-art key-value store called <a href="https://www.microsoft.com/en-us/research/project/faster/">FASTER</a>. Previously, I was a Research Fellow in the <a href="http://research.microsoft.com/en-us/groups/plato/">Programming Languages and Tools</a> group at <a href="http://research.microsoft.com/en-us/labs/india/">Microsoft Research India</a>, where I built a scalable low-latency ordered stream processing system with <a href="http://research.microsoft.com/en-us/people/grama/">Dr. Ganesan Ramalingam</a>. I obtained my undergraduate degree from IIT Bombay, where I worked with <a href="http://www.cse.iitb.ac.in/~sudarsha/">Prof. S. Sudarshan</a> on I/O optimal index structures for key value stores. I spent the first eighteen years of my life in the <a href="https://www.facebook.com/mycitychennai/">beautiful</a> city of Madras (Chennai) in the southern part of India.
     </p>
 </div>
