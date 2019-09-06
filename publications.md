@@ -17,7 +17,7 @@ title: Guna Prasaad | Publications
     <i>On Request</i>
   </li>
   </ul>
-<hr><br>
+<br>
 <h3>Peer-reviewed Conferences</h3>
 <ul>
   <li>
@@ -50,7 +50,7 @@ title: Guna Prasaad | Publications
   <i>Proc. CICLing 2015, Springer LNCS</i> <b>(Best Paper)</b> <br>
   </li>
 </ul>
-<hr><br>
+<br>
   <h3>Patents</h3>
 <ul>
   <li>
