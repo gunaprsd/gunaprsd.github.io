@@ -167,7 +167,7 @@ src: local('Freight Sans Book'), url('Freight Sans Book.otf') format('opentype')
     --title-font-family: 'Freight Sans Semibold', sans-serif;
     --title-font-size: 24px;
 
-    --navbar-font-size: 20px;
+    --navbar-font-size: 18px;
     --navbar-font-family: 'Helvetica Neue', sans-serif; 
     --navbar-default-bg-color: white;
     --navbar-default-font-color: black;

@@ -3,6 +3,9 @@
 /* Common
 /*
 /*****************************************************************************/
+:root {
+  --google-blue:  #4285F4;
+}
 
 .youtube-player { display: block; margin: 0 auto; }
 
@@ -23,9 +26,9 @@ a {
 
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #00a; }
-a:visited { color: #00a; }
+a         { color: var(--google-blue); }
+a:hover   { color: var(--google-blue); }
+a:visited { color: var(--google-blue); }
 
 table {
   font-size: inherit;
