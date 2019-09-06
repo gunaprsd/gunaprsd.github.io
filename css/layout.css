@@ -144,26 +144,38 @@ src: local('Freight Sans Book'), url('Freight Sans Book.otf') format('opentype')
     --default-font-color: black;
     --whitespace-color: #e5e5e5; */
 
-    /* Yellow Blue Grey Scheme */
+    /* Yellow Blue Grey Scheme 
     --primary-bg-color: #14213D;
     --primary-font-color: white;
     --secondary-bg-color: #FCA311;
     --secondary-font-color:black;
     --default-bg-color:white;
     --default-font-color:black; 
-    --whitespace-color: #e5e5e5; 
+    --whitespace-color: #e5e5e5; */
 
-    --link-color: blue;
-    --title-font-size: 25px;
-    --navbar-font-size: 18px;
-    --default-font-size: 14px;
+    /* White theme */
+    --primary-bg-color: white;
+    --primary-font-color: black;
+    --secondary-bg-color: white;
+    --secondary-font-color:black;
+    --default-bg-color:white;
+    --default-font-color:black; 
+    --whitespace-color: black; 
+
+    --link-color: #4285F4;
+    --title-font-family: 'Freight Sans Semibold', sans-serif;
+    --title-font-size: 30px;
+
+    --default-font-family: 'Freight Sans Book', sans-serif;
+    --navbar-font-size: 20px;
+    --default-font-size: 16px;
 }
 
 
 html { height: 100%; }
 
 body {
-    font-family: 'Lora', serif;
+    font-family: var(--default-font-family);
     background-color:var(--whitespace-color);
     color:var(--default-font-color);
     font-size: var(--default-font-size);
@@ -185,7 +197,6 @@ body {
     /* borders */
     padding: 0;
     margin: auto;
-    box-shadow: 0px 0px 15px grey;
     /* font display */
     text-align: left;
     line-height: 1.5em; 
@@ -199,8 +210,8 @@ body {
 }
 
 .site .header .title {
+    font-family: var(--title-font-family);
     font-size: var(--title-font-size);
-    font-weight: bold;
 }
 
 /* Navbar */
