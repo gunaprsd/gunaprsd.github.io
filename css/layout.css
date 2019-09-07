@@ -230,6 +230,12 @@ body {
     color: var(--primary-font-color);
 }
 
+.site .header .name {
+    font-family: 'Raph Lanok Future', sans-serif;
+    font-size:40px;
+    font-weight: 400;
+}
+
 h2 {
     font-family: var(--title-font-family);
     font-size: var(--title-font-size);
