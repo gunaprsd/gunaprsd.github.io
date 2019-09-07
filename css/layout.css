@@ -97,11 +97,11 @@ src: local('Freight Sans Light'), url('Freight Sans Light.otf') format('opentype
 }
 
 @font-face {
-    font-family: 'Ralph Lanok Future';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Ralph Lanok Future'), url('Ralph Lanok Future.otf') format('opentype');
-    }
+font-family: 'Raph Lanok Future';
+font-style: normal;
+font-weight: normal;
+src: local('Raph Lanok Future'), url('Raph Lanok Future.otf') format('opentype');
+}
 
 
 @font-face {
