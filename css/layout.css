@@ -265,8 +265,9 @@ h3 {
     display:inline;
 }
 
-.navbar li a.icon {
+a.icon {
     display:none;
+    color: black;
 }
 
 .navbar li a.extra {
@@ -299,7 +300,7 @@ h3 {
 @media screen and (max-width: 750px) {
   .navbar li a { display: none; }
     
-  .navbar li a.icon {
+  a.icon {
     float: right;
     display: block;
   }

@@ -1,5 +1,7 @@
 <div class="header">
-    <p class="name">Guna Prasaad</p>
+    <p class="name">Guna Prasaad
+        <a href="javascript:void(0);" class="extra icon" onclick="myFunction()">≡</a>
+    </p>
 </div>
 <ul class="navbar" id="myNavbar">
   <li> <a {% if page.url == '' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}">home</a> </li>
@@ -9,5 +11,4 @@
   <li> <a {% if page.url == 'blog' or page.url contains '/posts/' %} class="extra active" {% else %} class = "extra" {% endif %} href="{{ site.url }}blog">blog</a> </li>
   <li> <a class="extra" href="http://github.com/gunaprsd">code</a> </li>
   <li> <a class="extra" href="{{site.url}}assets/resume.pdf">resume</a> </li>
-  <li> <a href="javascript:void(0);" class="extra icon" onclick="myFunction()">≡</a> </li>
 </ul>
