@@ -52,8 +52,9 @@ table {
 .date {
   border: 0px;
   color: #000;
-  min-width:7em;
+  min-width:6em;
   width:auto;
+  text-align: left;
   padding: 2px 0px 2px 0px;
 }
 
