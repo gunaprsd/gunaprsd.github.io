@@ -115,7 +115,7 @@ body {
 }
 
 /* Site Small Screen */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     .site .content .banner {
         clear: both;
         text-align: center;
@@ -189,7 +189,7 @@ body {
     color: var(--navbar-hover-font-color); 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
    #myNavbar { padding: 0; }
 
    .navbar li a { display: none; } 
