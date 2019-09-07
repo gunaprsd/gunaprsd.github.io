@@ -36,23 +36,28 @@
     --google-blue:  #4285F4;
     --link-color: var(--google-blue);
 
+    --default-font-family: 'Freight Sans Book', sans-serif;
+    --default-font-size: 18px;
+
     /* h2 */
     --title-font-family: 'Freight Sans Semibold', sans-serif; 
-    --title-font-size: 24px;
+    --title-font-size: 32px;
 
     /* h3 */
     --sub-title-font-family: 'Freight Sans Semibold', sans-serif;
-    --sub-title-font-size: 20px;
+    --sub-title-font-size: 24px;
 
-    --navbar-font-size: 18px;
+    /* navbar */
+    --navbar-font-size: 20px;
     --navbar-font-family: 'Helvetica Neue', sans-serif; 
     --navbar-default-bg-color: white;
     --navbar-default-font-color: black;
     --navbar-hover-bg-color: white;
     --navbar-hover-font-color: var(--google-blue);
 
-    --default-font-family: 'Freight Sans Book', sans-serif;
-    --default-font-size: 16px;
+    /* name */
+    --name-font-family: 'Raph Lanok Future', sans-serif;
+    --name-font-size: 42px;
 }
 
 
@@ -87,30 +92,19 @@ body {
     line-height: 1.5em; 
 }
 
+.site .header .name {
+    font-family: var(--name-font-family);
+    font-size: var(--name-font-size);
+    font-weight: 400;
+}
+
 /* Header */
 .site .header {
-    padding: 0.5em 1em 0em 1em;
+    padding: 0em;
     background-color: var(--primary-bg-color);
     color: var(--primary-font-color);
 }
 
-.site .header .name {
-    font-family: 'Raph Lanok Future', sans-serif;
-    font-size:40px;
-    font-weight: 400;
-}
-
-h2 {
-    font-family: var(--title-font-family);
-    font-size: var(--title-font-size);
-    padding-bottom: 15px;
-}
-
-h3 {
-    font-family: var(--sub-title-font-family);
-    font-size: var(--sub-title-font-size);
-    padding-bottom: 10px;
-}
 /* Navbar */
 .navbar {
     font-family: var(--navbar-font-family);
@@ -136,7 +130,7 @@ h3 {
 }
 
 .navbar li a.extra {
-    padding: 1em 1em 1em 1em;
+    padding: 1em 2em 1em 0em;
 }
   
 .navbar li a.active { 
@@ -258,4 +252,18 @@ h3 {
 
 .post .text {
     padding-top:5px;
+}
+
+/* default text */
+
+h2 {
+    font-family: var(--title-font-family);
+    font-size: var(--title-font-size);
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-family: var(--sub-title-font-family);
+    font-size: var(--sub-title-font-size);
+    padding-bottom: 10px;
 }
