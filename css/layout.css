@@ -265,9 +265,10 @@ h3 {
     display:inline;
 }
 
-a.icon {
+.navbar-icon {
     display:none;
     color: black;
+    float:right;
 }
 
 .navbar li a.extra {
@@ -300,9 +301,10 @@ a.icon {
 @media screen and (max-width: 750px) {
   .navbar li a { display: none; }
     
-  a.icon {
+  .navbar-icon {
     float: right;
     display: block;
+    font-size: 30px;
   }
     
   .site .content .banner {
