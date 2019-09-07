@@ -238,17 +238,19 @@ body {
 
 
 .post .title {
-    font-size: 18px;
+    font-family: 'Freight Sans Semibold', sans-serif;
+    font-size: 20px;
     font-weight: bold;
     margin-top:10px;
     margin-bottom:5px;
 }
 
 .post .date {
-    font-family: Lora, serif;
+    font-family: var(--default-font-family);
     font-size: var(--default-font-size);
     margin-top:5px;
     margin-bottom:10px;
+    color:gray;
 }
 
 .post .text {
