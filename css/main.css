@@ -52,10 +52,10 @@ table {
 .date {
   border: 0px;
   color: #000;
-  min-width:6em;
+  min-width:7em;
   width:auto;
-  text-align: left;
   padding: 2px 0px 2px 0px;
+  font-family: 'Inconsalata', sans-serif;
 }
 
 .description {
