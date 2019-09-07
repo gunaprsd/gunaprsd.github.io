@@ -103,7 +103,7 @@ body {
     font-family: var(--name-font-family);
     font-size: var(--name-font-size);
     font-weight: 400;
-    margin: 0.5em 0em 0.5em 0em;
+    margin: 1em 0em 0.5em 0em;
 }
 
 /* Navbar */
