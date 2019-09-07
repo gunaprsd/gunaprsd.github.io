@@ -354,6 +354,10 @@ h3 {
     padding-top: 0.5em;
     display: block;
   }
+
+  .site .content {
+    padding: 2em 2em 2em 2em;
+  }
 }
 
 
