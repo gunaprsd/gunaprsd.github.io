@@ -328,6 +328,15 @@ h3 {
   }
 }
 
+
+/* Content */
+.site .content {
+    font-size: var(--default-font-size);
+    padding: 2em 0em 2em 0em;
+    background-color: var(--default-bg-color);
+    color: var(--default-font-color);
+}
+
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 750px) {
    #myNavbar { padding: 0; }
@@ -358,15 +367,6 @@ h3 {
   .site .content {
     padding: 2em 2em 2em 2em;
   }
-}
-
-
-/* Content */
-.site .content {
-    font-size: var(--default-font-size);
-    padding: 2em 0em 2em 0em;
-    background-color: var(--default-bg-color);
-    color: var(--default-font-color);
 }
 
 /* Footer */
