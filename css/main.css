@@ -55,7 +55,8 @@ table {
   min-width:7em;
   width:auto;
   padding: 2px 0px 2px 0px;
-  font-family: 'Inconsalata', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
+  word-spacing: 0;
 }
 
 .description {
