@@ -360,7 +360,7 @@ h3 {
 /* Content */
 .site .content {
     font-size: var(--default-font-size);
-    padding: 4em 3em 4em 3em;
+    padding: 2em 0em 2em 0em;
     background-color: var(--default-bg-color);
     color: var(--default-font-color);
 }
