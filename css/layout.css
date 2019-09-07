@@ -218,7 +218,7 @@ body {
 
 /* Header */
 .site .header {
-    padding: 1.5em;
+    padding: 0.5em 1em 0em 1em;
     background-color: var(--primary-bg-color);
     color: var(--primary-font-color);
 }
