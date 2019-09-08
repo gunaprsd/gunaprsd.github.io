@@ -15,8 +15,13 @@ permalink:
         Paul G Allen Center<br>
         185 E Stevens Way NE<br>
         Seattle, WA - 98195<br>
-        <a href="mailto:guna@cs.washington.edu">guna@cs.washington.edu</a> <br>
-        <a href="http://twitter.com/gunaprsd">@gunaprsd</a> <br>
+        <div class="icon">
+            <img src="{{site.url}}assets/gmail.jpg" height="32" width="32">
+            <img src="{{site.url}}assets/facebook.jpg" height="32" width="32">
+            <img src="{{site.url}}assets/twitter.jpg" height="32" width="32">
+            <img src="{{site.url}}assets/linkedin.jpg" height="32" width="32">
+            <img src="{{site.url}}assets/github.png" height="32" width="32">
+        </div> 
     </div>
 </div>
 <div class="homecontent">
