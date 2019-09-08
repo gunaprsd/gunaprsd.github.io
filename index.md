@@ -16,10 +16,10 @@ permalink:
         185 E Stevens Way NE<br>
         Seattle, WA - 98195<br>
         <div class="icon">
-            <img src="{{site.url}}css/icons/gmail.jpg" height="24" width="24">
-            <img src="{{site.url}}css/icons/twitter.jpg" height="24" width="24">
-            <img src="{{site.url}}css/icons/linkedin.jpg" height="24" width="24">
-            <img src="{{site.url}}css/icons/github.png" height="24" width="24">
+            <a href="mailto:guna@cs.washington.edu"> <img src="{{site.url}}css/icons/gmail.jpg" height="24" width="24"> </a>
+            <a href="https://twitter.com/gunaprsd"><img src="{{site.url}}css/icons/twitter.jpg" height="24" width="24">
+            <a href="https://www.linkedin.com/in/guna-prasaad-1479a450"><img src="{{site.url}}css/icons/linkedin.jpg" height="24" width="24">
+            <a href="https://github.com/gunaprsd"><img src="{{site.url}}css/icons/github.png" height="24" width="24"></a>
         </div>
     </div>
 </div>
