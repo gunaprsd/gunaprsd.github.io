@@ -16,11 +16,11 @@ permalink:
         185 E Stevens Way NE<br>
         Seattle, WA - 98195<br>
         <div class="icon">
-            <img src="{{site.url}}assets/gmail.jpg" height="32" width="32">
-            <img src="{{site.url}}assets/facebook.jpg" height="32" width="32">
-            <img src="{{site.url}}assets/twitter.jpg" height="32" width="32">
-            <img src="{{site.url}}assets/linkedin.jpg" height="32" width="32">
-            <img src="{{site.url}}assets/github.png" height="32" width="32">
+            <img src="{{site.url}}css/icons/gmail.jpg" height="32" width="32">
+            <img src="{{site.url}}css/icons/facebook.jpg" height="32" width="32">
+            <img src="{{site.url}}css/icons/twitter.jpg" height="32" width="32">
+            <img src="{{site.url}}css/icons/linkedin.jpg" height="32" width="32">
+            <img src="{{site.url}}css/icons/github.png" height="32" width="32">
         </div> 
     </div>
 </div>
