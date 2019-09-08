@@ -17,11 +17,10 @@ permalink:
         Seattle, WA - 98195<br>
         <div class="icon">
             <img src="{{site.url}}css/icons/gmail.jpg" height="24" width="24">
-            <img src="{{site.url}}css/icons/facebook.jpg" height="24" width="24">
             <img src="{{site.url}}css/icons/twitter.jpg" height="24" width="24">
             <img src="{{site.url}}css/icons/linkedin.jpg" height="24" width="24">
             <img src="{{site.url}}css/icons/github.png" height="24" width="24">
-        </div> 
+        </div>
     </div>
 </div>
 <div class="homecontent">
