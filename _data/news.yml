@@ -1,5 +1,5 @@
 - date: 2019-08-26
-  description: Will be presenting our [work](https://arxiv.org/pdf/1803.11328.pdf) on deterministic stream processing at VLDB 2019 in Los Angeles.
+  description: Pesented our [work](https://arxiv.org/pdf/1803.11328.pdf) on deterministic stream processing at VLDB 2019 in Los Angeles. Slides [here]({{site.url}}/assets/birte-2019.pdf). 
   
 - date: 2019-07-09
   description: Our [paper](https://arxiv.org/pdf/1803.11328.pdf) on deterministic stream processing on multicore machines was accepted at [BIRTE](https://birte-conf.github.io/birte2019/index.html) 2019! 
