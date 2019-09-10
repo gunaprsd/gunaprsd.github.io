@@ -1,5 +1,5 @@
 - date: 2019-08-26
-  description: Pesented our [work](https://arxiv.org/pdf/1803.11328.pdf) on deterministic stream processing at VLDB 2019 in Los Angeles. Slides can be found [here]({{site.url}}assets/birte-2019.pdf). 
+  description: Pesented our [work](https://arxiv.org/pdf/1803.11328.pdf) on deterministic stream processing at VLDB 2019 in Los Angeles. Slides can be found [here](https://gunaprsd.org/assets/birte-2019.pdf). 
   
 - date: 2019-07-09
   description: Our [paper](https://arxiv.org/pdf/1803.11328.pdf) on deterministic stream processing on multicore machines was accepted at [BIRTE](https://birte-conf.github.io/birte2019/index.html) 2019! 
@@ -47,7 +47,7 @@
   description: Our [paper](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/faster-sigmod18.pdf) _FASTER - A Concurrent Key-Value Store with In-Place Updates_ was accepted at SIGMOD 2018.
 
 - date: 2016-11-21
-  description: I talked about the wonderful FAQ paper in the database seminar today. Slides can be found [here]({{site.url}}/assets/faq-seminar.pdf). 
+  description: I talked about the wonderful FAQ paper in the database seminar today. Slides can be found [here](https://gunaprsd.org/assets/faq-seminar.pdf). 
   
 - date: 2016-09-15
   description: Got back to school for a Ph.D. in Computer Science at the University of Washington!
