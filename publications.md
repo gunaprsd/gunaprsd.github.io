@@ -10,16 +10,16 @@ title: Guna Prasaad | Publications
     Guna Prasaad, Alvin Cheung, Dan Suciu<br>
     <i>On Request</i> 
   </li>
-  <br>
-  <li>
-    Mining Approximate Acyclic Schemes from Relations Abstract<br>
-    Batya Kenig, Pranay Mundra, Guna Prasaad, Babak Salimi, Dan Suciu<br>
-    <i>On Request</i>
-  </li>
   </ul>
 <br>
 <h3>Peer-reviewed Conferences</h3>
 <ul>
+  <li>
+    Mining Approximate Acyclic Schemes from Relations Abstract<br>
+    Batya Kenig, Pranay Mundra, Guna Prasaad, Babak Salimi, Dan Suciu<br>
+    <i>To appear in SIGMOD 2020</i>
+  </li>
+  <br>
   <li>
     <a href="https://arxiv.org/pdf/1803.11328.pdf">Scaling Ordered Stream Processing on Shared-Memory Multicores</a><br>
     Guna Prasaad, G. Ramalingam, Kaushik Rajan<br>
