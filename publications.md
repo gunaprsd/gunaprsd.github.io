@@ -15,7 +15,7 @@ title: Guna Prasaad | Publications
 <h3>Peer-reviewed Conferences</h3>
 <ul>
   <li>
-    Mining Approximate Acyclic Schemes from Relations Abstract<br>
+    <a href="https://scholar.google.com/citations?user=nPuXokoAAAAJ&hl=en">Mining Approximate Acyclic Schemes from Relations Abstract</a><br>
     Batya Kenig, Pranay Mundra, Guna Prasaad, Babak Salimi, Dan Suciu<br>
     <i>To appear in SIGMOD 2020</i>
   </li>
