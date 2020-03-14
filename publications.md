@@ -19,6 +19,7 @@ title: Guna Prasaad | Publications
     Guna Prasaad, Alvin Cheung, Dan Suciu<br>
     <i>To appear in SIGMOD 2020</i> 
   </li>
+  <br>
   <li>
     <a href="https://scholar.google.com/citations?user=nPuXokoAAAAJ&hl=en">Mining Approximate Acyclic Schemes from Relations Abstract</a><br>
     Batya Kenig, Pranay Mundra, Guna Prasaad, Babak Salimi, Dan Suciu<br>
