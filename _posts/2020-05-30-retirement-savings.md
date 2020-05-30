@@ -53,7 +53,7 @@ Now, we are done with all the extra money from your employer. The primary advant
 
 Let's model the scenarios wer are interested in.  Say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. We also assume the net growth rate of principal within or outside the accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. While this *similar growth* assumption simplifies our analysis, these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account. But we should ideally invest in assets with a similar risk profile and hence similar growth assumption is fine. 
 
-In the alternate scenario, where you invest the money elsewhere, the take home value of that investment at withdrawal is 
+When you invest the money elsewhere, the take home value of that investment is 
 
 $$ \left(1 + (1-t_2) * g\right) * \mathbf{(1-t_1) * y} $$
 
