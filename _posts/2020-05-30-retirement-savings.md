@@ -56,13 +56,13 @@ One straightforward upside is if you think you expect your tax rate to be lower 
 
 Let's say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. Also, assume the net growth rate at withdrawal is $g$. is Here are the scenarios. 
 
-| Scenario                                        | Take Home Value at Withdrawal         |
-|-------------------------------------------------|---------------------------------------|
-| Not Contribute                                  | $(1-t_1)y + (1-t_2)gy$                |
-| Traditional 401(k)/IRA - Qualified Withdrawal   | $(1-t_2) * (1+g) * y$                 |
-| Traditional 401(k)/IRA - Unqualified Withdrawal | $0.9 * (1-t_2) * (1+g) * y$           |
-| Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * (1-t_1) y $                  |
-| Roth 401(k)/IRA - Unqualified Withdrawal        | $0.9 * (1-t_2) * (1+g) * (1-t_1) * y$ |
+| Scenario                                        | Take Home Value at Withdrawal           |
+|-------------------------------------------------|-----------------------------------------|
+| Not Contribute                                  | $(1-t_1)y + (1-t_2)gy$                  |
+| Traditional 401(k)/IRA - Qualified Withdrawal   | $(1-t_2) * (1+g) * y$                   |
+| Traditional 401(k)/IRA - Unqualified Withdrawal | $0.9 * (1-t_2) * (1+g) * y$             |
+| Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * (1-t_1) y $                    |
+| Roth 401(k)/IRA - Unqualified Withdrawal        | $(1-t_1) * y * (1 + 0.9 * (1-t_2) * g)$ |
 
 
 ### Same Tax Bracket during Withdrawal
