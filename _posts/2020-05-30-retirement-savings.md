@@ -67,6 +67,8 @@ One straightforward upside is if you think you expect your tax rate to be lower 
 
 $$ \tau_{\text{TQ}} = \frac{(1-t_2) * (1+g)}{\left((1-t_1) + (1-t_2) * g\right)}$$
 
+$$ \tau_{\text{TQ}} = \frac{1}{\left((1 + \frac{(1-t_1)}{(1-t_2)g}) * (1-t_2) * g\right)}$$
+
 ### Same Tax Bracket during Withdrawal
 
 ## Should you contribute more with your post-tax money?
