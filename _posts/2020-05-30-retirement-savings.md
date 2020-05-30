@@ -54,20 +54,31 @@ Now, we are done with all the extra money from your employer. The primary advant
 Let's model the scenarios wer are interested in.  Say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. We also assume the net growth rate of principal within or outside the accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. While this *similar growth* assumption simplifies our analysis, these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account. But we should ideally invest in assets with a similar risk profile and hence similar growth assumption is fine. 
 
 
-| Scenario                                        | Take Home Value at Withdrawal                     |
-|-------------------------------------------------|---------------------------------------------------|
-| Not Contribute                                  | $\left((1-t_1) + (1-t_2) * g\right) * \mathbf{y}$ |
-| Traditional 401(k)/IRA - Qualified Withdrawal   | $(1-t_2) * (1+g) * \mathbf{y}$                    |
-| Traditional 401(k)/IRA - Unqualified Withdrawal | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$              |
-| Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * \mathbf{(1-t_1) * y}$                    |
-| Roth 401(k)/IRA - Unqualified Withdrawal        | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y} $ |
+| Scenario                                        | Take Home Value at Withdrawal                         |
+|-------------------------------------------------|-------------------------------------------------------|
+| Not Contribute                                  | $\left(1 + (1-t_2) * g\right) * \mathbf{(1-t_1) * y}$ |
+| Traditional 401(k)/IRA - Qualified Withdrawal   | $(1-t_2) * (1+g) * \mathbf{y}$                        |
+| Traditional 401(k)/IRA - Unqualified Withdrawal | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$                  |
+| Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * \mathbf{(1-t_1) * y}$                        |
+| Roth 401(k)/IRA - Unqualified Withdrawal        | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y} $     |
 
 ### Lower Tax Bracket during Withdrawal
-One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. If you are making a qualified withdrawal, of course, contributing more is beneficial. But, how much more?
+One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. Assuming you are making a qualified withdrawal during retirement, of course, contributing more is beneficial. But, how much more?
 
-$$ \tau_{\text{TQ}} = \frac{1}{1 + \frac{(1-t_1)}{(1-t_2) * g}}$$
+For instance, let's say the growth is $500\%$ growth over $30$years (That's not huge! It is approximately a $5.5\%$ YoY compound growth which is quite conservative). So $g=4$. Let's say you pay 35\% tax right now and expect to pay $15\%$ when you retire. If you invest USD $1000$ today, then 
+* If you save elsewhere, it would grow to a take home of $(0.65 + 4 * 0.85) * 1000 = 4050$
+* If you save in a traditional 401(k) or IRA account, you would get $0.85 * 5 * 1000 = 4250$
+* If you save in a Roth 401(k) or IRA account, you would get $5 * 0.65 * 1000 = 3250$
 
-$$ \tau_{\text{RQ}} = \frac{1+g}{1 + \frac{(1-t_2)* g}{(1-t_1)} }$$
+Precisely, 
+
+$$ \tau_{\text{TQ}} = \frac{1 + g}{1 + (1-t_2) * g}$$
+
+$$ \tau_{\text{RQ}} = \frac{1 - t_2}{1 - t_1} * \frac{1 + g}{1 + (1-t_2) * g}$$
+
+And more interestingly, it helps to answer the question should you save via a traditional or Roth account and how much do you gain/lose by doing it sub-optimally:
+
+$$ \frac{\tau_{\text{TQ}}}{\tau_{\text{RQ}}} = \frac{1-t_2}{1-t_1}$$
 
 ### Same Tax Bracket during Withdrawal
 
