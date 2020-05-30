@@ -55,7 +55,7 @@ Let's model the scenarios wer are interested in.  Say the current and future tax
 
 When you invest the money elsewhere, the take home value of that investment is 
 
-$$ \left(1 + (1-t_2) * g\right) * (1-t_1) * y $$
+$$ \left(1 + (1 - t_2) * g\right) * (1 - t_1) * y $$
 
 The take home value at withdrawal for various scenarios in these retirement accounts are summarized below:
 
@@ -73,7 +73,7 @@ The take home value at withdrawal for various scenarios in these retirement acco
 | Age                   | 5Y Rule Met? | Qualified  | Take Home Value at Withdrawal                     |
 |-----------------------|--------------|------------|---------------------------------------------------|
 | $\geq 59\frac{1}{2}$  | Yes          | -          | $(1 + g) * \mathbf{(1-t_1) * y}$                  |
-| $\geq 59\frac{1}{2}$  | No           | -          | $(1 + (1-t_2) * g) * \mathbf{(1-t_1) * y}$        |
+| $\geq 59\frac{1}{2}$  | No           | -          | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$        |
 | $< 59\frac{1}{2}$     | Yes          | Yes        | $(1 + g) * \mathbf{(1-t_1) * y}$                  |
 | $< 59\frac{1}{2}$     | No           | Yes        | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      |
 | $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y}$  |
@@ -101,20 +101,14 @@ $$ \frac{\tau_{\text{TQ}}}{\tau_{\text{RQ}}} = \frac{1-t_2}{1-t_1}$$
 ### Same Tax Bracket during Withdrawal
 In most scenarios barring a few exceptional ones, if you are doing a premature withdrawal, it is considered unqualified and you may have to pay a withdrawal penalty on all or a portion of your savings depending on the type of the account. It is strictly better to leave your savings undisturbed and withdraw only after retirement. However, life is uncertain. You may want to pull the plug. I know this will hurt my take home, but by how much? Certainly there must be an advantage to having my savings grow in a tax advantaged account. When does it break even with investing that money elsewhere and perhaps in a more liquid investment that I can summon to help me during a rainy day?
 
-For this analysis, we will assume that you are in the same tax bracket during withdrawal and you withdraw the entire amount in chunks to belong to the same tax bracket. In case of a traditional 401(k) or IRA account, in order to break even with an unqualified withdrawal
+For this analysis, we will assume that you are in the same tax bracket during withdrawal and you withdraw the entire amount in chunks to belong to the same tax bracket. 
 
-$$ 0.9 * (1-t) * (1+g) * y \geq (1 + (1-t) * g) * (1-t) * y$$
-
-So, your investment must grow at least
+In case of a traditional 401(k) or IRA account, in order to break even with an unqualified withdrawal we want $ 0.9 * (1-t) * (1+g) * y \geq (1 + (1-t) * g) * (1-t) * y$. So, your investment must grow at least
 
 $$ g \geq \frac{1}{10t - 1} $$
 
 in order to break even. In other words, you will not be hurt more than "not saving for retirement using these accounts" if you withdraw your money prematurely after it has grown to $\frac{10t}{10t-1}$ in your traditional 401(k) or IRA account.
 
-For a Roth 401(k) or IRA, there is no break-even if you make an unqualified withdrawal. In fact, you would lose 
+For a Roth 401(k) or IRA, there is no break-even if you make an unqualified withdrawal. In fact, you would lose  $$ 0.1 * (1-t) * g * (1-t) * y $$. This is a $10\%$ loss compared to investing the money elsewhere, and a $(10 + 90t)\%$ loss compared to waiting until retirement to take complete advantage of Roth savings. 
 
-$$ \Delta L = (1 + (1-t) * g) * (1-t) * y - (1 + 0.9 * (1-t) * g) * (1-t) * y  $$ 
-
-
-However, Roth gives you more flexibility in terms of qualified withdrawals and the 5 year rule. Specifically, you are free to withdraw your contributions (not the earnings) that are 5-years old, tax and penalty-free anytime. 
- 
+However, Roth expands the scope of qualified withdrawals and you should feel free to use them when it makes sense. In that case, does it ever make sense to do a qualified withdrawal when the 5-year rule is not met? i.e. You start contributing to a Roth IRA account and withdraw the money in less than 5 years. Yes! In fact, you would exactly break-even with growing your money elsewhere. However, it is sub-optimal -- incurring a loss of $100t\%$ in comparison to waiting to meet the 5-year rule.
