@@ -62,6 +62,7 @@ Let's model the scenarios wer are interested in.  Say the current and future tax
 | Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * \mathbf{(1-t_1) * y}$                        |
 | Roth 401(k)/IRA - Unqualified Withdrawal        | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y} $     |
 
+  
 ### Lower Tax Bracket during Withdrawal
 One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. Assuming you are making a qualified withdrawal during retirement, of course, contributing more is beneficial. But, how much more?
 
@@ -80,6 +81,9 @@ And more interestingly, it helps to answer the question should you save via a tr
 
 $$ \frac{\tau_{\text{TQ}}}{\tau_{\text{RQ}}} = \frac{1-t_2}{1-t_1}$$
 
+  
 ### Same Tax Bracket during Withdrawal
+In most scenarios barring a few exceptional ones, if you are doing a premature withdrawal, it is considered unqualified and you may have to pay a withdrawal penalty on all or a portion of your savings depending on the type of the account. It is strictly better to leave your savings undisturbed and withdraw only after retirement. However, life is uncertain. You may want to withdraw your money prematurely. I know this will hurt my take home, but by how much? Certainly there must be an advantage to having my savings grow in a tax advantaged account. When does it break even with investing that money elsewhere and perhaps in a more liquid investment that I can summon to help me during a rainy day?
 
-## Should you contribute more with your post-tax money?
+
+The one thing I am curious to know is will my plan to invest for my retirement hurt 
