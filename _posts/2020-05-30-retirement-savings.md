@@ -14,7 +14,7 @@ It helps to understand a couple of things before we move forward.
 3. **Early withdrawal penalty:** Barring a few exceptional cases, the Government wants you to stick to your plan. These are not your run-of-the-mill savings account. So, they disincentivize you to treat it like one -- by imposing penalties. There is usually a 10% penalty on top of whatever income tax you owe if you withdraw money from these accounts before you are 59.5 years old. For me, 59.5 is a good 35 years ahead and I frankly don't like to look so much ahead. And I might want to cash out earlier. Does that mean these instruments are totally unattractive? Not exactly. And that is why it helps to quantify the above two incentives against this limitation. 
   
 
-### Account Types
+## Account Types
 I will limit the discussion in this post to 4 types of retirement savings accounts - traditional and Roth 401(k); traditional and Roth IRA. I have tried to summarize their differences in this table. 
 
 | Detail | Traditional 401(k) | Roth 401(k) | Traditional IRA | Roth IRA |
@@ -38,7 +38,7 @@ The other major difference is in terms of how earnings are handled. Earnings on 
 Now, it is time to dive deeper and quantify these. 
   
 
-### Should you match your employer contribution limit?
+## Should you match your employer contribution limit?
 Let's say your employer matches $100\%$ upto USD $5000$. We'll see why you should absolutely match the limit in this case! Your post tax earnings at a $30\%$ tax rate would be USD $3500$. But with the employer match, your contribution becomes USD $10000$, and even if you withdraw immediately incurring a penalty of $10\%$, it becomes ~ $(1 - 0.3 - 0.1) * 2 * 5000$ = USD $6000$. 
 
 Precisely, if your employer match ratio is $x$ upto limit USD $y$ and tax ratio $t$, your take home portion corresponding to USD $y$ would be $(1-t)y$ if you do not contribute. If you do and withdraw immediately, it would be $(0.9-t)(1+x)y$. So, it makes sense to contribute when $ (0.9-t)(1+x)y > (1-t)y$
@@ -46,8 +46,23 @@ which yields
 
 $$x > \frac{1}{(9-10t)}$$ 
 
-So, Even for a tax rate as high as $40\%$, you can contribute upto the limit if the match is greater than $20\%$.
+So, Even for a tax rate as high as $40\%$, you can contribute upto the limit if your employer match is greater than $20\%$.
 
-### Should you contribute more with tax deferral?
+## Should you contribute more than employer contribution limit?
+Now, we are done with all the extra money from your employer. The primary advantage of contributing to your retirement accounts now is the tax benefits. 
 
-### Should you contribute more with your post-tax money?
+### Lower Tax Bracket during Withdrawal
+One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. If you are making a qualified withdrawal, of course, contributing more is beneficial. In case of an unqualified withdrawal, it may or may not be. 
+
+Let's say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. Also, assume the net growth rate at withdrawal is $g$. is Here are the scenarios. 
+| Scenario | Take Home Now | Take Home Value Later |
+|----------|---------------|-----------------------|
+| Not Contribute | $(1-t_1)y$ | $(1-t_1)y + (1-t_2)gy$ |
+| Traditional 401(k)/IRA - Qualified Withdrawal | $0$ | $ (1-t_2) * (1+g) * y$ |
+| Traditional 401(k)/IRA - Unqualified Withdrawal | $0$ | $0.9 * (1-t_2) * (1+g) * y$ |
+| Roth 401(k)/IRA - Qualified Withdrawal | $0$ | $ (1+g) * (1-t_1) y $ |
+| Roth 401(k)/IRA - Unqualified Withdrawal | $0$ | $0.9 * (1-t_2) * (1+g) * (1-t_1) * y$ |
+
+### Same Tax Bracket during Withdrawal
+
+## Should you contribute more with your post-tax money?
