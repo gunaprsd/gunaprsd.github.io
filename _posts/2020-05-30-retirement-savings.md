@@ -39,5 +39,5 @@ Now, it is time to dive deeper and quantify these.
 ### Should you match your employer contribution?
 Let's say your employer matches $100%$ upto a certain limit, say USD $5000$. You should absolutely match the limit since it is strictly extra money. Your post tax earnings after a $30%$ would be USD $3500$. But, with the employer match, it becomes USD 10000 and even if you withdraw immediately incurring a penalty of 10%, it becomes ~ $(1 - 0.3 - 0.1)*2 * 5000$ = USD $6000$. 
 
-Precisely, if your employer matches $x%$ upto limit USD $y$ and tax rate $t%$, your take home portion corresponding to USD $y$ would be $(100-t)/100 * y$ if you do not contribute. If you do and withdraw immediately, it would be $\frac{(90-t)}{100} * \frac{(100+x)}{100} * y$. So, it makes sense to contribute when: $\frac{(100 - t)}{100} * y < \frac{(90 - t)}{100} * \frac{(100 + x)}{100} * y$. 
+Precisely, if your employer matches $x%$ upto limit USD $y$ and tax rate $t%$, your take home portion corresponding to USD $y$ would be $\frac{(100-t)}{100} * y$ if you do not contribute. If you do and withdraw immediately, it would be $\frac{(90-t)}{100} * \frac{(100+x)}{100} * y$. So, it makes sense to contribute when: $\frac{(100 - t)}{100} * y < \frac{(90 - t)}{100} * \frac{(100 + x)}{100} * y$. 
 
