@@ -72,8 +72,8 @@ The take home value at withdrawal for various scenarios in these retirement acco
   
 | Age                   | 5Y Rule Met? | Qualified  | Take Home Value at Withdrawal                     |
 |-----------------------|--------------|------------|---------------------------------------------------|
-| $\geq 59\frac{1}{2}$  | Yes          | Yes        | $(1 + g) * \mathbf{(1-t_1) * y}$                  |
-| $\geq 59\frac{1}{2}$  | No           | Yes        | $(1 + (1-t_2) * g) * \mathbf{(1-t_1) * y}$        |
+| $\geq 59\frac{1}{2}$  | Yes          | -          | $(1 + g) * \mathbf{(1-t_1) * y}$                  |
+| $\geq 59\frac{1}{2}$  | No           | -          | $(1 + (1-t_2) * g) * \mathbf{(1-t_1) * y}$        |
 | $< 59\frac{1}{2}$     | Yes          | Yes        | $(1 + g) * \mathbf{(1-t_1) * y}$                  |
 | $< 59\frac{1}{2}$     | No           | Yes        | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      |
 | $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y}$  |
