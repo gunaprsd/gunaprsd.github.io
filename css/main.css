@@ -84,6 +84,10 @@ ul.posts li {
   line-height: 1.5em;
 }
 
+ul.posts li > span {
+  color: #aaa;
+}
+
 code {
   font-family: 'Inconsolata', sans-serif;
   font-size: medium;
@@ -144,9 +148,6 @@ table {
 
 td {
   border: 1px solid black;
-  width: 50%;
-  padding: 10px;
-  vertical-align: top;
 }
 
 .site .footer {
