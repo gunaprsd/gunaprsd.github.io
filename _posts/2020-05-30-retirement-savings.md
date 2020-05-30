@@ -61,7 +61,7 @@ The take home value at withdrawal for various scenarios in these retirement acco
 
 **Traditional 401(k) or IRA**
   
-| Age                   | Qualified*  | Take Home Value at Withdrawal         | Compared to Regular           | Adjusted Growth Rate  |
+| Age                   | Qualified*  | Take Home Value                       | Compared to Regular           | Adjusted Growth Rate  |
 |-----------------------|-------------|---------------------------------------|----------------------------------|-----------------------|
 | $\geq 59\frac{1}{2}$  | -           | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
 | $< 59\frac{1}{2}$     | Yes         | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
@@ -70,7 +70,7 @@ The take home value at withdrawal for various scenarios in these retirement acco
 
 **Roth 401(k) or IRA**
   
-| Age                   | 5Y Rule Met? | Qualified  | Take Home Value at Withdrawal                     | Compared to Regular  | Adjusted Growth Rate |
+| Age                   | 5Y Rule Met? | Qualified  | Take Home Value                                   | Compared to Regular  | Adjusted Growth Rate |
 |-----------------------|--------------|------------|---------------------------------------------------|-----------------------------|----------------------|
 | $\geq 59\frac{1}{2}$  | Yes          | -          | $(1 + g) * \mathbf{(1-t_1) * y}$                  | Always Greater              | $g$                  |
 | $\geq 59\frac{1}{2}$  | No           | -          | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      | Always Equal                | $(1-t) * g$          |
