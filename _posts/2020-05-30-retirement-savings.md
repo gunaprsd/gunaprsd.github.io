@@ -101,7 +101,7 @@ $$ \frac{\tau_{\text{TQ}}}{\tau_{\text{RQ}}} = \frac{1-t_2}{1-t_1}$$
 ### Same Tax Bracket during Withdrawal
 In most scenarios barring a few exceptional ones, if you are doing a premature withdrawal, it is considered unqualified and you may have to pay a withdrawal penalty on all or a portion of your savings depending on the type of the account. It is strictly better to leave your savings undisturbed and withdraw only after retirement. However, life is uncertain. You may want to pull the plug. I know this will hurt my take home, but by how much? Certainly there must be an advantage to having my savings grow in a tax advantaged account. When does it break even with investing that money elsewhere and perhaps in a more liquid investment that I can summon to help me during a rainy day?
 
-For this analysis, we will assume that you are in the same tax bracket during withdrawal and you withdraw the entire amount in chunks to belong to the same tax bracket. In case of a traditional 401(k) or IRA account, in order to break even
+For this analysis, we will assume that you are in the same tax bracket during withdrawal and you withdraw the entire amount in chunks to belong to the same tax bracket. In case of a traditional 401(k) or IRA account, in order to break even with an unqualified withdrawal
 
 $$ 0.9 * (1-t) * (1+g) * y \geq (1 + (1-t) * g) * (1-t) * y$$
 
@@ -111,9 +111,10 @@ $$ g \geq \frac{1}{10t - 1} $$
 
 in order to break even. In other words, you will not be hurt more than "not saving for retirement using these accounts" if you withdraw your money prematurely after it has grown to $\frac{10t}{10t-1}$ in your traditional 401(k) or IRA account.
 
-For a Roth 401(k) or IRA, there is no break-even since
+For a Roth 401(k) or IRA, there is no break-even if you make an unqualified withdrawal. In fact, you would lose 
 
-$$(1 + 0.9 * (1-t) * g) * (1-t) * y  \not\geq (1 + (1-t) * g) * (1-t) * y$$ 
+$$ \deltaL = (1 + (1-t) * g) * (1-t) * y - (1 + 0.9 * (1-t) * g) * (1-t) * y  $$ 
 
-This means, Roth gives you much less flexibility with clearing up your account. However, Roth gives you more flexibility with moving a portion of your money. Specifically, you are free to withdraw your contributions (not the earnings) that are 5-years old, tax and penalty-free anytime. 
+
+However, Roth gives you more flexibility in terms of qualified withdrawals and the 5 year rule. Specifically, you are free to withdraw your contributions (not the earnings) that are 5-years old, tax and penalty-free anytime. 
  
