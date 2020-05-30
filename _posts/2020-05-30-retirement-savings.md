@@ -48,22 +48,24 @@ $$x > \frac{1}{(9-10t)}$$
 
 So, Even for a tax rate as high as $40\%$, you can contribute upto the limit if your employer match is greater than $20\%$.
 
-## Should you contribute more than employer contribution limit?
-Now, we are done with all the extra money from your employer. The primary advantage of contributing to your retirement accounts now is the tax benefits. 
+## Should you contribute more than employer matching limit?
+Now, we are done with all the extra money from your employer. The primary advantage of contributing to your retirement accounts now is the tax benefits. How do we quantify this to help with our analysis? Let's define *take home advantage* ($\tau$) as "ratio of take home value when you invest pre-tax income of USD $y$ in one of these accounts to that of investing it elsewhere". Note that this amount, USD $y$, is whatever you contribute beyond your employer matching limit - so no extra money here.
+
+Let's model the scenarios wer are interested in.  Say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. We also assume the net growth rate of principal within or outside the accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. While this *similar growth* assumption simplifies our analysis, these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account. But we should ideally invest in assets with a similar risk profile and hence similar growth assumption is fine. 
+
+
+| Scenario                                        | Take Home Value at Withdrawal                     |
+|-------------------------------------------------|---------------------------------------------------|
+| Not Contribute                                  | $\left((1-t_1) + (1-t_2) * g\right) * \mathbf{y}$ |
+| Traditional 401(k)/IRA - Qualified Withdrawal   | $(1-t_2) * (1+g) * \mathbf{y}$                    |
+| Traditional 401(k)/IRA - Unqualified Withdrawal | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$              |
+| Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * \mathbf{(1-t_1) * y}$                    |
+| Roth 401(k)/IRA - Unqualified Withdrawal        | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y} $ |
 
 ### Lower Tax Bracket during Withdrawal
-One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. If you are making a qualified withdrawal, of course, contributing more is beneficial. In case of an unqualified withdrawal, it may or may not be. 
+One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. If you are making a qualified withdrawal, of course, contributing more is beneficial. But, how much more?
 
-Let's say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. Also, assume the net growth rate at withdrawal is $g$. is Here are the scenarios. 
-
-| Scenario                                        | Take Home Value at Withdrawal           |
-|-------------------------------------------------|-----------------------------------------|
-| Not Contribute                                  | $\left((1-t_1) + (1-t_2) * g\right) * \mathbf{y}$           |
-| Traditional 401(k)/IRA - Qualified Withdrawal   | $(1-t_2) * (1+g) * \mathbf{y}$                   |
-| Traditional 401(k)/IRA - Unqualified Withdrawal | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$             |
-| Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * \mathbf{(1-t_1) * y}$                  |
-| Roth 401(k)/IRA - Unqualified Withdrawal        | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y} $|
-
+$$ \tau_{\text{TQ}} = \frac{(1-t_2) * (1+g)}{\left((1-t_1) + (1-t_2) * g\right)}$$
 
 ### Same Tax Bracket during Withdrawal
 
