@@ -113,7 +113,7 @@ in order to break even. In other words, you will not be hurt more than "not savi
 
 For a Roth 401(k) or IRA, there is no break-even if you make an unqualified withdrawal. In fact, you would lose 
 
-$$ \deltaL = (1 + (1-t) * g) * (1-t) * y - (1 + 0.9 * (1-t) * g) * (1-t) * y  $$ 
+$$ \delta L = (1 + (1-t) * g) * (1-t) * y - (1 + 0.9 * (1-t) * g) * (1-t) * y  $$ 
 
 
 However, Roth gives you more flexibility in terms of qualified withdrawals and the 5 year rule. Specifically, you are free to withdraw your contributions (not the earnings) that are 5-years old, tax and penalty-free anytime. 
