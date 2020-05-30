@@ -55,7 +55,7 @@ Let's model the scenarios wer are interested in.  Say the current and future tax
 
 When you invest the money elsewhere, the take home value of that investment is 
 
-$$ \left(1 + (1-t_2) * g\right) * \mathbf{(1-t_1) * y} $$
+$$ \left(1 + (1-t_2) * g\right) * (1-t_1) * y $$
 
 The take home value at withdrawal for various scenarios in these retirement accounts are summarized below:
 
