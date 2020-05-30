@@ -53,30 +53,30 @@ Now, we are done with all the extra money from your employer. The primary advant
 
 Let's model the scenarios wer are interested in.  Say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. We also assume the net growth rate of principal within or outside the accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. While this *similar growth* assumption simplifies our analysis, these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account. But we should ideally invest in assets with a similar risk profile and hence similar growth assumption is fine. 
 
-When you invest the money elsewhere, the take home value of that investment is 
+When you invest the money elsewhere in a regular investment account, the take home value of that would be
 
 $$ \left(1 + (1 - t_2) * g\right) * (1 - t_1) * y $$
 
-The take home value at withdrawal for various scenarios in these retirement accounts are summarized below:
+The take home value at withdrawal for various scenarios in these retirement accounts are summarized below.
 
 **Traditional 401(k) or IRA**
   
-| Age                   | Qualified*  | Take Home Value at Withdrawal         || Compared to Outside Growth       | Adjusted Growth Rate  |
-|-----------------------|-------------|---------------------------------------||----------------------------------|-----------------------|
-| $\geq 59\frac{1}{2}$  | -           | $(1-t_2) * (1+g) * \mathbf{y}$        || Always Greater                   | $g$                   |
-| $< 59\frac{1}{2}$     | Yes         | $(1-t_2) * (1+g) * \mathbf{y}$        || Always Greater                   | $g$                   |
-| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$  || Equal when $g = \frac{1}{10t-1}$ | $\frac{9g - 1}{10}$   |
+| Age                   | Qualified*  | Take Home Value at Withdrawal         | Compared to Regular           | Adjusted Growth Rate  |
+|-----------------------|-------------|---------------------------------------|----------------------------------|-----------------------|
+| $\geq 59\frac{1}{2}$  | -           | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
+| $< 59\frac{1}{2}$     | Yes         | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
+| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$  | Equal when $g = \frac{1}{10t-1}$ | $\frac{9g - 1}{10}$   |
 
 
 **Roth 401(k) or IRA**
   
-| Age                   | 5Y Rule Met? | Qualified  | Take Home Value at Withdrawal                     || Compared to Outside Growth  | Adjusted Growth Rate |
-|-----------------------|--------------|------------|---------------------------------------------------||-----------------------------|----------------------|
-| $\geq 59\frac{1}{2}$  | Yes          | -          | $(1 + g) * \mathbf{(1-t_1) * y}$                  || Always Greater              | $g$                  |
-| $\geq 59\frac{1}{2}$  | No           | -          | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      || Always Equal                | $(1-t) * g$          |
-| $< 59\frac{1}{2}$     | Yes          | Yes        | $(1 + g) * \mathbf{(1-t_1) * y}$                  || Always Greater              | $g$                  | 
-| $< 59\frac{1}{2}$     | No           | Yes        | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      || Always Equal                | $(1-t) * g$          |              
-| $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y}$  || Always $10\%$ Lesser        | $ 0.9(1 - t) * g$    |
+| Age                   | 5Y Rule Met? | Qualified  | Take Home Value at Withdrawal                     | Compared to Regular  | Adjusted Growth Rate |
+|-----------------------|--------------|------------|---------------------------------------------------|-----------------------------|----------------------|
+| $\geq 59\frac{1}{2}$  | Yes          | -          | $(1 + g) * \mathbf{(1-t_1) * y}$                  | Always Greater              | $g$                  |
+| $\geq 59\frac{1}{2}$  | No           | -          | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      | Always Equal                | $(1-t) * g$          |
+| $< 59\frac{1}{2}$     | Yes          | Yes        | $(1 + g) * \mathbf{(1-t_1) * y}$                  | Always Greater              | $g$                  | 
+| $< 59\frac{1}{2}$     | No           | Yes        | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      | Always Equal                | $(1-t) * g$          |              
+| $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y}$  | Always $10\%$ Lesser        | $ 0.9(1 - t) * g$    |
 
 
 ### Lower Tax Bracket at Mature Withdrawal
