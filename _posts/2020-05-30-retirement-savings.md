@@ -65,7 +65,7 @@ The take home value at withdrawal for various scenarios in these retirement acco
 |-----------------------|-------------|---------------------------------------|---------------------------------|-----------------------|
 | $\geq 59\frac{1}{2}$  | -           | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater                  | $g$                   |
 | $< 59\frac{1}{2}$     | Yes         | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater                  | $g$                   |
-| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$  | Equal when $g = \frac{1}{10t-1} | $\frac{9g - 1}{10}$   |
+| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$  | Equal when $g = \frac{1}{10t-1}$ | $\frac{9g - 1}{10}$   |
 
 
 **Roth 401(k) or IRA**
