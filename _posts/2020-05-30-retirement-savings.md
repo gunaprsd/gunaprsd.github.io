@@ -58,11 +58,11 @@ Let's say the current and future tax rates be $t_1$ and $t_2$ and you contribute
 
 | Scenario                                        | Take Home Value at Withdrawal           |
 |-------------------------------------------------|-----------------------------------------|
-| Not Contribute                                  | $\left((1-t_1) + (1-t_2) * g\right) * y$           |
-| Traditional 401(k)/IRA - Qualified Withdrawal   | $(1-t_2) * (1+g) * y$                   |
-| Traditional 401(k)/IRA - Unqualified Withdrawal | $0.9 * (1-t_2) * (1+g) * y$             |
-| Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * (1-t_1) * y $                  |
-| Roth 401(k)/IRA - Unqualified Withdrawal        | $(1 + 0.9 * (1-t_2) * g) * (1-t_1) * y $|
+| Not Contribute                                  | $\left((1-t_1) + (1-t_2) * g\right) * \mathbf{y}$           |
+| Traditional 401(k)/IRA - Qualified Withdrawal   | $(1-t_2) * (1+g) * \mathbf{y}$                   |
+| Traditional 401(k)/IRA - Unqualified Withdrawal | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$             |
+| Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * \mathbf{(1-t_1) * y}$                  |
+| Roth 401(k)/IRA - Unqualified Withdrawal        | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y} $|
 
 
 ### Same Tax Bracket during Withdrawal
