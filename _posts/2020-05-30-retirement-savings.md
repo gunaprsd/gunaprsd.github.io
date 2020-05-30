@@ -85,5 +85,9 @@ $$ \frac{\tau_{\text{TQ}}}{\tau_{\text{RQ}}} = \frac{1-t_2}{1-t_1}$$
 ### Same Tax Bracket during Withdrawal
 In most scenarios barring a few exceptional ones, if you are doing a premature withdrawal, it is considered unqualified and you may have to pay a withdrawal penalty on all or a portion of your savings depending on the type of the account. It is strictly better to leave your savings undisturbed and withdraw only after retirement. However, life is uncertain. You may want to pull the plug. I know this will hurt my take home, but by how much? Certainly there must be an advantage to having my savings grow in a tax advantaged account. When does it break even with investing that money elsewhere and perhaps in a more liquid investment that I can summon to help me during a rainy day?
 
+In case of a traditional 401(k) or IRA account, in order to break even
 
-The one thing I am curious to know is will my plan to invest for my retirement hurt 
+$$ 0.9 * (1-t) * (1+g) * \mathbf{y} \geq (1 + (1-t) * g) * \mathbf{(1-t) * y}$$
+
+So, your investment must grow at least
+$$ g \geq \frac{1}{10t - 1} $$
