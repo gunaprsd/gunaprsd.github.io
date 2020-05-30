@@ -79,8 +79,8 @@ The take home value at withdrawal for various scenarios in these retirement acco
 | $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y}$  |
 
 
-### Lower Tax Bracket during Withdrawal
-One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. Assuming you are making a qualified withdrawal during retirement, of course, contributing more is beneficial. But, how much more?
+### Lower Tax Bracket at Mature Withdrawal
+One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. Assuming you are making a qualified withdrawal during retirement, of course, contributing more is beneficial. But, how much?
 
 For instance, let's say the growth is $500\%$ growth over $30$years (That's not huge! It is approximately a $5.5\%$ YoY compound growth which is quite conservative). So $g=4$. Let's say you pay $35\%$ tax right now and expect to pay $15\%$ when you retire. If you invest USD $1000$ today, then 
 * If you save elsewhere, it would grow to a take home of $(0.65 + 4 * 0.85) * 1000 = 4050$
