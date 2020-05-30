@@ -41,9 +41,12 @@ Now, it is time to dive deeper and quantify these.
 ### Should you match your employer contribution limit?
 Let's say your employer matches $100\%$ upto USD $5000$. We'll see why you should absolutely match the limit in this case! Your post tax earnings at a $30\%$ tax rate would be USD $3500$. But with the employer match, your contribution becomes USD $10000$, and even if you withdraw immediately incurring a penalty of $10\%$, it becomes ~ $(1 - 0.3 - 0.1) * 2 * 5000$ = USD $6000$. 
 
-Precisely, if your employer match ratio is $x$ upto limit USD $y$ and tax ratio $t$, your take home portion corresponding to USD $y$ would be $(1-t)y$ if you do not contribute. If you do and withdraw immediately, it would be $(0.9-t)(1+x)y$. So, it makes sense to contribute when
-$$ (0.9-t)(1+x)y > (1-t)y$$
-which yields $x > \frac{1}{(9-10t)}$. Even for a tax rate as high as $40\%$, you can contribute upto the limit if the match is greater than $20\%$.
+Precisely, if your employer match ratio is $x$ upto limit USD $y$ and tax ratio $t$, your take home portion corresponding to USD $y$ would be $(1-t)y$ if you do not contribute. If you do and withdraw immediately, it would be $(0.9-t)(1+x)y$. So, it makes sense to contribute when $ (0.9-t)(1+x)y > (1-t)y$
+which yields 
+
+$$x > \frac{1}{(9-10t)}$$ 
+
+So, Even for a tax rate as high as $40\%$, you can contribute upto the limit if the match is greater than $20\%$.
 
 ### Should you contribute more with tax deferral?
 
