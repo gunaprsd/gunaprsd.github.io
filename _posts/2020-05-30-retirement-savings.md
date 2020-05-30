@@ -61,11 +61,11 @@ The take home value at withdrawal for various scenarios in these retirement acco
 
 **Traditional 401(k) or IRA**
   
-| Age                   | Qualified*  | Take Home Value at Withdrawal         |
-|-----------------------|-------------|---------------------------------------|
-| $\geq 59\frac{1}{2}$  | -           | $(1-t_2) * (1+g) * \mathbf{y}$        |
-| $< 59\frac{1}{2}$     | Yes         | $(1-t_2) * (1+g) * \mathbf{y}$        |
-| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$  |
+| Age                   | Qualified*  | Take Home Value at Withdrawal         | Break Even            | Adjusted Growth Rate  |
+|-----------------------|-------------|---------------------------------------|-----------------------|-----------------------|
+| $\geq 59\frac{1}{2}$  | -           | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater        | g                     |
+| $< 59\frac{1}{2}$     | Yes         | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater        | g                     |
+| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$  | $g = \frac{1}{10t-1}  | \frac{9g - 1}{10}     |
 
 
 **Roth 401(k) or IRA**
