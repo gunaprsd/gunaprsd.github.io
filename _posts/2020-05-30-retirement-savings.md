@@ -65,9 +65,9 @@ Let's model the scenarios wer are interested in.  Say the current and future tax
 ### Lower Tax Bracket during Withdrawal
 One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. If you are making a qualified withdrawal, of course, contributing more is beneficial. But, how much more?
 
-$$ \tau_{\text{TQ}} = \frac{1}{\left(1 + \frac{(1-t_1)}{(1-t_2)g}\right)}$$
+$$ \tau_{\text{TQ}} = \frac{1}{1 + \frac{(1-t_1)}{(1-t_2) * g}}$$
 
-$$ \tau_{\text{RQ}} = \frac{1+g}{1 + \frac{1-t_2}{1-t_1} * g}$$
+$$ \tau_{\text{RQ}} = \frac{1+g}{1 + \frac{(1-t_2)* g}{(1-t_1)} }$$
 
 ### Same Tax Bracket during Withdrawal
 
