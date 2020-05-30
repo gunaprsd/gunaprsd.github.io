@@ -57,7 +57,7 @@ When you invest the money elsewhere in a regular investment account, the take ho
 
 $$ \left(1 + (1 - t_2) * g\right) * (1 - t_1) * y $$
 
-The take home value at withdrawal for various scenarios in these retirement accounts are summarized below. Compared to Regular denotes the relationship of the take home value with that of a regular investment account. Adjusted growth rate $\cap{g}$ denotes the effective growth rate for the corresponding type of the retirement account after taking into the account the taxes/penalty due to an early withdrawal. Both of these numbers assume that future tax rate is same as current tax rate $t_1 = t_2$.
+The take home value at withdrawal for various scenarios in these retirement accounts are summarized below. Compared to Regular denotes the relationship of the take home value with that of a regular investment account. Adjusted growth rate, $\hat{g}$, denotes the effective growth rate for the corresponding type of the retirement account after taking into the account the taxes/penalty due to an early withdrawal. Both of these numbers assume that future tax rate is same as current tax rate $t_1 = t_2$.
 
 **Traditional 401(k) or IRA**
   
