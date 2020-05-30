@@ -59,7 +59,7 @@ $$ \left(1 + (1-t_2) * g\right) * \mathbf{(1-t_1) * y} $$
 
 The take home value at withdrawal for various scenarios in these retirement accounts are summarized below:
 
-** Traditional 401(k) or IRA **
+**Traditional 401(k) or IRA**
   
 | Age                   | Qualified*  | Take Home Value at Withdrawal         |
 |-----------------------|-------------|---------------------------------------|
@@ -68,7 +68,7 @@ The take home value at withdrawal for various scenarios in these retirement acco
 | $< 59\frac{1}{2}$     | No          | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$  |
 
 
-** Roth 401(k) or IRA **
+**Roth 401(k) or IRA**
   
 | Age                   | 5Y Rule Met? | Qualified  | Take Home Value at Withdrawal                     |
 |-----------------------|--------------|------------|---------------------------------------------------|
