@@ -93,4 +93,4 @@ So, your investment must grow at least
 
 $$ g \geq \frac{1}{10t - 1} $$
 
-in order to break even. In other words, you will not be hurt more than "not saving for retirement using these accounts" if you withdraw your money prematurely after it has grown to \frac{10t}{10t-1}.  
+in order to break even. In other words, you will not be hurt more than "not saving for retirement using these accounts" if you withdraw your money prematurely after it has grown to $\frac{10t}{10t-1}$.  
