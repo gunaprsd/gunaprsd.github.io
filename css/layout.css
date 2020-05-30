@@ -36,7 +36,8 @@
     --blue:  #0366d6;
     --link-color: var(--blue);
 
-    --default-font-family: 'Freight Sans Book', sans-serif;
+/*     --default-font-family: 'Freight Sans Book', sans-serif; */
+    --default-font-family: 'Lora', serif;
     --default-font-size: 18px;
 
     /* h2 */
