@@ -53,16 +53,30 @@ Now, we are done with all the extra money from your employer. The primary advant
 
 Let's model the scenarios wer are interested in.  Say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. We also assume the net growth rate of principal within or outside the accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. While this *similar growth* assumption simplifies our analysis, these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account. But we should ideally invest in assets with a similar risk profile and hence similar growth assumption is fine. 
 
+In the alternate scenario, where you invest the money elsewhere, the take home value of that investment at withdrawal is 
 
-| Scenario                                        | Take Home Value at Withdrawal                         |
-|-------------------------------------------------|-------------------------------------------------------|
-| Not Contribute                                  | $\left(1 + (1-t_2) * g\right) * \mathbf{(1-t_1) * y}$ |
-| Traditional 401(k)/IRA - Qualified Withdrawal   | $(1-t_2) * (1+g) * \mathbf{y}$                        |
-| Traditional 401(k)/IRA - Unqualified Withdrawal | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$                  |
-| Roth 401(k)/IRA - Qualified Withdrawal          | $(1+g) * \mathbf{(1-t_1) * y}$                        |
-| Roth 401(k)/IRA - Unqualified Withdrawal        | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y} $     |
+$$ \left(1 + (1-t_2) * g\right) * \mathbf{(1-t_1) * y} $$
 
-  
+The take home value at withdrawal for various scenarios in these retirement accounts are summarized below:
+
+** Traditional 401(k) or IRA **
+| Age                   | Qualified*  | Take Home Value at Withdrawal         |
+|-----------------------|-------------|---------------------------------------|
+| $\geq 59\frac{1}{2}$  | -           | $(1-t_2) * (1+g) * \mathbf{y}$        |
+| $< 59\frac{1}{2}$     | Yes         | $(1-t_2) * (1+g) * \mathbf{y}$        |
+| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$  |
+
+
+** Roth 401(k) or IRA **
+| Age                   | 5Y Rule Met? | Qualified  | Take Home Value at Withdrawal                     |
+|-----------------------|--------------|------------|---------------------------------------------------|
+| $\geq 59\frac{1}{2}$  | Yes          | Yes        | $(1 + g) * \mathbf{(1-t_1) * y}$                  |
+| $\geq 59\frac{1}{2}$  | No           | Yes        | $(1 + (1-t_2) * g) * \mathbf{(1-t_1) * y}$        |
+| $< 59\frac{1}{2}$     | Yes          | Yes        | $(1 + g) * \mathbf{(1-t_1) * y}$                  |
+| $< 59\frac{1}{2}$     | No           | Yes        | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      |
+| $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y}$  |
+
+
 ### Lower Tax Bracket during Withdrawal
 One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. Assuming you are making a qualified withdrawal during retirement, of course, contributing more is beneficial. But, how much more?
 
@@ -85,7 +99,7 @@ $$ \frac{\tau_{\text{TQ}}}{\tau_{\text{RQ}}} = \frac{1-t_2}{1-t_1}$$
 ### Same Tax Bracket during Withdrawal
 In most scenarios barring a few exceptional ones, if you are doing a premature withdrawal, it is considered unqualified and you may have to pay a withdrawal penalty on all or a portion of your savings depending on the type of the account. It is strictly better to leave your savings undisturbed and withdraw only after retirement. However, life is uncertain. You may want to pull the plug. I know this will hurt my take home, but by how much? Certainly there must be an advantage to having my savings grow in a tax advantaged account. When does it break even with investing that money elsewhere and perhaps in a more liquid investment that I can summon to help me during a rainy day?
 
-For this analysis, we will assume that you are in the same tax bracket during withdrawal. In case of a traditional 401(k) or IRA account, in order to break even
+For this analysis, we will assume that you are in the same tax bracket during withdrawal and you withdraw the entire amount in chunks to belong to the same tax bracket. In case of a traditional 401(k) or IRA account, in order to break even
 
 $$ 0.9 * (1-t) * (1+g) * y \geq (1 + (1-t) * g) * (1-t) * y$$
 
@@ -95,8 +109,9 @@ $$ g \geq \frac{1}{10t - 1} $$
 
 in order to break even. In other words, you will not be hurt more than "not saving for retirement using these accounts" if you withdraw your money prematurely after it has grown to $\frac{10t}{10t-1}$ in your traditional 401(k) or IRA account.
 
-For a Roth 401(k) or IRA, there is no break-even never occurs since
+For a Roth 401(k) or IRA, there is no break-even since
 
 $$(1 + 0.9 * (1-t) * g) * (1-t) * y  \not\geq (1 + (1-t) * g) * (1-t) * y$$ 
 
+This means, Roth gives you much less flexibility with clearing up your account. However, Roth gives you more flexibility with moving a portion of your money. Specifically, you are free to withdraw your contributions (not the earnings) that are 5-years old, tax and penalty-free anytime. 
  
