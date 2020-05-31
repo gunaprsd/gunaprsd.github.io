@@ -137,17 +137,11 @@ In case of a traditional 401(k) or IRA account, in order to break even we want
 
 $$ 0.9 * (1-t) * (1+g) * y \geq (1 + (1-t) * g) * (1-t) * y$$. 
   
-So, the investment should have grown at least 
-
-$$ g \geq \frac{1}{10t - 1} $$. 
+So, the investment should have grown at least $$ g \geq \frac{1}{10t - 1} $$. 
   
 In other words, you will not be hurt more than "not saving for retirement using these accounts" if you withdraw your money prematurely after it has grown to $\frac{10t}{10t-1}$ (i.e. $1 + g$) in your traditional 401(k) or IRA account. The adjusted growth rate in case of a Traditional account is $\frac{9g - 1}{10}$. Interestingly, the higher the growth lower the impact of an unqualified withdrawal. For a $g=4$, $\hat{g} = 3.5$ and $g=5$ yeilds $\hat{g} = 4.4$. 
 
-For a Roth 401(k) or IRA, there is no break-even if you make an unqualified withdrawal. In fact, you would lose 
-  
-$$ 0.1 * (1-t) * g * (1-t) * y $$. 
-  
-This is a $10\%$ loss in growth compared to investing the money elsewhere. The adjusted growth rate is $\hat{g} = 0.9 * (1-t) * g$ and for a tax rate of $30\%$, $\hat{g} = 0.63 * g$. Here, the impact of an unqualified withdrawal depends both on the tax bracket at which you do. 
+For a Roth 401(k) or IRA, there is no break-even if you make an unqualified withdrawal. In fact, you would lose $$ 0.1 * (1-t) * g * (1-t) * y $$. This is a $10\%$ loss in earnings compared to investing the money elsewhere. The adjusted growth rate is $\hat{g} = 0.9 * (1-t) * g$ and for a tax rate of $30\%$, $\hat{g} = 0.63 * g$. Here, the impact of an unqualified withdrawal depends both on the tax bracket at which you do. 
 
 In addition, Roth also expands the scope of qualified withdrawals and you should use them when it makes sense. Does it ever make sense to withdraw without meeting the 5Y rule i.e. You start contributing to a Roth IRA account and withdraw the money in less than 5 years. Yes! In fact, you would exactly break-even with growing your money elsewhere. However, it is sub-optimal -- incurring a loss in terms of the tax you pay.
   
