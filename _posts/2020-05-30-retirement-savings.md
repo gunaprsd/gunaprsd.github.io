@@ -70,56 +70,46 @@ Barring a few exceptional cases, the Government wants you to stick to your plan 
 Turns out, not exactly! And that is why it helps to quantify the tax and employer benefits that come with these accounts against its limitation. Let us start with a simple question.
 
 ### Should you match your employer contribution limit?
-Let's say your employer matches $100\%$ upto USD $5000$. We'll see why you should absolutely match the limit in this case! Your post tax earnings at a $30\%$ tax rate would be USD $3500$. But with the employer match, your contribution becomes USD $10000$, and even if you withdraw immediately incurring a penalty of $10\%$, it becomes ~ $(1 - 0.3 - 0.1) * 2 * 5000$ = USD $6000$. 
+Most employers match your contributions to your 401(k) upto a certain limit. You can think of this as extra money that you do not get from your employer if you do not contribute. Consider this an incentive by your employer for you to save for your retirement. Should you match this amount, consider this locks in your money for a while? 
+
+Let's say your employer matches $100\%$ upto USD $5000$. Your post tax earnings at a $30\%$ tax rate would be USD $3500$. But with the employer match, your contribution becomes USD $10000$, and even if you withdraw immediately incurring a penalty of $10\%$, it becomes ~ $(1 - 0.3 - 0.1) * 2 * 5000$ = USD $6000$. It totally makes sense to match your employer contribution here.
 
 Precisely, if your employer match ratio is $x$ upto limit USD $y$ and tax ratio $t$, your take home portion corresponding to USD $y$ would be $(1-t)y$ if you do not contribute. If you do and withdraw immediately, it would be $(0.9-t)(1+x)y$. So, it makes sense to contribute when $ (0.9-t)(1+x)y > (1-t)y$
 which yields 
 
 $$x > \frac{1}{(9-10t)}$$ 
 
-So, Even for a tax rate as high as $40\%$, you can contribute upto the limit if your employer match is greater than $20\%$.
+So, Even for a tax rate as high as $40\%$, you should contribute upto the limit if your employer match is greater than $20\%$.
 
 ### Should you contribute more than employer matching limit?
-Now, we are done with all the extra money from your employer. The primary advantage of contributing to your retirement accounts now is the tax benefits. How do we quantify this to help with our analysis? Let's define *take home advantage* ($\tau$) as "ratio of take home value when you invest pre-tax income of USD $y$ in one of these accounts to that of investing it elsewhere". Note that this amount, USD $y$, is whatever you contribute beyond your employer matching limit - so no extra money here.
+Now, we are done with all the extra money from your employer. The primary advantage of contributing to your retirement accounts now is the tax benefits. 
 
-Let's model the scenarios wer are interested in.  Say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. We also assume the net growth rate of principal within or outside the accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. While this *similar growth* assumption simplifies our analysis, these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account. But we should ideally invest in assets with a similar risk profile and hence similar growth assumption is fine. 
-
-When you invest the money elsewhere in a regular investment account, the take home value of that would be
-
-$$ \left(1 + (1 - t_2) * g\right) * (1 - t_1) * y $$
-
-The take home value at withdrawal for various scenarios in these retirement accounts are summarized below. Compared to Regular denotes the relationship of the take home value with that of a regular investment account. Adjusted growth rate, $\hat{g}$, denotes the effective growth rate for the corresponding type of the retirement account after taking into the account the taxes/penalty due to an early withdrawal. Both of these numbers assume that future tax rate is same as current tax rate $t_1 = t_2$.
+Let's model the scenarios we are interested in. The take home value at withdrawal for various scenarios in these retirement accounts with the same current and future tax rate (i.e. $t_1 = t_2$) are summarized below. *'Compared to Regular'* denotes the relationship of the take home value with that of a regular investment account. *'Adjusted Growth Rate'*, $\hat{g}$, denotes the effective growth rate for the corresponding type of the retirement account after taking into the account the taxes/penalty due to an early withdrawal. For instance, $\tau$ of Traditional/Roth account for a certain type of withdrawal with AGR $\hat{g}$ is $(1-t) * (1+\hat{g}) * \mathbf{y}$.
 
 **Traditional 401(k) or IRA**
   
 | Age                   | Qualified*  | Take Home Value                       | Compared to Regular           | Adjusted Growth Rate  |
 |-----------------------|-------------|---------------------------------------|----------------------------------|-----------------------|
-| $\geq 59\frac{1}{2}$  | -           | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
-| $< 59\frac{1}{2}$     | Yes         | $(1-t_2) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
-| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t_2) * (1+g) * \mathbf{y}$  | Equal when $g = \frac{1}{10t-1}$ | $\frac{9g - 1}{10}$   |
+| $\geq 59\frac{1}{2}$  | -           | $(1-t) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
+| $< 59\frac{1}{2}$     | Yes         | $(1-t) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
+| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t) * (1+g) * \mathbf{y}$  | Equal when $g = \frac{1}{10t-1}$ | $\frac{9g - 1}{10}$   |
 
 
 **Roth 401(k) or IRA**
-  
+To understand the various withdrawal scenarios for Roth accounts, I recommend the reader to take a look at this [post](https://www.investopedia.com/roth-ira-withdrawal-rules-4769951).  
 | Age                   | 5Y Rule Met? | Qualified  | Take Home Value                                   | Compared to Regular  | Adjusted Growth Rate |
 |-----------------------|--------------|------------|---------------------------------------------------|-----------------------------|----------------------|
-| $\geq 59\frac{1}{2}$  | Yes          | -          | $(1 + g) * \mathbf{(1-t_1) * y}$                  | Always Greater              | $g$                  |
-| $\geq 59\frac{1}{2}$  | No           | -          | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      | Always Equal                | $(1-t) * g$          |
-| $< 59\frac{1}{2}$     | Yes          | Yes        | $(1 + g) * \mathbf{(1-t_1) * y}$                  | Always Greater              | $g$                  | 
-| $< 59\frac{1}{2}$     | No           | Yes        | $(1 + (1 - t_2) * g) * \mathbf{(1-t_1) * y}$      | Always Equal                | $(1-t) * g$          |              
-| $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y}$  | Always $10\%$ Lesser        | $ 0.9(1 - t) * g$    |
+| $\geq 59\frac{1}{2}$  | Yes          | -          | $(1 + g) * \mathbf{(1-t) * y}$                  | Always Greater              | $g$                  |
+| $\geq 59\frac{1}{2}$  | No           | -          | $(1 + (1 - t) * g) * \mathbf{(1-t) * y}$      | Always Equal                | $(1-t) * g$          |
+| $< 59\frac{1}{2}$     | Yes          | Yes        | $(1 + g) * \mathbf{(1-t) * y}$                  | Always Greater              | $g$                  | 
+| $< 59\frac{1}{2}$     | No           | Yes        | $(1 + (1 - t) * g) * \mathbf{(1-t) * y}$      | Always Equal                | $(1-t) * g$          |              
+| $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t) * g) * \mathbf{(1-t) * y}$  | Always $10\%$ Lesser        | $ 0.9(1 - t) * g$    |
 
 
-In most scenarios barring a few exceptional ones, if you are doing a premature withdrawal, it is considered unqualified and you may have to pay a withdrawal penalty on all or a portion of your savings depending on the type of the account. It is strictly better to leave your savings undisturbed and withdraw only after retirement. However, life is uncertain. You may want to pull the plug. I know this will hurt my take home, but by how much? Certainly there must be an advantage to having my savings grow in a tax advantaged account. When does it break even with investing that money elsewhere and perhaps in a more liquid investment that I can summon to help me during a rainy day?
+Obviously, it is beneficial to maintain the retirement accounts until maturity. However, let us analyze the case when you want to do an early withdrawal. We want to make sure we do not lose money in that scenario compared to having invested it elsewhere. We essentialy need to find the break-even point for using vs. not using these retirement accounts.
 
-For this analysis, we will assume that you are in the same tax bracket during withdrawal and you withdraw the entire amount in chunks to belong to the same tax bracket. 
+In case of a traditional 401(k) or IRA account, in order to break even we want $ 0.9 * (1-t) * (1+g) * y \geq (1 + (1-t) * g) * (1-t) * y$. So, the investment should have grown at least $$ g \geq \frac{1}{10t - 1} $$. In other words, you will not be hurt more than "not saving for retirement using these accounts" if you withdraw your money prematurely after it has grown to $\frac{10t}{10t-1}$ (i.e. $1 + g$) in your traditional 401(k) or IRA account. The adjusted growth rate in case of a Traditional account is $\frac{9g - 1}{10}$. Interestingly, the higher the growth lower the impact of an unqualified withdrawal. For a $g=4$, $\hat{g} \approx 0.7 * g$ and $g=5$ yeilds $\hat{g} 0.88 * g$. 
 
-In case of a traditional 401(k) or IRA account, in order to break even with an unqualified withdrawal we want $ 0.9 * (1-t) * (1+g) * y \geq (1 + (1-t) * g) * (1-t) * y$. So, your investment must grow at least
+For a Roth 401(k) or IRA, there is no break-even if you make an unqualified withdrawal. In fact, you would lose  $$ 0.1 * (1-t) * g * (1-t) * y $$. This is a $10\%$ loss in growth compared to investing the money elsewhere. The adjusted growth rate is $\hat{g} = 0.9 * (1-t) * g$ and for a tax rate of $30\%$, $\hat{g} = 0.63 * g$. Here, the impact of an unqualified withdrawal depends both on the tax bracket at which you do and the growth. 
 
-$$ g \geq \frac{1}{10t - 1} $$
-
-in order to break even. In other words, you will not be hurt more than "not saving for retirement using these accounts" if you withdraw your money prematurely after it has grown to $\frac{10t}{10t-1}$ in your traditional 401(k) or IRA account.
-
-For a Roth 401(k) or IRA, there is no break-even if you make an unqualified withdrawal. In fact, you would lose  $$ 0.1 * (1-t) * g * (1-t) * y $$. This is a $10\%$ loss in growth compared to investing the money elsewhere, and a $(10 + 90t)\%$ loss in growth compared to waiting until retirement to take complete advantage of Roth savings. 
-
-However, Roth expands the scope of qualified withdrawals and you should use them when it makes sense. In that case, does it ever make sense to do a qualified withdrawal when the 5-year rule is not met? i.e. You start contributing to a Roth IRA account and withdraw the money in less than 5 years. Yes! In fact, you would exactly break-even with growing your money elsewhere. However, it is sub-optimal -- incurring a loss of $100t\%$ in comparison to waiting to meet the 5-year rule.
+In addition, Roth also expands the scope of qualified withdrawals and you should use them when it makes sense. Does it ever make sense to withdraw without meeting the 5Y rule i.e. You start contributing to a Roth IRA account and withdraw the money in less than 5 years. Yes! In fact, you would exactly break-even with growing your money elsewhere. However, it is sub-optimal -- incurring a loss in terms of the tax you pay.
