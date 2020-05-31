@@ -57,7 +57,7 @@ For instance, let's say the investment grew to $5\times$ over $30$years (That's 
 * If you save in a traditional 401(k) or IRA account, you would get $0.85 * 5 * 1000 = 4250$
 * If you save in a Roth 401(k) or IRA account, you would get $5 * 0.65 * 1000 = 3250$
 
-On the other hand, if you expect to find yourself in a higher tax bracket later, say current is $20\%$ and future is $35\%$ then,
+On the other hand, if you expect to be in a higher tax bracket later, say current is $20\%$ and future is $35\%$ then,
 * Saving elsewhere will yield a take home of $(0.8 + 4 * 0.65) * 1000 = 3400$
 * Saving in a traditional 401(k) or IRA would yield $0.65 * 5 * 1000 = 3250$
 * Saving in a Roth account would yield $0.8 * 5 * 1000 = 4000$. 
