@@ -6,22 +6,33 @@ author: Guna Prasaad
 categories:
 ---
 
-*Disclaimer: The following is a personal note written by the author to clarify the trade-offs within various retirement savings options to self. It is shared only in the public interest that it could be useful to others. It is not intended to serve as an official recommendation either by the author or any associated entities. The author is not a financial advisor in any capacity and provides no guarantee about the factual correctness of any of the following information. However, please reach out if you would like something modified for correctness.*
+*Disclaimer: This is a personal note written by the author to clarify the trade-offs within various retirement savings options to self. It is shared only in the public interest that it could be useful to others. It is not intended to serve as an official recommendation either by the author or any associated entities. The author is not a financial advisor in any capacity and provides no guarantee about the factual correctness of any of the following information. However, please reach out if you would like something modified for correctness.*
 
-I recently joined Facebook as a Software Engineer. One of the many things that are thrown at you as you begin settling at your new full time job is **retirement savings**. As I started reading more, I learnt about several retirement savings instruments such as the traditional 401(k), IRA and their Roth alternatives. While they all share the common purpose of saving for retirement, each one of them is different from the other in a rather subtle way. You can, of course, find several websites and blogposts talking about their similarities and differences such as this, this and this. But I often found myself unable to _quantify_ their advantages and disadvantages. I hope to discover the answers to some of them via this post.
+I recently joined Facebook as a Software Engineer. One of the many things that are thrown at you as you begin settling at your full time job is **Retirement Savings**. As I started reading more, I discovered several retirement savings options - for e.g. traditional 401(k), IRA and their Roth alternatives. While they all share the common purpose of saving for retirement, each one of them is different from the other in a rather subtle way. You can, of course, find several websites and blogposts talking about their similarities and differences such as [this](https://money.usnews.com/money/retirement/articles/retirement-accounts-you-should-consider), [this](https://www.investopedia.com/ask/answers/12/401k.asp) and [this](https://www.schwab.com/ira). Be that as it may, I often found myself unable to answer some key questions about their advantages. I hope to *quantify* the costs and benefits of using these retirement savings accounts.
 
-I will limit the discussion in this post to 4 types of retirement savings accounts - traditional and Roth 401(k); traditional and Roth IRA. I have summarized their key similarities and differences in the table below, when you maintain these accounts until maturity i.e. until you are $59\frac{1}{2}$ years. 
+I will focus only on 4 types of retirement accounts here: traditional and Roth 401(k); traditional and Roth IRA. 
 
-| Detail | Traditional 401(k) | Roth 401(k) | Traditional IRA | Roth IRA |
-|--------|--------------------|-------------|-----------------|----------|
-| Employer Contribution Allowed | Yes | Yes | No | No |
-| AGI Limit | No | No  | No | Yes |
-| Contribution Limit | Yes | Yes | Yes | Yes |
-| Tax Deferral on Contribution | Yes | No | Yes | No |
-| Taxed during Withdrawal - Contributions | Yes | No | Yes | No |
-| Taxed during Withdrawal - Earnings | Yes | No | Yes | No |
+## When you stick to the plan
+Fundamentally, there are two kinds of retirement plans based on who sponsors it. 
+A 401(k) is a company sponsored retirement plan, while an Individual Retirement Account (IRA) is sponsored by yourself. 
+Each company you work at will typically create a 401(k) for you. You can manage an IRA across companies and where you work at has nothing to do with your IRA. 
 
-To be eligible to use Roth IRA, your Adjusted Gross Income (AGI) must be less than a certain limit; others do not have such a limit. Since all these are tax advantaged accounts, they also have a limit on how much you can contribute to them. For example, your personal contributions to traditional and Roth 401(k) combined is capped at $19,500 for 2020. Then comes the major difference between traditional and Roth accounts in terms of when you pay taxes on contributions and earnings. Contributions to traditional 401(k) or IRA are tax deferred, and are taxed during withdrawal. On the other hand, contributions to Roth 401(k) and IRA are post-tax. Since you have paid taxes now, you do not have to pay taxes when you withdraw the contribution amount. The other major difference is in terms of how earnings are handled. Earnings on contributions in traditional 401(k) or IRA are taxed during withdrawal. In case of a Roth 401(k) or IRA, the earnings are both penalty and tax-free. 
+The unifying constraint in all these types of accounts is that you reap the full benefits when you withdraw money when you retire i.e. after you are $59\frac{1}{2}$ years. Let's look at how simlarities and differences between these different types of accounts when you stick to this plan. 
+
+| Detail                                  | Traditional 401(k)  | Roth 401(k) | Traditional IRA | Roth IRA  |
+|-----------------------------------------|---------------------|-------------|-----------------|-----------|
+| Employer Contribution Allowed           | Yes                 | Yes         | No              | No        |
+| AGI Limit                               | No                  | No          | No              | Yes       |
+| Contribution Limit                      | Yes                 | Yes         | Yes             | Yes       |
+| Taxed during Contribution               | No                  | Yes         | No              | Yes       |
+| Taxed during Withdrawal - Contributions | Yes                 | No          | Yes             | No        |
+| Taxed during Withdrawal - Earnings      | Yes                 | No          | Yes             | No        |
+
+Since these are tax advantaged accounts, the IRS has created some checks and balances to prevent abusing them. The first kind is an Adjusted Gross Income (AGI) limit, which applies only to Roth IRA. You are eligible to contribute to a Roth IRA account only if your income is below certain threshold. The second kind of limit is on the amount you can contribute to every financial year. For example, your personal contributions to traditional and Roth 401(k) combined is capped at USD $19,500$; and traditional and Roth IRA combined is capped at USD $6000$ for 2020. You can find up-to-date details elsewhere.
+
+The next major difference is in terms of if and when you pay taxes on contributions and earnings. Contributions to traditional 401(k) or IRA are usually tax deffered and taxed during withdrawal. On the other hand, contributions to Roth 401(k) and IRA are taxed during contribution and is not taxed during withdrawal. Earnings,however, are handled slightly differently. Earnings on contributions in a traditional 401(k) or IRA are taxed during withdrawal, while in case of a Roth 401(k) or IRA, they can be withdrawn tax-free.
+
+
 
 It helps to understand a couple of things as we move forward. 
 1. **Employer contribution:** The 401(k) accounts are usually supported by your employers and most of them match your contributions upto a certain limit. You can think of this as _extra money_ that you do not get from your employer if you do not contribute. Consider this an incentive by your employer for you to save for your retirement. 
