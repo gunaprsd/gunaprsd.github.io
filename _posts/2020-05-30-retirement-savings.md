@@ -33,6 +33,15 @@ Since these are tax advantaged accounts, the IRS has created some checks and bal
 The next major difference is in terms of if and when you pay taxes on contributions and earnings. Contributions to traditional 401(k) or IRA are usually tax deffered and taxed during withdrawal. On the other hand, contributions to Roth 401(k) and IRA are taxed during contribution and is not taxed during withdrawal. Earnings,however, are handled slightly differently. Earnings on contributions in a traditional 401(k) or IRA are taxed during withdrawal, while in case of a Roth 401(k) or IRA, they can be withdrawn tax-free.
 
 ### Benefit of a Tax-Advantaged Growth
+<div class='tldr'>
+<ul>
+  <li> For a current and future tax rate of $30\%$, and a net growth of principal to $5\times$, not using a retirement account could cost you $1.2\times$!! </li>
+  <li>If the current and future tax rate is same, the take home with both Roth and Traditional accounts is the same.</li>
+  <li>If you expect to be in a lower tax bracket in the future, save using a Traditional 401(k) or IRA.</li>
+  <li>If you expect to be in a higher tax bracket in the future, save using a Roth 401(k) or IRA.</li>
+</ul> 
+</div>
+
 What exactly is the benefit of a tax-advantaged growth? It helps to quantify this. To do this we are going to make some assumptions: Let the current and future tax rates be $t_1$ and $t_2$ and the contribution amount is $y$ USD. The net growth rate of principal when you invest in one of these accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. 
 
 We are interested in the *take home value* $\tau$ of this investment in two scenarios: (1) when you invest it in one of these retirement savings accounts and (2) when you invest it elsewhere. To simplify our analysis, we make a key assumption, "that the principal grows at a similar net growth rate even when you invest it elsewhere". While these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account, we should ideally invest in assets with a similar risk profile and hence similar growth assumption is not wild. 
@@ -53,14 +62,14 @@ USD $y$ of pre-tax income amounts to $(1-t_1) * y$ investment that would grow to
 $$\tau_3 = (1 - t_1) * (1 + g) * y$$. 
 
 For instance, let's say the investment grew to $5\times$ over $30$years (That's not huge! It is approximately a $5.5\%$ YoY compound growth which is quite conservative). So $g=4$. Let's say you pay $35\%$ tax right now and expect to pay $15\%$ when you retire. If you invest USD $1000$ today, then 
-* If you save elsewhere, it would grow to a take home of $(0.65 + 4 * 0.85) * 1000 = 4050$
+* If you save elsewhere, it would grow to a take home of $(0.65 + 4 * 0.85 * 0.65) * 1000 = 2860$
 * If you save in a traditional 401(k) or IRA account, you would get $0.85 * 5 * 1000 = 4250$
 * If you save in a Roth 401(k) or IRA account, you would get $5 * 0.65 * 1000 = 3250$
 
 On the other hand, if you expect to be in a higher tax bracket later, say current is $20\%$ and future is $35\%$ then,
-* Saving elsewhere will yield a take home of $(0.8 + 4 * 0.65) * 1000 = 3400$
+* Saving elsewhere will yield a take home of $(0.8 + 4 * 0.65 * 0.8) * 1000 = 2880$
 * Saving in a traditional 401(k) or IRA would yield $0.65 * 5 * 1000 = 3250$
-* Saving in a Roth account would yield $0.8 * 5 * 1000 = 4000$. 
+* Saving in a Roth account would yield $0.8 * 5 * 1000 = 4000$.
 
 Clearly, if you expect to find yourself at a lower tax bracket later, then the take home value of Traditional > Elsewhere > Roth. If you expect a higher tax rate in the future, then Roth > Elsewhere > Traditional. 
 
@@ -73,7 +82,7 @@ Turns out, not exactly! And that is why it helps to quantify the tax and employe
 <div class='tldr'>
 <ul>
   <li>Try to take as much of your employer's matching contribution as possible. </li>
-  <li>If their matching ratio is greater than $\frac{1}{9-10t}$, then even withdrawing immediately yields a net positive outcome. For instance, if your tax rate is $30\%$, take all the matching contribution even if it as low as 17 cents for every dollar.</li>
+  <li>If your tax rate is $30\%$, matching the employer contribution is beneficial even if you withdrew immediately and the match is low as 17 cents per dollar.</li>
 </ul>
 </div>
 Most employers match your contributions to your 401(k) upto a certain limit. You can think of this as extra money that you do not get from your employer if you do not contribute. Consider this an incentive by your employer for you to save for your retirement. Should you match this amount, consider this locks in your money for a while? 
@@ -88,6 +97,15 @@ $$x > \frac{1}{(9-10t)}$$
 So, Even for a tax rate as high as $40\%$, you should contribute upto the limit if your employer match is greater than $20\%$.
 
 ### Should you contribute more than employer matching limit?
+<div class='tldr'>
+<ul>
+  <li> For a tax rate of $30\%$, it is more beneficial to invest in a Traditional 401(k) or IRA compared to a regular account, if you can wait until it grows to at least $1.5\times$ </li>
+  <li> You always lose money when you make an unqualified early withdrawal from a Roth 401(k) or IRA compared to a regular account </li>
+  <li> Making a qualified early withdrawal in a Roth 401(k) or IRA after meeting the 5-year rule is as good as qualified mature withdrawal </li>
+  <li> Making a qualified early withdrawal in a Roth 401(k) or IRA without meeting the 5-year rule is same as investing in a regular account </li>
+</ul>
+</div>
+
 Now, we are done with all the extra money from your employer. The primary advantage of contributing to your retirement accounts now is the tax benefits. 
 
 Let's model the scenarios we are interested in. The take home value at withdrawal for various scenarios in these retirement accounts with the same current and future tax rate (i.e. $t_1 = t_2$) are summarized below. *'Compared to Regular'* denotes the relationship of the take home value with that of a regular investment account. *'Adjusted Growth Rate'*, $\hat{g}$, denotes the effective growth rate for the corresponding type of the retirement account after taking into the account the taxes/penalty due to an early withdrawal. For instance, $\tau$ of Traditional/Roth account for a certain type of withdrawal with AGR $\hat{g}$ is $(1-t) * (1+\hat{g}) * \mathbf{y}$.
