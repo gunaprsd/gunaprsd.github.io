@@ -86,7 +86,7 @@ Turns out, not exactly! And that is why it helps to quantify the tax and employe
 <div class='tldr'>
 <ul>
   <li>Try to take as much of your employer's matching contribution as possible. </li>
-  <li>If your tax rate is $30\%$, matching the employer contribution is beneficial upon immediate withdrawal even for a  match as low as 17 cents per dollar.</li>
+  <li>Even if you plan to withdraw immediately, maxing out your employer contribution limit is benificial for a match is as low as 17 cents per dollar (for tax rate of $30\%$).</li>
 </ul>
 </div>
 Most employers match your contributions to your 401(k) upto a certain limit. You can think of this as extra money that you do not get from your employer if you do not contribute. Consider this an incentive by your employer for you to save for your retirement. Should you match this amount, consider this locks in your money for a while? 
