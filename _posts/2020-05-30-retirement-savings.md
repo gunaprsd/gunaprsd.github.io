@@ -70,12 +70,12 @@ Barring a few exceptional cases, the Government wants you to stick to your plan 
 Turns out, not exactly! And that is why it helps to quantify the tax and employer benefits that come with these accounts against its limitation. Let us start with a simple question.
 
 ### Should you match your employer contribution limit?
-<p span='tldr'>
+<div class='tldr'>
 <ul>
   <li>Try to take as much of your employer's matching contribution as possible. </li>
   <li>If their matching ratio is greater than $\frac{1}{9-10t}$, then even withdrawing immediately yields a net positive outcome. For instance, if your tax rate is $30\%$, take all the matching contribution even if it as low as 17 cents for every dollar.</li>
 </ul>
-</p>
+</div>
 Most employers match your contributions to your 401(k) upto a certain limit. You can think of this as extra money that you do not get from your employer if you do not contribute. Consider this an incentive by your employer for you to save for your retirement. Should you match this amount, consider this locks in your money for a while? 
 
 Let's say your employer matches $100\%$ upto USD $5000$. Your post tax earnings at a $30\%$ tax rate would be USD $3500$. But with the employer match, your contribution becomes USD $10000$, and even if you withdraw immediately incurring a penalty of $10\%$, it becomes ~ $(1 - 0.3 - 0.1) * 2 * 5000$ = USD $6000$. It totally makes sense to match your employer contribution here.
