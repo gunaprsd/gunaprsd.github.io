@@ -32,6 +32,43 @@ Since these are tax advantaged accounts, the IRS has created some checks and bal
 
 The next major difference is in terms of if and when you pay taxes on contributions and earnings. Contributions to traditional 401(k) or IRA are usually tax deffered and taxed during withdrawal. On the other hand, contributions to Roth 401(k) and IRA are taxed during contribution and is not taxed during withdrawal. Earnings,however, are handled slightly differently. Earnings on contributions in a traditional 401(k) or IRA are taxed during withdrawal, while in case of a Roth 401(k) or IRA, they can be withdrawn tax-free.
 
+### Benefit of a Tax-Advantaged Growth
+What exactly is the benefit of a tax-advantaged growth? It helps to quantify this. To do this we are going to make some assumptions: Let the current and future tax rates be $t_1$ and $t_2$ and the contribution amount is $y$ USD. The net growth rate of principal when you invest in one of these accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. 
+
+We are interested in the *take home value* $\tau$ of this investment in two scenarios: (1) when you invest it in one of these retirement savings accounts and (2) when you invest it elsewhere. To simplify our analysis, we make a key assumption, "that the principal grows at a similar net growth rate even when you invest it elsewhere". While these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account, we should ideally invest in assets with a similar risk profile and hence similar growth assumption is not wild. 
+
+**Case 1: Invest elsewhere**. 
+USD $y$ of pre-tax income amounts to $(1-t_1) * y$ investment that would grow to $(1+g) * (1-t_1) * y$. Since only the capital gain is taxed, the final take home value would be
+
+$$\tau_1 = (1 + (1 - t_2) * g) * (1 - t_1) * y $$. 
+
+**Case 2: Invest in a Traditional 401(k) or IRA**. 
+The entire amount, USD $y$, is invested into the account, and that grows to $(1+g) * y$. The entire amount is taxed and the final take home value would be
+
+$$\tau_2 = (1 - t_2) * (1 + g) * y$$. 
+
+**Case 3: Invest in a Roth 401(k) or IRA**. 
+USD $y$ of pre-tax income amounts to $(1-t_1) * y$ investment that would grow to $(1+g) * (1-t_1) * y$ and can be withdrawn tax-free.
+
+$$\tau_3 = (1 - t_1) * (1 + g) * y$$. 
+
+
+One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. Assuming you are making a qualified withdrawal during retirement, of course, contributing more is beneficial. But, how much?
+
+For instance, let's say the growth is $500\%$ growth over $30$years (That's not huge! It is approximately a $5.5\%$ YoY compound growth which is quite conservative). So $g=4$. Let's say you pay $35\%$ tax right now and expect to pay $15\%$ when you retire. If you invest USD $1000$ today, then 
+* If you save elsewhere, it would grow to a take home of $(0.65 + 4 * 0.85) * 1000 = 4050$
+* If you save in a traditional 401(k) or IRA account, you would get $0.85 * 5 * 1000 = 4250$
+* If you save in a Roth 401(k) or IRA account, you would get $5 * 0.65 * 1000 = 3250$
+
+Precisely, 
+
+$$ \tau_{\text{TQ}} = \frac{1 + g}{1 + (1-t_2) * g}$$
+
+$$ \tau_{\text{RQ}} = \frac{1 - t_2}{1 - t_1} * \frac{1 + g}{1 + (1-t_2) * g}$$
+
+And more interestingly, it helps to answer the question should you save via a traditional or Roth account and how much do you gain/lose by doing it sub-optimally:
+
+$$ \frac{\tau_{\text{TQ}}}{\tau_{\text{RQ}}} = \frac{1-t_2}{1-t_1}$$
 
 
 It helps to understand a couple of things as we move forward. 
@@ -86,23 +123,6 @@ The take home value at withdrawal for various scenarios in these retirement acco
 | $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y}$  | Always $10\%$ Lesser        | $ 0.9(1 - t) * g$    |
 
 
-### Lower Tax Bracket at Mature Withdrawal
-One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. Assuming you are making a qualified withdrawal during retirement, of course, contributing more is beneficial. But, how much?
-
-For instance, let's say the growth is $500\%$ growth over $30$years (That's not huge! It is approximately a $5.5\%$ YoY compound growth which is quite conservative). So $g=4$. Let's say you pay $35\%$ tax right now and expect to pay $15\%$ when you retire. If you invest USD $1000$ today, then 
-* If you save elsewhere, it would grow to a take home of $(0.65 + 4 * 0.85) * 1000 = 4050$
-* If you save in a traditional 401(k) or IRA account, you would get $0.85 * 5 * 1000 = 4250$
-* If you save in a Roth 401(k) or IRA account, you would get $5 * 0.65 * 1000 = 3250$
-
-Precisely, 
-
-$$ \tau_{\text{TQ}} = \frac{1 + g}{1 + (1-t_2) * g}$$
-
-$$ \tau_{\text{RQ}} = \frac{1 - t_2}{1 - t_1} * \frac{1 + g}{1 + (1-t_2) * g}$$
-
-And more interestingly, it helps to answer the question should you save via a traditional or Roth account and how much do you gain/lose by doing it sub-optimally:
-
-$$ \frac{\tau_{\text{TQ}}}{\tau_{\text{RQ}}} = \frac{1-t_2}{1-t_1}$$
 
   
 ### Same Tax Bracket during Withdrawal
