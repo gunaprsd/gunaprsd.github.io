@@ -2,8 +2,12 @@
 layout: post
 title:  "Retirement Savings 101"
 date:   2020-05-30 00:00:00 -0800
+author: Guna Prasaad
 categories:
 ---
+
+*Disclaimer: The following is a personal note written by the author to clarify the trade-offs within various retirement savings options to self. It is shared only in the public interest that it could be useful to others. It is not intended to serve as an official recommendation either by author or any associated entities. The author is not a financial advisor in any capacity and provides no guarantee about the factual correctness of any of the following information.*
+
 I recently joined Facebook as a Software Engineer. One of the many things that are thrown at you as you begin settling at your new full time job is **retirement savings**. As I started reading more, I learnt about several retirement savings instruments such as the traditional 401(k), IRA and their Roth alternatives. While they all share the common purpose of saving for retirement, each one of them is different from the other in a rather subtle way. You can, of course, find several websites and blogposts talking about their similarities and differences such as this, this and this. But I often found myself unable to _quantify_ their advantages and disadvantages. I hope to discover the answers to some of them via this post.
 
 I will limit the discussion in this post to 4 types of retirement savings accounts - traditional and Roth 401(k); traditional and Roth IRA. I have summarized their key similarities and differences in the table below, when you maintain these accounts until maturity i.e. until you are $59\frac{1}{2}$ years. 
