@@ -8,9 +8,9 @@ categories:
 
 *Disclaimer: This is a personal note written by the author to clarify the trade-offs within various retirement savings options to self. It is shared only in the public interest that it could be useful to others. It is not intended to serve as an official recommendation either by the author or any associated entities. The author is not a financial advisor in any capacity and provides no guarantee about the factual correctness of any of the following information. However, please reach out if you would like something modified for correctness.*
 
-I recently joined Facebook as a Software Engineer. One of the many things that are thrown at you as you begin settling at your full time job is **Retirement Savings**. As I started reading more, I discovered several retirement savings options - for e.g. traditional 401(k), IRA and their Roth alternatives. While they all share the common purpose of saving for retirement, each one of them is different from the other in a rather subtle way. You can, of course, find several websites and blogposts talking about their similarities and differences such as [this](https://money.usnews.com/money/retirement/articles/retirement-accounts-you-should-consider), [this](https://www.investopedia.com/ask/answers/12/401k.asp) and [this](https://www.schwab.com/ira). Be that as it may, I often found myself unable to answer some key questions about their advantages. I hope to *quantify* the costs and benefits of using these retirement savings accounts.
+I recently joined Facebook as a Software Engineer. One of the many things that are thrown at you as you begin settling at your full time job is **Retirement Savings**. As I started reading more, I discovered several options that help you save for retirement - for e.g. Traditional 401(k), IRA and their Roth alternatives. While they all share the common purpose of saving for retirement, each one of them is different from the other in a rather subtle way. You can, of course, find several websites and blogposts talking about their similarities and differences such as [this](https://money.usnews.com/money/retirement/articles/retirement-accounts-you-should-consider), [this](https://www.investopedia.com/ask/answers/12/401k.asp) and [this](https://www.schwab.com/ira). Be that as it may, I often found myself unable to answer some key questions about their advantages. I hope to *quantify* the costs and benefits of using these retirement savings accounts.
 
-I will focus only on 4 types of retirement accounts here: traditional and Roth 401(k); traditional and Roth IRA. 
+I will focus only on 4 types of retirement accounts here: Traditional and Roth 401(k); Traditional and Roth IRA. 
 
 ## When you stick to the plan
 Fundamentally, there are two kinds of retirement plans based on who sponsors it. 
@@ -28,9 +28,9 @@ The unifying constraint in all these types of accounts is that you reap the full
 | Taxed during Withdrawal - Contributions | Yes                 | No          | Yes             | No        |
 | Taxed during Withdrawal - Earnings      | Yes                 | No          | Yes             | No        |
 
-Since these are tax advantaged accounts, the IRS has created some checks and balances to prevent abusing them. The first kind is an Adjusted Gross Income (AGI) limit, which applies only to Roth IRA. You are eligible to contribute to a Roth IRA account only if your income is below certain threshold. The second kind of limit is on the amount you can contribute to every financial year. For example, your personal contributions to traditional and Roth 401(k) combined is capped at USD $19,500$; and traditional and Roth IRA combined is capped at USD $6000$ for 2020. You can find up-to-date details elsewhere.
+Since these are tax advantaged accounts, the IRS has created some restrictions to prevent abuse. The first kind is an Adjusted Gross Income (AGI) limit, and that applies only to Roth IRA - you are eligible to contribute only if your income is below certain threshold. The second kind of limit is on the amount you can contribute every financial year. For example, your personal contributions to traditional and Roth 401(k) combined is capped at USD $19,500$; and traditional and Roth IRA combined is capped at USD $6000$ for 2020. You can find up-to-date details elsewhere.
 
-The next major difference is in terms of if and when you pay taxes on contributions and earnings. Contributions to traditional 401(k) or IRA are usually tax deffered and taxed during withdrawal. On the other hand, contributions to Roth 401(k) and IRA are taxed during contribution and is not taxed during withdrawal. Earnings,however, are handled slightly differently. Earnings on contributions in a traditional 401(k) or IRA are taxed during withdrawal, while in case of a Roth 401(k) or IRA, they can be withdrawn tax-free.
+The next major difference is related to if and when you pay taxes on contributions and earnings. Contributions to Traditional 401(k) or IRA are usually tax deffered and taxed during withdrawal. On the other hand, contributions to Roth 401(k) and IRA are taxed during contribution and is not taxed during withdrawal. Earnings, however, are handled slightly differently. Earnings on contributions in a Traditional 401(k) or IRA are taxed during withdrawal, while in case of a Roth 401(k) or IRA, they can be withdrawn tax-free.
 
 ### Benefit of a Tax-Advantaged Growth
 <div class='tldr'>
@@ -42,9 +42,9 @@ The next major difference is in terms of if and when you pay taxes on contributi
 </ul> 
 </div>
 
-What exactly is the benefit of a tax-advantaged growth? It helps to quantify this. To do this we are going to make some assumptions: Let the current and future tax rates be $t_1$ and $t_2$ and the contribution amount is $y$ USD. The net growth rate of principal when you invest in one of these accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. 
+What exactly is the benefit of a tax-advantaged growth? It helps to quantify this. To do this we are going to make some assumptions: Let the current and future tax rates be $t_1$ and $t_2$ and the contribution amount is $y$ USD. The net growth rate of principal when you invest in one of these accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later.
 
-We are interested in the *take home value* $\tau$ of this investment in two scenarios: (1) when you invest it in one of these retirement savings accounts and (2) when you invest it elsewhere. To simplify our analysis, we make a key assumption, "that the principal grows at a similar net growth rate even when you invest it elsewhere". While these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account, we should ideally invest in assets with a similar risk profile and hence similar growth assumption is not wild. 
+We are interested in the *take home value* $\tau$ of this investment in two scenarios: (1) when you invest it via one of these retirement savings accounts and (2) when you invest it elsewhere. To simplify our analysis, we make a key assumption about growth: "the principal grows at the same net growth rate as when you invest it elsewhere". While these retirement savings accounts typically have a restricted set of investment options compared to a regular brokerage account, we should ideally invest in assets with a similar risk profile, and hence our similar growth assumption is not wild. 
 
 **Case 1: Invest elsewhere**. 
 USD $y$ of pre-tax income amounts to $(1-t_1) * y$ investment that would grow to $(1+g) * (1-t_1) * y$. Since only the capital gain is taxed, the final take home value would be
@@ -65,13 +65,15 @@ For instance, let's say the investment grew to $5\times$ over $30$years (That's 
 * If you save elsewhere, it would grow to a take home of $(0.65 + 4 * 0.85 * 0.65) * 1000 = 2860$
 * If you save in a traditional 401(k) or IRA account, you would get $0.85 * 5 * 1000 = 4250$
 * If you save in a Roth 401(k) or IRA account, you would get $5 * 0.65 * 1000 = 3250$
-
+That is about $(4250-2860)/4250 \approx 33\%$ growth you are missing.
+  
 On the other hand, if you expect to be in a higher tax bracket later, say current is $20\%$ and future is $35\%$ then,
 * Saving elsewhere will yield a take home of $(0.8 + 4 * 0.65 * 0.8) * 1000 = 2880$
 * Saving in a traditional 401(k) or IRA would yield $0.65 * 5 * 1000 = 3250$
 * Saving in a Roth account would yield $0.8 * 5 * 1000 = 4000$.
-
-Clearly, if you expect to find yourself at a lower tax bracket later, then the take home value of Traditional > Elsewhere > Roth. If you expect a higher tax rate in the future, then Roth > Elsewhere > Traditional. 
+Again, here you miss $(4000-2880)/4000 \approx 28\%$ growth you are writing off.
+  
+We can also see that if you expect to be at a lower tax bracket later, then saving in a Traditional 401(k) or IRA is more beneficial than a Roth 401(k) or IRA. And if you expect a higher tax rate in the future, then Roth is better than Traditional accounts. But clearly, using a retirement savings accounts either Roth or Traditional is always better than not using one!
 
 ## When You Cannot Stick to the Plan
 Barring a few exceptional cases, the Government wants you to stick to your plan and withdraw money only after you retire at $59\frac{1}{2}$. These are not your run-of-the-mill savings account. So, they disincentivize you to treat it like one by imposing penalties. There is usually a 10% penalty on top of whatever income tax you owe if you withdraw money from these accounts before you are $59\frac{1}{2}$ years old. To me $59\frac{1}{2}$ is a good 30 years away and I frankly don't like to look so much ahead. I might want to cash out earlier. Given this uncertainty, how much is the advantage worth the liquidity I am giving away? Does that mean these investments are totally unattractive? 
