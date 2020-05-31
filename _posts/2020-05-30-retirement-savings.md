@@ -64,13 +64,13 @@ $$\tau_3 = (1 - t_1) * (1 + g) * y$$.
 For instance, let's say the investment grew to $5\times$ over $30$years (That's not huge! It is approximately a $5.5\%$ YoY compound growth which is quite conservative). So $g=4$. Let's say you pay $35\%$ tax right now and expect to pay $15\%$ when you retire. If you invest USD $1000$ today, then 
 * If you save elsewhere, it would grow to a take home of $(0.65 + 4 * 0.85 * 0.65) * 1000 = 2860$
 * If you save in a traditional 401(k) or IRA account, you would get $0.85 * 5 * 1000 = 4250$
-* If you save in a Roth 401(k) or IRA account, you would get $5 * 0.65 * 1000 = 3250$
+* If you save in a Roth 401(k) or IRA account, you would get $5 * 0.65 * 1000 = 3250$. 
 That is about $(4250-2860)/4250 \approx 33\%$ growth you are missing.
   
 On the other hand, if you expect to be in a higher tax bracket later, say current is $20\%$ and future is $35\%$ then,
 * Saving elsewhere will yield a take home of $(0.8 + 4 * 0.65 * 0.8) * 1000 = 2880$
 * Saving in a traditional 401(k) or IRA would yield $0.65 * 5 * 1000 = 3250$
-* Saving in a Roth account would yield $0.8 * 5 * 1000 = 4000$.
+* Saving in a Roth account would yield $0.8 * 5 * 1000 = 4000$.  
 Again, here you miss $(4000-2880)/4000 \approx 28\%$ growth you are writing off.
   
 We can also see that if you expect to be at a lower tax bracket later, then saving in a Traditional 401(k) or IRA is more beneficial than a Roth 401(k) or IRA. And if you expect a higher tax rate in the future, then Roth is better than Traditional accounts. But clearly, using a retirement savings accounts either Roth or Traditional is always better than not using one!
