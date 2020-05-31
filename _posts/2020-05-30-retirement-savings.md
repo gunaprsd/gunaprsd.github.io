@@ -92,7 +92,7 @@ Let's model the scenarios we are interested in. The take home value at withdrawa
 |-----------------------|-------------|---------------------------------------|----------------------------------|-----------------------|
 | $\geq 59\frac{1}{2}$  | -           | $(1-t) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
 | $< 59\frac{1}{2}$     | Yes         | $(1-t) * (1+g) * \mathbf{y}$        | Always Greater                   | $g$                   |
-| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t) * (1+g) * \mathbf{y}$  | Equal when $g = \frac{1}{10t-1}$ | $\frac{9g - 1}{10}$   |
+| $< 59\frac{1}{2}$     | No          | $0.9 * (1-t) * (1+g) * \mathbf{y}$  | Equal when $g = \frac{1}{10t-1}$ | $0.9 * g - 0.1$   |
 
 
 **Roth 401(k) or IRA**. 
@@ -103,7 +103,7 @@ Let's model the scenarios we are interested in. The take home value at withdrawa
 | $\geq 59\frac{1}{2}$  | No           | -          | $(1 + (1 - t) * g) * \mathbf{(1-t) * y}$      | Always Equal         | $(1-t) * g$          |
 | $< 59\frac{1}{2}$     | Yes          | Yes        | $(1 + g) * \mathbf{(1-t) * y}$                | Always Greater       | $g$                  | 
 | $< 59\frac{1}{2}$     | No           | Yes        | $(1 + (1 - t) * g) * \mathbf{(1-t) * y}$      | Always Equal         | $(1-t) * g$          |              
-| $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t) * g) * \mathbf{(1-t) * y}$  | Always $10\%$ Lesser | $ 0.9(1 - t) * g$    |
+| $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t) * g) * \mathbf{(1-t) * y}$  | Always $10\%$ Lesser | $ 0.9 * (1 - t) * g$    |
 
 
 To understand the various withdrawal scenarios for Roth accounts, I recommend the reader to take a look at this [post](https://www.investopedia.com/roth-ira-withdrawal-rules-4769951).  
