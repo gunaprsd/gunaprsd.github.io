@@ -52,37 +52,24 @@ USD $y$ of pre-tax income amounts to $(1-t_1) * y$ investment that would grow to
 
 $$\tau_3 = (1 - t_1) * (1 + g) * y$$. 
 
-
-One straightforward upside is if you think you expect your tax rate to be lower during withdrawal than your current tax rate. Assuming you are making a qualified withdrawal during retirement, of course, contributing more is beneficial. But, how much?
-
-For instance, let's say the growth is $500\%$ growth over $30$years (That's not huge! It is approximately a $5.5\%$ YoY compound growth which is quite conservative). So $g=4$. Let's say you pay $35\%$ tax right now and expect to pay $15\%$ when you retire. If you invest USD $1000$ today, then 
+For instance, let's say the investment grew to $5\times$ over $30$years (That's not huge! It is approximately a $5.5\%$ YoY compound growth which is quite conservative). So $g=4$. Let's say you pay $35\%$ tax right now and expect to pay $15\%$ when you retire. If you invest USD $1000$ today, then 
 * If you save elsewhere, it would grow to a take home of $(0.65 + 4 * 0.85) * 1000 = 4050$
 * If you save in a traditional 401(k) or IRA account, you would get $0.85 * 5 * 1000 = 4250$
 * If you save in a Roth 401(k) or IRA account, you would get $5 * 0.65 * 1000 = 3250$
 
-Precisely, 
+On the other hand, if you expect to find yourself in a higher tax bracket later, say current is $20\%$ and future is $35\%$ then,
+* Saving elsewhere will yield a take home of $(0.8 + 4 * 0.65) * 1000 = 3400$
+* Saving in a traditional 401(k) or IRA would yield $0.65 * 5 * 1000 = 3250$
+* Saving in a Roth account would yield $0.8 * 5 * 1000 = 4000$. 
 
-$$ \tau_{\text{TQ}} = \frac{1 + g}{1 + (1-t_2) * g}$$
+Clearly, if you expect to find yourself at a lower tax bracket later, then investing is Traditional > Elsewhere > Roth. If you expect a higher tax rate in the future, then Roth > Elsewhere > Traditional. 
 
-$$ \tau_{\text{RQ}} = \frac{1 - t_2}{1 - t_1} * \frac{1 + g}{1 + (1-t_2) * g}$$
-
-And more interestingly, it helps to answer the question should you save via a traditional or Roth account and how much do you gain/lose by doing it sub-optimally:
-
-$$ \frac{\tau_{\text{TQ}}}{\tau_{\text{RQ}}} = \frac{1-t_2}{1-t_1}$$
-
-
-It helps to understand a couple of things as we move forward. 
-1. **Employer contribution:** The 401(k) accounts are usually supported by your employers and most of them match your contributions upto a certain limit. You can think of this as _extra money_ that you do not get from your employer if you do not contribute. Consider this an incentive by your employer for you to save for your retirement. 
-<br>
-2. **Tax deferral:** Saving for your retirement is a good thing. And maybe the Government does not want all of you to depend on Social Security for your retirement. So it incentivises you to save for retirement when you can. It does this by letting you _defer_ paying taxes on whatever you save and on whatever that savings grows to in these accounts. However remember 'you have to pay taxes at some point' - if not now, then later. 
-<br>
-3. **Early withdrawal penalty:** Barring a few exceptional cases, the Government wants you to stick to your plan. These are not your run-of-the-mill savings account. So, they disincentivize you to treat it like one -- by imposing penalties. There is usually a 10% penalty on top of whatever income tax you owe if you withdraw money from these accounts before you are 59.5 years old. Different accounts under different circumstances incur a tax or penalty when withdrawn prematurely, which we will look at in detail below.
-
-If I am always going to pay taxes at some point, then how much is the advantage of these savings accounts really? Is it worth the liquidity that you are giving away? On top of that, $59\frac{1}{2}$ is a good 30 years away and I frankly don't like to look so much ahead. I might want to cash out earlier. Given this uncertainty, how much is the advantage really? Does that mean these investments are totally unattractive? 
+## When You Cannot Stick to the Plan
+Barring a few exceptional cases, the Government wants you to stick to your plan and withdraw money only after you retire at $50\frac{1}{2}$. These are not your run-of-the-mill savings account. So, they disincentivize you to treat it like one by imposing penalties. There is usually a 10% penalty on top of whatever income tax you owe if you withdraw money from these accounts before you are $50\frac{1}{2}$ years old. $59\frac{1}{2}$ is a good 30 years away and I frankly don't like to look so much ahead. I might want to cash out earlier. Given this uncertainty, how much is the advantage really? Does that mean these investments are totally unattractive? 
 
 Turns out, not exactly! And that is why it helps to quantify the tax and employer benefits that come with these accounts against its limitation. Let us start with a simple question.
 
-## Should you match your employer contribution limit?
+### Should you match your employer contribution limit?
 Let's say your employer matches $100\%$ upto USD $5000$. We'll see why you should absolutely match the limit in this case! Your post tax earnings at a $30\%$ tax rate would be USD $3500$. But with the employer match, your contribution becomes USD $10000$, and even if you withdraw immediately incurring a penalty of $10\%$, it becomes ~ $(1 - 0.3 - 0.1) * 2 * 5000$ = USD $6000$. 
 
 Precisely, if your employer match ratio is $x$ upto limit USD $y$ and tax ratio $t$, your take home portion corresponding to USD $y$ would be $(1-t)y$ if you do not contribute. If you do and withdraw immediately, it would be $(0.9-t)(1+x)y$. So, it makes sense to contribute when $ (0.9-t)(1+x)y > (1-t)y$
@@ -92,7 +79,7 @@ $$x > \frac{1}{(9-10t)}$$
 
 So, Even for a tax rate as high as $40\%$, you can contribute upto the limit if your employer match is greater than $20\%$.
 
-## Should you contribute more than employer matching limit?
+### Should you contribute more than employer matching limit?
 Now, we are done with all the extra money from your employer. The primary advantage of contributing to your retirement accounts now is the tax benefits. How do we quantify this to help with our analysis? Let's define *take home advantage* ($\tau$) as "ratio of take home value when you invest pre-tax income of USD $y$ in one of these accounts to that of investing it elsewhere". Note that this amount, USD $y$, is whatever you contribute beyond your employer matching limit - so no extra money here.
 
 Let's model the scenarios wer are interested in.  Say the current and future tax rates be $t_1$ and $t_2$ and you contribute $y$ USD more than your employer contribution limit. We also assume the net growth rate of principal within or outside the accounts be $g$ i.e. if you invest USD $P$, it grows to $(1+g)P$ during withdrawal however many years later. While this *similar growth* assumption simplifies our analysis, these retirement savings accounts typically have a restricted set of investment options compared to a brokerage account. But we should ideally invest in assets with a similar risk profile and hence similar growth assumption is fine. 
@@ -123,9 +110,6 @@ The take home value at withdrawal for various scenarios in these retirement acco
 | $< 59\frac{1}{2}$     | Yes/No       | No         | $(1 + 0.9 * (1-t_2) * g) * \mathbf{(1-t_1) * y}$  | Always $10\%$ Lesser        | $ 0.9(1 - t) * g$    |
 
 
-
-  
-### Same Tax Bracket during Withdrawal
 In most scenarios barring a few exceptional ones, if you are doing a premature withdrawal, it is considered unqualified and you may have to pay a withdrawal penalty on all or a portion of your savings depending on the type of the account. It is strictly better to leave your savings undisturbed and withdraw only after retirement. However, life is uncertain. You may want to pull the plug. I know this will hurt my take home, but by how much? Certainly there must be an advantage to having my savings grow in a tax advantaged account. When does it break even with investing that money elsewhere and perhaps in a more liquid investment that I can summon to help me during a rainy day?
 
 For this analysis, we will assume that you are in the same tax bracket during withdrawal and you withdraw the entire amount in chunks to belong to the same tax bracket. 
