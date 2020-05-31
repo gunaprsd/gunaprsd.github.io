@@ -86,7 +86,7 @@ Now, we are done with all the extra money from your employer. The primary advant
 
 Let's model the scenarios we are interested in. The take home value at withdrawal for various scenarios in these retirement accounts with the same current and future tax rate (i.e. $t_1 = t_2$) are summarized below. *'Compared to Regular'* denotes the relationship of the take home value with that of a regular investment account. *'Adjusted Growth Rate'*, $\hat{g}$, denotes the effective growth rate for the corresponding type of the retirement account after taking into the account the taxes/penalty due to an early withdrawal. For instance, $\tau$ of Traditional/Roth account for a certain type of withdrawal with AGR $\hat{g}$ is $(1-t) * (1+\hat{g}) * \mathbf{y}$.
 
-**Traditional 401(k) or IRA**
+**Traditional 401(k) or IRA**. 
   
 | Age                   | Qualified*  | Take Home Value                       | Compared to Regular           | Adjusted Growth Rate  |
 |-----------------------|-------------|---------------------------------------|----------------------------------|-----------------------|
@@ -95,7 +95,8 @@ Let's model the scenarios we are interested in. The take home value at withdrawa
 | $< 59\frac{1}{2}$     | No          | $0.9 * (1-t) * (1+g) * \mathbf{y}$  | Equal when $g = \frac{1}{10t-1}$ | $\frac{9g - 1}{10}$   |
 
 
-**Roth 401(k) or IRA**
+**Roth 401(k) or IRA**. 
+  
 | Age                   | 5Y Rule Met? | Qualified  | Take Home Value                               | Compared to Regular  | Adjusted Growth Rate |
 |-----------------------|--------------|------------|-----------------------------------------------|----------------------|----------------------|
 | $\geq 59\frac{1}{2}$  | Yes          | -          | $(1 + g) * \mathbf{(1-t) * y}$                | Always Greater       | $g$                  |
