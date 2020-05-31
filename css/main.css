@@ -224,3 +224,16 @@ hr {
 .edit-link {
   float:right;
 }
+
+.tldr {
+    border:1px solid black;
+    padding: 5px;
+}
+
+.tldr > ul {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom:  5px;
+}
