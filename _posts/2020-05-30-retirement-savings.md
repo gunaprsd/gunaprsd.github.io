@@ -35,8 +35,8 @@ The next major difference is in terms of if and when you pay taxes on contributi
 ### Benefit of a Tax-Advantaged Growth
 <div class='tldr'>
 <ul>
-  <li> For a current and future tax rate of $30\%$, and a net growth of principal to $5\times$, not using a retirement account could cost you $1.2\times$!! </li>
-  <li>If the current and future tax rate is same, the take home with both Roth and Traditional accounts is the same.</li>
+  <li> For a tax rate of $30\%$, and a net growth of principal to $5\times$, not using a retirement account could cost you $1.2\times$!! </li>
+  <li>If the current and future tax rate is same, the take home with both Roth and Traditional accounts are equal.</li>
   <li>If you expect to be in a lower tax bracket in the future, save using a Traditional 401(k) or IRA.</li>
   <li>If you expect to be in a higher tax bracket in the future, save using a Roth 401(k) or IRA.</li>
 </ul> 
@@ -82,7 +82,7 @@ Turns out, not exactly! And that is why it helps to quantify the tax and employe
 <div class='tldr'>
 <ul>
   <li>Try to take as much of your employer's matching contribution as possible. </li>
-  <li>If your tax rate is $30\%$, matching the employer contribution is beneficial even if you withdrew immediately and the match is low as 17 cents per dollar.</li>
+  <li>If your tax rate is $30\%$, matching the employer contribution is beneficial upon immediate withdrawal even for a  match as low as 17 cents per dollar.</li>
 </ul>
 </div>
 Most employers match your contributions to your 401(k) upto a certain limit. You can think of this as extra money that you do not get from your employer if you do not contribute. Consider this an incentive by your employer for you to save for your retirement. Should you match this amount, consider this locks in your money for a while? 
@@ -99,10 +99,10 @@ So, Even for a tax rate as high as $40\%$, you should contribute upto the limit 
 ### Should you contribute more than employer matching limit?
 <div class='tldr'>
 <ul>
-  <li> For a tax rate of $30\%$, it is more beneficial to invest in a Traditional 401(k) or IRA compared to a regular account, if you can wait until it grows to at least $1.5\times$ </li>
-  <li> You always lose money when you make an unqualified early withdrawal from a Roth 401(k) or IRA compared to a regular account </li>
-  <li> Making a qualified early withdrawal in a Roth 401(k) or IRA after meeting the 5-year rule is as good as qualified mature withdrawal </li>
-  <li> Making a qualified early withdrawal in a Roth 401(k) or IRA without meeting the 5-year rule is same as investing in a regular account </li>
+  <li> For a tax rate of $30\%$, it is more beneficial to invest in a Traditional 401(k) or IRA compared to a regular account, if you can wait until it grows to at least $1.5\times$. </li>
+  <li> You lose $10\%$ when you make an unqualified early withdrawal from a Roth 401(k) or IRA compared to a regular account. </li>
+  <li> A qualified early withdrawal from a Roth 401(k) or IRA after meeting the 5-year rule is as good as qualified mature withdrawal. You get all the tax benefits! </li>
+  <li> A qualified early withdrawal from a Roth 401(k) or IRA without meeting the 5-year rule is same as investing in a regular account. You write-off the tax benefits. </li>
 </ul>
 </div>
 
