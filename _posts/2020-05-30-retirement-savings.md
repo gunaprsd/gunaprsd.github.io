@@ -35,7 +35,7 @@ The next major difference is in terms of if and when you pay taxes on contributi
 ### Benefit of a Tax-Advantaged Growth
 <div class='tldr'>
 <ul>
-  <li> For a tax rate of $30\%$, and a net growth of principal to $5\times$, not using a retirement account could cost you $1.2\times$!! </li>
+  <li> For a tax rate of $30\%$, and a net capital gain of $4\times$, not using a retirement account could cost you $1.2\times$!! </li>
   <li>If the current and future tax rate is same, the take home with both Roth and Traditional accounts are equal.</li>
   <li>If you expect to be in a lower tax bracket in the future, save using a Traditional 401(k) or IRA.</li>
   <li>If you expect to be in a higher tax bracket in the future, save using a Roth 401(k) or IRA.</li>
