@@ -99,8 +99,8 @@ So, Even for a tax rate as high as $40\%$, you should contribute upto the limit 
 ### Should you contribute more than employer matching limit?
 <div class='tldr'>
 <ul>
-  <li> For a tax rate of $30\%$, it is more beneficial to invest in a Traditional 401(k) or IRA compared to a regular account, if you can wait until it grows to at least $1.5\times$. </li>
-  <li> You lose $10\%$ when you make an unqualified early withdrawal from a Roth 401(k) or IRA compared to a regular account. </li>
+  <li> For a tax rate of $30\%$, it is more beneficial to invest in a Traditional 401(k) or IRA compared to a regular account even on an unqualified early withdrawal, if you can wait until it grows to at least $1.5\times$. </li>
+  <li> You lose $10\%$ of your earnings when you make an unqualified early withdrawal from a Roth 401(k) or IRA compared to a regular account. </li>
   <li> A qualified early withdrawal from a Roth 401(k) or IRA after meeting the 5-year rule is as good as qualified mature withdrawal. You get all the tax benefits! </li>
   <li> A qualified early withdrawal from a Roth 401(k) or IRA without meeting the 5-year rule is same as investing in a regular account. You write-off the tax benefits. </li>
 </ul>
