@@ -73,7 +73,7 @@ On the other hand, if you expect to be in a higher tax bracket later, say curren
 * Saving in a traditional 401(k) or IRA would yield $0.65 * 5 * 1000 = 3250$
 * Saving in a Roth account would yield $0.8 * 5 * 1000 = 4000$.  
   
-Again, here you miss $(4000-2880)/4000 \approx 28\%$ growth you are writing off.
+Again, here you are writing off a $(4000-2880)/4000 \approx 28\%$ growth.
   
 We can also see that if you expect to be at a lower tax bracket later, then saving in a Traditional 401(k) or IRA is more beneficial than a Roth 401(k) or IRA. And if you expect a higher tax rate in the future, then Roth is better than Traditional accounts. But clearly, using a retirement savings accounts either Roth or Traditional is always better than not using one!
 
