@@ -228,6 +228,7 @@ hr {
 .tldr {
     border:1px solid black;
     padding: 5px;
+    background-color: #eee;
 }
 
 .tldr > ul {
