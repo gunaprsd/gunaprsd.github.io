@@ -3,19 +3,10 @@ layout: default
 title: Guna Prasaad | Publications
 ---
 <div class="publications">
-<!-- <h3>Preprint/Under Submission</h3>
-<ul>
-  <li>
-    Handling Highly Contended OLTP Workloads using Fast Dynamic Partitioning<br>
-    Guna Prasaad, Alvin Cheung, Dan Suciu<br>
-    <i>On Request</i> 
-  </li>
-  </ul>
-<br> -->
 <h3>Peer-reviewed Conferences</h3>
 <ul>
    <li>
-    Handling Highly Contended OLTP Workloads using Fast Dynamic Partitioning<br>
+     <a href='https://gunaprsd.org/assets/strife-sigmod-2020.pdf'>Handling Highly Contended OLTP Workloads using Fast Dynamic Partitioning</a><br>
     Guna Prasaad, Alvin Cheung, Dan Suciu<br>
     <i>To appear in SIGMOD 2020</i> 
   </li>
