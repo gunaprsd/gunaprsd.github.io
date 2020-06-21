@@ -8,13 +8,13 @@ title: Guna Prasaad | Publications
    <li>
      <a href='https://gunaprsd.org/assets/strife-sigmod-2020.pdf'>Handling Highly Contended OLTP Workloads using Fast Dynamic Partitioning</a><br>
     Guna Prasaad, Alvin Cheung, Dan Suciu<br>
-    <i>To appear in SIGMOD 2020</i> 
+    <i>Proc. SIGMOD 2020</i> 
   </li>
   <br>
   <li>
     <a href="https://scholar.google.com/citations?user=nPuXokoAAAAJ&hl=en">Mining Approximate Acyclic Schemes from Relations Abstract</a><br>
     Batya Kenig, Pranay Mundra, Guna Prasaad, Babak Salimi, Dan Suciu<br>
-    <i>To appear in SIGMOD 2020</i>
+    <i>Proc. SIGMOD 2020</i>
   </li>
   <br>
   <li>
