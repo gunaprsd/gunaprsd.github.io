@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+
+// Future: import posts from content collections
+const posts: Array<{ title: string; date: string; slug: string }> = [];
+---
+<Base title="Writing — Guna Prasaad" description="Essays and notes by Guna Prasaad.">
+  <h1 class="page-title">Writing</h1>
+
+  {posts.length === 0 ? (
+    <p class="empty">Nothing published yet. Check back soon.</p>
+  ) : (
+    <ul class="posts">
+      {posts.map(post => (
+        <li>
+          <a href={`/writing/${post.slug}`}>{post.title}</a>
+          <span class="date">{post.date}</span>
+        </li>
+      ))}
+    </ul>
+  )}
+</Base>
+
+<style>
+  .page-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 2rem;
+  }
+
+  .empty {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  .posts {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .posts li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1.1rem;
+  }
+
+  .posts a {
+    text-decoration: none;
+    font-size: 0.97rem;
+  }
+
+  .posts a:hover { text-decoration: underline; opacity: 1; }
+
+  .date {
+    font-size: 0.82rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+</style>

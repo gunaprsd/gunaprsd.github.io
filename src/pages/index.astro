@@ -1,0 +1,104 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Guna Prasaad" description="PM at Meta. Builder. Writer.">
+  <section class="hero">
+    <div class="photo-wrap">
+      <img src="/assets/me.jpg" alt="Guna Prasaad" class="avatar" />
+    </div>
+    <div class="bio">
+      <h1>Guna Prasaad</h1>
+      <p class="tagline">Product Manager at Meta. Formerly CS PhD at UW. I like building things and writing about them.</p>
+      <div class="links">
+        <a href="/writing">Writing</a>
+        <a href="https://github.com/gunaprsd" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/guna-prasaad-1479a450" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com/gunaprsd" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <p>
+      I work on product at Meta, where I focus on infrastructure and developer experience. Before that, I spent years doing systems research at the University of Washington — building fast key-value stores, stream processors, and transaction engines.
+    </p>
+    <p>
+      Outside of work, I'm a father of three, a slow reader of good books, and occasionally someone who finishes a side project.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 2.5rem;
+  }
+
+  .photo-wrap {
+    flex-shrink: 0;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    border: 2px solid var(--border);
+  }
+
+  .bio h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.35rem;
+  }
+
+  .tagline {
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .links a {
+    font-size: 0.85rem;
+    text-decoration: none;
+    border: 1px solid var(--border);
+    padding: 0.25rem 0.65rem;
+    border-radius: 4px;
+    color: var(--text);
+    transition: background 0.15s;
+  }
+
+  .links a:hover {
+    background: #f5f5f5;
+    opacity: 1;
+  }
+
+  .about p {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 0.95rem;
+  }
+
+  .about p:last-child { margin-bottom: 0; }
+
+  @media (max-width: 480px) {
+    .hero {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.25rem;
+    }
+  }
+</style>
