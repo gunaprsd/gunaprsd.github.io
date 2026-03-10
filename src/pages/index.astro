@@ -3,28 +3,23 @@ import Base from '../layouts/Base.astro';
 ---
 <Base title="Guna Prasaad" description="PM at Meta. Builder. Writer.">
   <section class="hero">
-    <div class="photo-wrap">
+    <div class="hero-inner">
       <img src="/assets/me.jpg" alt="Guna Prasaad" class="avatar" />
-    </div>
-    <div class="bio">
       <h1>Guna Prasaad</h1>
-      <p class="tagline">Product Manager at Meta. Formerly CS PhD at UW. I like building things and writing about them.</p>
-      <div class="links">
-        <a href="/writing">Writing</a>
+      <p class="bio">
+        Product Manager at Meta. Formerly CS PhD at UW.<br />
+        I like building things and writing about them.
+      </p>
+      <div class="ctas">
+        <a href="/writing" class="btn btn-primary">Writing</a>
+        <a href="https://www.linkedin.com/in/guna-prasaad-1479a450" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+      </div>
+      <div class="secondary-links">
         <a href="https://github.com/gunaprsd" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/guna-prasaad-1479a450" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="dot">·</span>
         <a href="https://twitter.com/gunaprsd" target="_blank" rel="noopener">Twitter</a>
       </div>
     </div>
-  </section>
-
-  <section class="about" id="about">
-    <p>
-      I work on product at Meta, where I focus on infrastructure and developer experience. Before that, I spent years doing systems research at the University of Washington — building fast key-value stores, stream processors, and transaction engines.
-    </p>
-    <p>
-      Outside of work, I'm a father of three, a slow reader of good books, and occasionally someone who finishes a side project.
-    </p>
   </section>
 </Base>
 
@@ -32,73 +27,105 @@ import Base from '../layouts/Base.astro';
   .hero {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    padding-bottom: 2.5rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 2.5rem;
+    justify-content: center;
+    min-height: calc(100vh - 11rem);
+    padding: 3rem 1.5rem;
   }
 
-  .photo-wrap {
-    flex-shrink: 0;
+  .hero-inner {
+    max-width: 360px;
+    width: 100%;
+    text-align: center;
   }
 
   .avatar {
-    width: 100px;
-    height: 100px;
+    width: 96px;
+    height: 96px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
+    margin: 0 auto;
     border: 2px solid var(--border);
   }
 
-  .bio h1 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    margin-bottom: 0.35rem;
+  h1 {
+    font-size: clamp(1.3rem, 4vw, 1.6rem);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    margin-top: 1.5rem;
+    line-height: 1.2;
   }
 
-  .tagline {
+  .bio {
     font-size: 0.95rem;
     color: var(--muted);
-    margin-bottom: 1rem;
-    line-height: 1.5;
+    margin-top: 0.85rem;
+    line-height: 1.6;
   }
 
-  .links {
+  .ctas {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+    margin-top: 2rem;
     flex-wrap: wrap;
-    gap: 0.75rem;
   }
 
-  .links a {
-    font-size: 0.85rem;
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.5rem 1.1rem;
+    border-radius: 6px;
+    transition: opacity 0.15s, background 0.15s;
+    white-space: nowrap;
     text-decoration: none;
-    border: 1px solid var(--border);
-    padding: 0.25rem 0.65rem;
-    border-radius: 4px;
+  }
+
+  .btn-primary {
+    background: var(--text);
+    color: var(--bg);
+    border: 1px solid transparent;
+  }
+
+  .btn-primary:hover {
+    opacity: 0.8;
+  }
+
+  .btn-secondary {
+    background: transparent;
     color: var(--text);
-    transition: background 0.15s;
+    border: 1px solid var(--border);
   }
 
-  .links a:hover {
+  .btn-secondary:hover {
     background: #f5f5f5;
-    opacity: 1;
   }
 
-  .about p {
-    margin-bottom: 1rem;
-    color: #333;
-    font-size: 0.95rem;
+  .secondary-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+    font-size: 0.8rem;
+    color: var(--muted);
   }
 
-  .about p:last-child { margin-bottom: 0; }
+  .secondary-links a {
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
 
-  @media (max-width: 480px) {
-    .hero {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 1.25rem;
-    }
+  .secondary-links a:hover {
+    color: var(--text);
+  }
+
+  .dot {
+    opacity: 0.4;
   }
 </style>
