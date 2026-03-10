@@ -2,8 +2,9 @@
 export interface Props {
   title?: string;
   description?: string;
+  fullHero?: boolean;
 }
-const { title = 'Guna Prasaad', description = 'PM at Meta. Builder. Writer.' } = Astro.props;
+const { title = 'Guna Prasaad', description = 'PM at Meta. Builder. Writer.', fullHero = false } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -84,6 +85,11 @@ const { title = 'Guna Prasaad', description = 'PM at Meta. Builder. Writer.' } =
       padding: 2.5rem 1.5rem 5rem;
     }
 
+    main.full-hero {
+      max-width: 100%;
+      padding: 0;
+    }
+
     /* ── Footer ── */
     footer {
       max-width: var(--max-w);
@@ -105,7 +111,7 @@ const { title = 'Guna Prasaad', description = 'PM at Meta. Builder. Writer.' } =
       </nav>
     </div>
   </header>
-  <main>
+  <main class={fullHero ? 'full-hero' : ''}>
     <slot />
   </main>
   <footer>

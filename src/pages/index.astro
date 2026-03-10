@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="Guna Prasaad" description="PM at Meta. Builder. Writer.">
+<Base title="Guna Prasaad" description="PM at Meta. Builder. Writer." fullHero={true}>
   <section class="hero">
     <div class="hero-inner">
       <img src="/assets/me.jpg" alt="Guna Prasaad" class="avatar" />
@@ -28,12 +28,12 @@ import Base from '../layouts/Base.astro';
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh - 11rem);
-    padding: 3rem 1.5rem;
+    height: calc(100vh - 3.75rem); /* exact viewport minus sticky header */
+    padding: 2rem 1.5rem;
   }
 
   .hero-inner {
-    max-width: 360px;
+    max-width: 340px;
     width: 100%;
     text-align: center;
   }
@@ -91,9 +91,7 @@ import Base from '../layouts/Base.astro';
     border: 1px solid transparent;
   }
 
-  .btn-primary:hover {
-    opacity: 0.8;
-  }
+  .btn-primary:hover { opacity: 0.75; }
 
   .btn-secondary {
     background: transparent;
@@ -101,9 +99,7 @@ import Base from '../layouts/Base.astro';
     border: 1px solid var(--border);
   }
 
-  .btn-secondary:hover {
-    background: #f5f5f5;
-  }
+  .btn-secondary:hover { background: #f5f5f5; }
 
   .secondary-links {
     display: flex;
@@ -121,11 +117,7 @@ import Base from '../layouts/Base.astro';
     transition: color 0.15s;
   }
 
-  .secondary-links a:hover {
-    color: var(--text);
-  }
+  .secondary-links a:hover { color: var(--text); }
 
-  .dot {
-    opacity: 0.4;
-  }
+  .dot { opacity: 0.4; }
 </style>
